@@ -24,8 +24,6 @@ coverage.xml
 # Pipeline artifacts (run outputs, model caches, media)
 outputs/
 runs/
-*.wav
-*.mp4
 *.mov
 *.mkv
 models_cache/
