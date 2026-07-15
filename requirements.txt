@@ -1,0 +1,36 @@
+# Core data contracts / settings
+pydantic>=2.6
+pydantic-settings>=2.2
+python-dotenv>=1.0
+
+# Numerics / media
+numpy>=1.26
+opencv-python-headless>=4.9
+soundfile>=0.12
+
+# Part A - Speech
+torch>=2.2
+torchaudio>=2.2
+pyannote.audio>=3.1
+faster-whisper>=1.0
+
+# Part B - Vision
+paddleocr>=2.7
+paddlepaddle>=2.6
+
+# Part C - LLM enrichment
+openai>=1.30
+google-genai>=1.0
+tenacity>=8.2
+
+# Note: ffmpeg and ffprobe must be installed as system binaries (not pip
+# packages). On macOS: `brew install ffmpeg`. On Debian/Ubuntu:
+# `apt-get install ffmpeg`.
+
+# ---- Dev / test tooling ----
+pytest>=8.0
+pytest-asyncio>=0.23
+pytest-mock>=3.14
+pytest-cov>=5.0
+ruff>=0.4
+mypy>=1.10

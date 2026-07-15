@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Test / coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Pipeline artifacts (run outputs, model caches, media)
+outputs/
+runs/
+*.wav
+*.mp4
+*.mov
+*.mkv
+models_cache/
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
+
+# Coverage data
+.coverage

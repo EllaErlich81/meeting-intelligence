@@ -1,0 +1,254 @@
+[
+  {
+    "timestamp": 0.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00001.png"
+  },
+  {
+    "timestamp": 27.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00002.png"
+  },
+  {
+    "timestamp": 42.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00003.png"
+  },
+  {
+    "timestamp": 58.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00004.png"
+  },
+  {
+    "timestamp": 76.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00005.png"
+  },
+  {
+    "timestamp": 79.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00006.png"
+  },
+  {
+    "timestamp": 85.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00007.png"
+  },
+  {
+    "timestamp": 87.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00008.png"
+  },
+  {
+    "timestamp": 89.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00009.png"
+  },
+  {
+    "timestamp": 91.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00010.png"
+  },
+  {
+    "timestamp": 94.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00011.png"
+  },
+  {
+    "timestamp": 94.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00012.png"
+  },
+  {
+    "timestamp": 96.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00013.png"
+  },
+  {
+    "timestamp": 138.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00014.png"
+  },
+  {
+    "timestamp": 140.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00015.png"
+  },
+  {
+    "timestamp": 141.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00016.png"
+  },
+  {
+    "timestamp": 142.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00017.png"
+  },
+  {
+    "timestamp": 147.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00018.png"
+  },
+  {
+    "timestamp": 159.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00019.png"
+  },
+  {
+    "timestamp": 163.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00020.png"
+  },
+  {
+    "timestamp": 166.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00021.png"
+  },
+  {
+    "timestamp": 167.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00022.png"
+  },
+  {
+    "timestamp": 171.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00023.png"
+  },
+  {
+    "timestamp": 175.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00024.png"
+  },
+  {
+    "timestamp": 177.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00025.png"
+  },
+  {
+    "timestamp": 177.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00026.png"
+  },
+  {
+    "timestamp": 193.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00027.png"
+  },
+  {
+    "timestamp": 193.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00028.png"
+  },
+  {
+    "timestamp": 194.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00029.png"
+  },
+  {
+    "timestamp": 200.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00030.png"
+  },
+  {
+    "timestamp": 202.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00031.png"
+  },
+  {
+    "timestamp": 203.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00032.png"
+  },
+  {
+    "timestamp": 233.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00033.png"
+  },
+  {
+    "timestamp": 234.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00034.png"
+  },
+  {
+    "timestamp": 277.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00035.png"
+  },
+  {
+    "timestamp": 304.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00036.png"
+  },
+  {
+    "timestamp": 352.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00037.png"
+  },
+  {
+    "timestamp": 353.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00038.png"
+  },
+  {
+    "timestamp": 355.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00039.png"
+  },
+  {
+    "timestamp": 441.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00040.png"
+  },
+  {
+    "timestamp": 452.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00041.png"
+  },
+  {
+    "timestamp": 455.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00042.png"
+  },
+  {
+    "timestamp": 474.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00043.png"
+  },
+  {
+    "timestamp": 478.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00044.png"
+  },
+  {
+    "timestamp": 483.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00045.png"
+  },
+  {
+    "timestamp": 488.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00046.png"
+  },
+  {
+    "timestamp": 495.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00047.png"
+  },
+  {
+    "timestamp": 498.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00048.png"
+  },
+  {
+    "timestamp": 594.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00049.png"
+  },
+  {
+    "timestamp": 766.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00050.png"
+  },
+  {
+    "timestamp": 918.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00051.png"
+  },
+  {
+    "timestamp": 919.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00052.png"
+  },
+  {
+    "timestamp": 1053.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00053.png"
+  },
+  {
+    "timestamp": 1093.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00054.png"
+  },
+  {
+    "timestamp": 1158.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00055.png"
+  },
+  {
+    "timestamp": 1159.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00056.png"
+  },
+  {
+    "timestamp": 1264.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00057.png"
+  },
+  {
+    "timestamp": 1348.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00058.png"
+  },
+  {
+    "timestamp": 1368.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00059.png"
+  },
+  {
+    "timestamp": 1369.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00060.png"
+  },
+  {
+    "timestamp": 1410.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00061.png"
+  },
+  {
+    "timestamp": 1490.5,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00062.png"
+  },
+  {
+    "timestamp": 1492.0,
+    "frame_path": "work_dir/execrsice-video/frames/frame_00063.png"
+  }
+]

@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meeting-intelligence"
+version = "0.1.0"
+description = "Multimodal Meeting Intelligence Pipeline: video -> synchronized speech/vision tracks -> fused timeline -> LLM-structured conversation intelligence"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = { text = "MIT" }
+dependencies = [
+    "pydantic>=2.6",
+    "pydantic-settings>=2.2",
+    "numpy>=1.26",
+    "opencv-python-headless>=4.9",
+    "soundfile>=0.12",
+    "torch>=2.2",
+    "torchaudio>=2.2",
+    "pyannote.audio>=3.1",
+    "faster-whisper>=1.0",
+    "paddleocr>=2.7",
+    "paddlepaddle>=2.6",
+    "openai>=1.30",
+    "google-genai>=1.0",
+    "tenacity>=8.2",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "pytest-mock>=3.14",
+    "pytest-cov>=5.0",
+    "ruff>=0.4",
+    "mypy>=1.10",
+]
+
+[project.scripts]
+meeting-intelligence = "meeting_intelligence.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+asyncio_mode = "auto"
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true

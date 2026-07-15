@@ -1,0 +1,438 @@
+(.venv) ellaerlich@MacBookPro Meeting_Intelligence % ./run.sh
+2026-07-13 16:02:54,162 INFO src.meeting_intelligence.pipeline: [1/8] Ingestion
+2026-07-13 16:02:54,612 INFO src.meeting_intelligence.ingestion: Ingested data/execrsice-video_clip_00-08.mp4 -> work_dir/execrsice-video_clip_00-08/execrsice-video_clip_00-08.wav (480.03s)
+2026-07-13 16:02:54,612 INFO src.meeting_intelligence.pipeline: Wrote work_dir/execrsice-video_clip_00-08/execrsice-video_clip_00-08.wav
+2026-07-13 16:02:54,616 INFO src.meeting_intelligence.pipeline: Wrote work_dir/execrsice-video_clip_00-08/ingestion.json
+
+===>
+2026-07-13 16:02:54,616 INFO src.meeting_intelligence.pipeline: [2/8] Vision: Scene Detection
+2026-07-13 16:02:56,410 INFO src.meeting_intelligence.scene_detection: Scene detection kept 44 distinct frame(s) from data/execrsice-video_clip_00-08.mp4
+2026-07-13 16:02:56,410 INFO src.meeting_intelligence.pipeline: Wrote 44 frame(s) under work_dir/execrsice-video_clip_00-08/frames
+2026-07-13 16:02:56,411 INFO src.meeting_intelligence.pipeline: Wrote work_dir/execrsice-video_clip_00-08/scenes.json (44 item(s))
+
+===>
+2026-07-13 16:02:56,411 INFO src.meeting_intelligence.pipeline: [3/8] Vision: OCR & Name Scan
+/Users/ellaerlich/Gong_Home_Assignment/Claude_code/Meeting_Intelligence/.venv/lib/python3.11/site-packages/paddle/utils/cpp_extension/extension_utils.py:712: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+Creating model: ('PP-OCRv6_medium_det', None, 'onnxruntime')
+Model files already exist. Using cached files. To redownload, please delete the directory manually: `/Users/ellaerlich/.paddlex/official_models/PP-OCRv6_medium_det_onnx`.
+Creating model: ('PP-OCRv6_medium_rec', None, 'onnxruntime')
+Model files already exist. Using cached files. To redownload, please delete the directory manually: `/Users/ellaerlich/.paddlex/official_models/PP-OCRv6_medium_rec_onnx`.
+2026-07-13 16:03:34,610 INFO src.meeting_intelligence.ocr: OCR extracted content from 43/44 frame(s)
+2026-07-13 16:03:34,611 INFO src.meeting_intelligence.pipeline: Wrote work_dir/execrsice-video_clip_00-08/vision_track.json
+
+===>
+2026-07-13 16:03:34,611 INFO src.meeting_intelligence.pipeline: [4/8] Speech: Segmentation (VAD) + Diarization
+Using cache found in /Users/ellaerlich/.cache/torch/hub/snakers4_silero-vad_master
+2026-07-13 16:03:37,640 INFO src.meeting_intelligence.segmentation: Silero VAD found 124 speech segment(s) in work_dir/execrsice-video_clip_00-08/execrsice-video_clip_00-08.wav
+2026-07-13 16:03:37,643 INFO src.meeting_intelligence.pipeline: Wrote work_dir/execrsice-video_clip_00-08/vad_segments.json
+2026-07-13 16:03:38,333 INFO httpx: HTTP Request: HEAD https://huggingface.co/pyannote/speaker-diarization-3.1/resolve/main/config.yaml "HTTP/1.1 200 OK"
+2026-07-13 16:03:38,657 INFO httpx: HTTP Request: HEAD https://huggingface.co/pyannote/segmentation-3.0/resolve/main/pytorch_model.bin "HTTP/1.1 302 Found"
+2026-07-13 16:03:38,923 INFO httpx: HTTP Request: HEAD https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/plda/xvec_transform.npz "HTTP/1.1 302 Found"
+2026-07-13 16:03:39,095 INFO httpx: HTTP Request: HEAD https://huggingface.co/pyannote/speaker-diarization-community-1/resolve/main/plda/plda.npz "HTTP/1.1 302 Found"
+2026-07-13 16:03:39,274 INFO httpx: HTTP Request: HEAD https://huggingface.co/pyannote/wespeaker-voxceleb-resnet34-LM/resolve/main/pytorch_model.bin "HTTP/1.1 302 Found"
+/Users/ellaerlich/Gong_Home_Assignment/Claude_code/Meeting_Intelligence/.venv/lib/python3.11/site-packages/pyannote/audio/models/blocks/pooling.py:103: UserWarning: std(): degrees of freedom is <= 0. Correction should be strictly less than the reduction factor (input numel divided by output numel). (Triggered internally at /Users/runner/work/pytorch/pytorch/aten/src/ATen/native/ReduceOps.cpp:1861.)
+  std = sequences.std(dim=-1, correction=1)
+2026-07-13 16:16:54,806 INFO src.meeting_intelligence.diarization: Diarization found 6 speaker(s) across 111 turn(s)
+2026-07-13 16:16:54,808 INFO src.meeting_intelligence.pipeline: Wrote work_dir/execrsice-video_clip_00-08/speaker_turns.json (111 item(s))
+
+===>
+2026-07-13 21:55:42,080 INFO src.meeting_intelligence.pipeline: [5/8] Speech: ASR (per-chunk hint from the slide active at that moment) + Merge
+2026-07-13 21:55:43,239 INFO httpx: HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-large-v3/revision/main "HTTP/1.1 200 OK"
+2026-07-13 21:55:47,179 INFO src.meeting_intelligence.asr: ASR segment seg_000003-000089 [0.034s-0.894s]: initial_prompt='Cr Bwyn Andree, E, Roger Gordon, Lia Stolwyk, Er Clare St Pierre, Cr Broce Tho, Cr Andrew Brown, zoom, Cr Mike Pertit'
+2026-07-13 21:55:47,179 INFO faster_whisper: Processing audio with duration 00:00.860
+2026-07-13 21:55:50,005 INFO faster_whisper: Detected language 'en' with probability 0.81
+2026-07-13 21:56:24,484 INFO src.meeting_intelligence.asr: ASR segment seg_000135-000227 [1.346s-2.270s]: initial_prompt='Cr Bwyn Andree, E, Roger Gordon, Lia Stolwyk, Er Clare St Pierre, Cr Broce Tho, Cr Andrew Brown, zoom, Cr Mike Pertit'
+2026-07-13 21:56:24,484 INFO faster_whisper: Processing audio with duration 00:00.924
+2026-07-13 21:56:27,370 INFO faster_whisper: Detected language 'en' with probability 0.96
+2026-07-13 21:56:31,008 INFO src.meeting_intelligence.asr: ASR segment seg_000285-000358 [2.850s-3.582s]: initial_prompt='Cr Bwyn Andree, E, Roger Gordon, Lia Stolwyk, Er Clare St Pierre, Cr Broce Tho, Cr Andrew Brown, zoom, Cr Mike Pertit'
+2026-07-13 21:56:31,008 INFO faster_whisper: Processing audio with duration 00:00.732
+2026-07-13 21:56:33,812 INFO faster_whisper: Detected language 'en' with probability 0.80
+2026-07-13 21:56:52,454 INFO src.meeting_intelligence.asr: ASR segment seg_000461-001216 [4.610s-12.158s]: initial_prompt='Cr Bwyn Andree, E, Roger Gordon, Lia Stolwyk, Er Clare St Pierre, Cr Broce Tho, Cr Andrew Brown, zoom, Cr Mike Pertit'
+2026-07-13 21:56:52,454 INFO faster_whisper: Processing audio with duration 00:07.548
+2026-07-13 21:56:55,373 INFO faster_whisper: Detected language 'mi' with probability 0.90
+2026-07-13 21:57:01,032 INFO src.meeting_intelligence.asr: ASR segment seg_001242-001353 [12.418s-13.534s]: initial_prompt='Cr Bwyn Andree, E, Roger Gordon, Lia Stolwyk, Er Clare St Pierre, Cr Broce Tho, Cr Andrew Brown, zoom, Cr Mike Pertit'
+2026-07-13 21:57:01,032 INFO faster_whisper: Processing audio with duration 00:01.116
+2026-07-13 21:57:03,853 INFO faster_whisper: Detected language 'en' with probability 0.78
+2026-07-13 21:57:07,423 INFO src.meeting_intelligence.asr: ASR segment seg_001370-001478 [13.698s-14.782s]: initial_prompt='Cr Bwyn Andree, E, Roger Gordon, Lia Stolwyk, Er Clare St Pierre, Cr Broce Tho, Cr Andrew Brown, zoom, Cr Mike Pertit'
+2026-07-13 21:57:07,423 INFO faster_whisper: Processing audio with duration 00:01.084
+2026-07-13 21:57:10,195 INFO faster_whisper: Detected language 'en' with probability 0.92
+2026-07-13 21:57:14,017 INFO src.meeting_intelligence.asr: ASR segment seg_001514-001635 [15.138s-16.350s]: initial_prompt='Cr Bwyn Andree, E, Roger Gordon, Lia Stolwyk, Er Clare St Pierre, Cr Broce Tho, Cr Andrew Brown, zoom, Cr Mike Pertit'
+2026-07-13 21:57:14,017 INFO faster_whisper: Processing audio with duration 00:01.212
+2026-07-13 21:57:16,871 INFO faster_whisper: Detected language 'en' with probability 0.95
+2026-07-13 21:57:20,566 INFO src.meeting_intelligence.asr: ASR segment seg_001651-002326 [16.514s-23.262s]: initial_prompt='Cr Bwyn Andree, E, Roger Gordon, Lia Stolwyk, Er Clare St Pierre, Cr Broce Tho, Cr Andrew Brown, zoom, Cr Mike Pertit'
+2026-07-13 21:57:20,566 INFO faster_whisper: Processing audio with duration 00:06.748
+2026-07-13 21:57:23,350 INFO faster_whisper: Detected language 'mi' with probability 0.55
+2026-07-13 21:57:28,865 INFO src.meeting_intelligence.asr: ASR segment seg_002371-002483 [23.714s-24.830s]: initial_prompt='Cr Bwyn Andree, E, Roger Gordon, Lia Stolwyk, Er Clare St Pierre, Cr Broce Tho, Cr Andrew Brown, zoom, Cr Mike Pertit'
+2026-07-13 21:57:28,865 INFO faster_whisper: Processing audio with duration 00:01.116
+2026-07-13 21:57:31,695 INFO faster_whisper: Detected language 'en' with probability 0.86
+2026-07-13 21:57:35,610 INFO src.meeting_intelligence.asr: ASR segment seg_002541-002765 [25.410s-27.646s]: initial_prompt='ORegan, Cr Grahar, Cr Blwyn Andre, m Mylchre, Roger Gordon, Liz Stolwyk, Cr Bruce The, Cr Andrew Birow, zoom'
+2026-07-13 21:57:35,610 INFO faster_whisper: Processing audio with duration 00:02.236
+2026-07-13 21:57:38,460 INFO faster_whisper: Detected language 'mi' with probability 0.76
+2026-07-13 21:57:43,234 INFO src.meeting_intelligence.asr: ASR segment seg_002781-002864 [27.810s-28.638s]: initial_prompt='ORegan, Cr Grahar, Cr Blwyn Andre, m Mylchre, Roger Gordon, Liz Stolwyk, Cr Bruce The, Cr Andrew Birow, zoom'
+2026-07-13 21:57:43,234 INFO faster_whisper: Processing audio with duration 00:00.828
+2026-07-13 21:57:46,009 INFO faster_whisper: Detected language 'en' with probability 0.91
+2026-07-13 21:57:49,537 INFO src.meeting_intelligence.asr: ASR segment seg_002899-002957 [28.994s-29.566s]: initial_prompt='ORegan, Cr Grahar, Cr Blwyn Andre, m Mylchre, Roger Gordon, Liz Stolwyk, Cr Bruce The, Cr Andrew Birow, zoom'
+2026-07-13 21:57:49,537 INFO faster_whisper: Processing audio with duration 00:00.572
+2026-07-13 21:57:52,363 INFO faster_whisper: Detected language 'en' with probability 0.87
+2026-07-13 21:57:55,958 INFO src.meeting_intelligence.asr: ASR segment seg_002979-003126 [29.794s-31.262s]: initial_prompt='ORegan, Cr Grahar, Cr Blwyn Andre, m Mylchre, Roger Gordon, Liz Stolwyk, Cr Bruce The, Cr Andrew Birow, zoom'
+2026-07-13 21:57:55,958 INFO faster_whisper: Processing audio with duration 00:01.468
+2026-07-13 21:57:58,720 INFO faster_whisper: Detected language 'en' with probability 0.82
+2026-07-13 21:58:02,446 INFO src.meeting_intelligence.asr: ASR segment seg_003200-003363 [32.002s-33.630s]: initial_prompt='ORegan, Cr Grahar, Cr Blwyn Andre, m Mylchre, Roger Gordon, Liz Stolwyk, Cr Bruce The, Cr Andrew Birow, zoom'
+2026-07-13 21:58:02,446 INFO faster_whisper: Processing audio with duration 00:01.628
+2026-07-13 21:58:05,254 INFO faster_whisper: Detected language 'en' with probability 0.56
+2026-07-13 21:58:09,199 INFO src.meeting_intelligence.asr: ASR segment seg_003389-003494 [33.890s-34.942s]: initial_prompt='ORegan, Cr Grahar, Cr Blwyn Andre, m Mylchre, Roger Gordon, Liz Stolwyk, Cr Bruce The, Cr Andrew Birow, zoom'
+2026-07-13 21:58:09,200 INFO faster_whisper: Processing audio with duration 00:01.052
+2026-07-13 21:58:11,959 INFO faster_whisper: Detected language 'en' with probability 0.94
+2026-07-13 21:58:15,766 INFO src.meeting_intelligence.asr: ASR segment seg_003539-003728 [35.394s-37.278s]: initial_prompt='ORegan, Cr Grahar, Cr Blwyn Andre, m Mylchre, Roger Gordon, Liz Stolwyk, Cr Bruce The, Cr Andrew Birow, zoom'
+2026-07-13 21:58:15,766 INFO faster_whisper: Processing audio with duration 00:01.884
+2026-07-13 21:58:18,529 INFO faster_whisper: Detected language 'en' with probability 0.66
+2026-07-13 21:58:22,408 INFO src.meeting_intelligence.asr: ASR segment seg_003763-003872 [37.634s-38.718s]: initial_prompt='ORegan, Cr Grahar, Cr Blwyn Andre, m Mylchre, Roger Gordon, Liz Stolwyk, Cr Bruce The, Cr Andrew Birow, zoom'
+2026-07-13 21:58:22,408 INFO faster_whisper: Processing audio with duration 00:01.084
+2026-07-13 21:58:25,167 INFO faster_whisper: Detected language 'en' with probability 0.96
+2026-07-13 21:58:28,786 INFO src.meeting_intelligence.asr: ASR segment seg_003911-003961 [39.106s-39.614s]: initial_prompt='ORegan, Cr Grahar, Cr Blwyn Andre, m Mylchre, Roger Gordon, Liz Stolwyk, Cr Bruce The, Cr Andrew Birow, zoom'
+2026-07-13 21:58:28,786 INFO faster_whisper: Processing audio with duration 00:00.508
+2026-07-13 21:58:31,590 INFO faster_whisper: Detected language 'en' with probability 0.97
+2026-07-13 21:58:35,133 INFO src.meeting_intelligence.asr: ASR segment seg_004019-004166 [40.194s-41.662s]: initial_prompt='ORegan, Cr Grahar, Cr Blwyn Andre, m Mylchre, Roger Gordon, Liz Stolwyk, Cr Bruce The, Cr Andrew Birow, zoom'
+2026-07-13 21:58:35,133 INFO faster_whisper: Processing audio with duration 00:01.468
+2026-07-13 21:58:37,910 INFO faster_whisper: Detected language 'en' with probability 0.92
+2026-07-13 21:58:41,764 INFO src.meeting_intelligence.asr: ASR segment seg_004311-004509 [43.106s-45.086s]: initial_prompt='n ORegan, Cr Blwyn Andree, 2, Rager Gordor, Liz Stolwyk, CrClare St Pierre, Cr Bruce Tho, Cr Andrew Brown, zoom'
+2026-07-13 21:58:41,764 INFO faster_whisper: Processing audio with duration 00:01.980
+2026-07-13 21:58:44,526 INFO faster_whisper: Detected language 'en' with probability 0.79
+2026-07-13 21:58:48,482 INFO src.meeting_intelligence.asr: ASR segment seg_004531-004653 [45.314s-46.526s]: initial_prompt='n ORegan, Cr Blwyn Andree, 2, Rager Gordor, Liz Stolwyk, CrClare St Pierre, Cr Bruce Tho, Cr Andrew Brown, zoom'
+2026-07-13 21:58:48,482 INFO faster_whisper: Processing audio with duration 00:01.212
+2026-07-13 21:58:51,334 INFO faster_whisper: Detected language 'en' with probability 0.81
+2026-07-13 21:58:55,338 INFO src.meeting_intelligence.asr: ASR segment seg_004909-005177 [49.090s-51.774s]: initial_prompt='n ORegan, Cr Blwyn Andree, 2, Rager Gordor, Liz Stolwyk, CrClare St Pierre, Cr Bruce Tho, Cr Andrew Brown, zoom'
+2026-07-13 21:58:55,338 INFO faster_whisper: Processing audio with duration 00:02.684
+2026-07-13 21:58:58,116 INFO faster_whisper: Detected language 'en' with probability 0.91
+2026-07-13 21:59:02,616 INFO src.meeting_intelligence.asr: ASR segment seg_005293-005417 [52.930s-54.174s]: initial_prompt='n ORegan, Cr Blwyn Andree, 2, Rager Gordor, Liz Stolwyk, CrClare St Pierre, Cr Bruce Tho, Cr Andrew Brown, zoom'
+2026-07-13 21:59:02,616 INFO faster_whisper: Processing audio with duration 00:01.244
+2026-07-13 21:59:05,452 INFO faster_whisper: Detected language 'en' with probability 0.94
+2026-07-13 21:59:09,352 INFO src.meeting_intelligence.asr: ASR segment seg_005738-006259 [57.378s-62.590s]: initial_prompt='n ORegan, Cr Bwyn Andre, Am Mvichice, Roger Gordon, Liz Stolwyk, Cr Bruce Tho, Cr Andrew Brown, zoom, Marcn S'
+2026-07-13 21:59:09,352 INFO faster_whisper: Processing audio with duration 00:05.212
+2026-07-13 21:59:12,218 INFO faster_whisper: Detected language 'en' with probability 0.50
+2026-07-13 21:59:17,027 INFO src.meeting_intelligence.asr: ASR segment seg_006435-007619 [64.354s-76.190s]: initial_prompt='n ORegan, Cr Bwyn Andre, Am Mvichice, Roger Gordon, Liz Stolwyk, Cr Bruce Tho, Cr Andrew Brown, zoom, Marcn S'
+2026-07-13 21:59:17,027 INFO faster_whisper: Processing audio with duration 00:11.836
+2026-07-13 21:59:19,910 INFO faster_whisper: Detected language 'en' with probability 0.63
+2026-07-13 21:59:27,332 INFO src.meeting_intelligence.asr: ASR segment seg_007709-007872 [77.090s-78.718s]: initial_prompt='gan ORegan, Cr Grahame, T, Roger Gorden, Liz Stolwyk, Erittare St Pierme, Cr Bruce The, Cr Andrew Brom, pile Coles, zoom'
+2026-07-13 21:59:27,332 INFO faster_whisper: Processing audio with duration 00:01.628
+2026-07-13 21:59:30,489 INFO faster_whisper: Detected language 'en' with probability 0.98
+2026-07-13 21:59:35,099 INFO src.meeting_intelligence.asr: ASR segment seg_007907-007993 [79.074s-79.934s]: initial_prompt="san O'Regan, Cr Grahr, Cr Blwyn And, 9, Jm Mylche e, Roger Gordo, Liz Stolwyk, Cr Bruce The, Cr Andrew Brows, Philp Coles, zoom, Marcue Go"
+2026-07-13 21:59:35,099 INFO faster_whisper: Processing audio with duration 00:00.860
+2026-07-13 21:59:38,059 INFO faster_whisper: Detected language 'en' with probability 0.99
+2026-07-13 21:59:42,015 INFO src.meeting_intelligence.asr: ASR segment seg_008007-008195 [80.066s-81.950s]: initial_prompt="san O'Regan, Cr Grahr, Cr Blwyn And, 9, Jm Mylche e, Roger Gordo, Liz Stolwyk, Cr Bruce The, Cr Andrew Brows, Philp Coles, zoom, Marcue Go"
+2026-07-13 21:59:42,015 INFO faster_whisper: Processing audio with duration 00:01.884
+2026-07-13 21:59:44,822 INFO faster_whisper: Detected language 'en' with probability 0.87
+2026-07-13 21:59:48,799 INFO src.meeting_intelligence.asr: ASR segment seg_008247-008304 [82.466s-83.038s]: initial_prompt="san O'Regan, Cr Grahr, Cr Blwyn And, 9, Jm Mylche e, Roger Gordo, Liz Stolwyk, Cr Bruce The, Cr Andrew Brows, Philp Coles, zoom, Marcue Go"
+2026-07-13 21:59:48,799 INFO faster_whisper: Processing audio with duration 00:00.572
+2026-07-13 21:59:51,575 INFO faster_whisper: Detected language 'en' with probability 0.99
+2026-07-13 21:59:55,141 INFO src.meeting_intelligence.asr: ASR segment seg_008359-008758 [83.586s-87.582s]: initial_prompt="Ruan O'Regan, Cr Grahame, Cr Blwyn And, 9, Roger Gorda, Liz Stolwyk, Cr Bruce Tho, Cr Andrew Brown, zoom"
+2026-07-13 21:59:55,142 INFO faster_whisper: Processing audio with duration 00:03.996
+2026-07-13 21:59:57,912 INFO faster_whisper: Detected language 'en' with probability 0.70
+2026-07-13 22:00:02,377 INFO src.meeting_intelligence.asr: ASR segment seg_008794-008864 [87.938s-88.638s]: initial_prompt="Ruan O'Regan, Cr Grahame, Cr Blwyn And, 9, Roger Gorda, Liz Stolwyk, Cr Bruce Tho, Cr Andrew Brown, zoom"
+2026-07-13 22:00:02,377 INFO faster_whisper: Processing audio with duration 00:00.700
+2026-07-13 22:00:05,149 INFO faster_whisper: Detected language 'en' with probability 0.53
+2026-07-13 22:00:08,683 INFO src.meeting_intelligence.asr: ASR segment seg_008887-009001 [88.866s-90.014s]: initial_prompt='Cr Sulin ORegan, Cr Grahame, Cr Bwys ánd, Roger Gordan, Liz Stolwyk, Cr Bruce The, Cr Andrew Brown, zoom'
+2026-07-13 22:00:08,683 INFO faster_whisper: Processing audio with duration 00:01.148
+2026-07-13 22:00:11,499 INFO faster_whisper: Detected language 'en' with probability 0.78
+2026-07-13 22:00:15,158 INFO src.meeting_intelligence.asr: ASR segment seg_009047-009437 [90.466s-94.366s]: initial_prompt='Cr Susin ORegan, Cr Grahame, Roger Gordon, Liz Stolwyk, Cr Bruce Th, zoom'
+2026-07-13 22:00:15,158 INFO faster_whisper: Processing audio with duration 00:03.900
+2026-07-13 22:00:17,924 INFO faster_whisper: Detected language 'en' with probability 0.80
+2026-07-13 22:00:21,808 INFO src.meeting_intelligence.asr: ASR segment seg_009495-009696 [94.946s-96.958s]: initial_prompt='Susán ORegan, Cr Grahame, Cr Biwyn, a, Jm Mylch, Roger Gordon, Liz Stolwyk, N, jasan.dawson, Cr Bruce Thomas, Cr Andrew Brown, zoom, Marcia, Cr Mike Pettit'
+2026-07-13 22:00:21,808 INFO faster_whisper: Processing audio with duration 00:02.012
+2026-07-13 22:00:24,616 INFO faster_whisper: Detected language 'en' with probability 0.90
+2026-07-13 22:00:28,542 INFO src.meeting_intelligence.asr: ASR segment seg_009719-009859 [97.186s-98.590s]: initial_prompt='Susán ORegan, Cr Grahame, Cr Biwyn, a, Jm Mylch, Roger Gordon, Liz Stolwyk, N, jasan.dawson, Cr Bruce Thomas, Cr Andrew Brown, zoom, Marcia, Cr Mike Pettit'
+2026-07-13 22:00:28,542 INFO faster_whisper: Processing audio with duration 00:01.404
+2026-07-13 22:00:31,358 INFO faster_whisper: Detected language 'en' with probability 0.94
+2026-07-13 22:00:35,066 INFO src.meeting_intelligence.asr: ASR segment seg_009968-010109 [99.682s-101.086s]: initial_prompt='Susán ORegan, Cr Grahame, Cr Biwyn, a, Jm Mylch, Roger Gordon, Liz Stolwyk, N, jasan.dawson, Cr Bruce Thomas, Cr Andrew Brown, zoom, Marcia, Cr Mike Pettit'
+2026-07-13 22:00:35,066 INFO faster_whisper: Processing audio with duration 00:01.404
+2026-07-13 22:00:37,829 INFO faster_whisper: Detected language 'en' with probability 0.88
+2026-07-13 22:00:41,543 INFO src.meeting_intelligence.asr: ASR segment seg_010173-010355 [101.730s-103.550s]: initial_prompt='Susán ORegan, Cr Grahame, Cr Biwyn, a, Jm Mylch, Roger Gordon, Liz Stolwyk, N, jasan.dawson, Cr Bruce Thomas, Cr Andrew Brown, zoom, Marcia, Cr Mike Pettit'
+2026-07-13 22:00:41,543 INFO faster_whisper: Processing audio with duration 00:01.820
+2026-07-13 22:00:44,320 INFO faster_whisper: Detected language 'en' with probability 0.80
+2026-07-13 22:00:48,211 INFO src.meeting_intelligence.asr: ASR segment seg_010435-010563 [104.354s-105.630s]: initial_prompt='Susán ORegan, Cr Grahame, Cr Biwyn, a, Jm Mylch, Roger Gordon, Liz Stolwyk, N, jasan.dawson, Cr Bruce Thomas, Cr Andrew Brown, zoom, Marcia, Cr Mike Pettit'
+2026-07-13 22:00:48,211 INFO faster_whisper: Processing audio with duration 00:01.276
+2026-07-13 22:00:50,984 INFO faster_whisper: Detected language 'en' with probability 0.91
+2026-07-13 22:00:54,578 INFO src.meeting_intelligence.asr: ASR segment seg_010631-010793 [106.306s-107.934s]: initial_prompt='Susán ORegan, Cr Grahame, Cr Biwyn, a, Jm Mylch, Roger Gordon, Liz Stolwyk, N, jasan.dawson, Cr Bruce Thomas, Cr Andrew Brown, zoom, Marcia, Cr Mike Pettit'
+2026-07-13 22:00:54,578 INFO faster_whisper: Processing audio with duration 00:01.628
+2026-07-13 22:00:57,372 INFO faster_whisper: Detected language 'en' with probability 0.92
+2026-07-13 22:01:01,148 INFO src.meeting_intelligence.asr: ASR segment seg_010855-011059 [108.546s-110.590s]: initial_prompt='Susán ORegan, Cr Grahame, Cr Biwyn, a, Jm Mylch, Roger Gordon, Liz Stolwyk, N, jasan.dawson, Cr Bruce Thomas, Cr Andrew Brown, zoom, Marcia, Cr Mike Pettit'
+2026-07-13 22:01:01,148 INFO faster_whisper: Processing audio with duration 00:02.044
+2026-07-13 22:01:03,913 INFO faster_whisper: Detected language 'en' with probability 0.97
+2026-07-13 22:01:07,718 INFO src.meeting_intelligence.asr: ASR segment seg_011085-011529 [110.850s-115.294s]: initial_prompt='Susán ORegan, Cr Grahame, Cr Biwyn, a, Jm Mylch, Roger Gordon, Liz Stolwyk, N, jasan.dawson, Cr Bruce Thomas, Cr Andrew Brown, zoom, Marcia, Cr Mike Pettit'
+2026-07-13 22:01:07,719 INFO faster_whisper: Processing audio with duration 00:04.444
+2026-07-13 22:01:10,525 INFO faster_whisper: Detected language 'en' with probability 0.50
+2026-07-13 22:01:15,337 INFO src.meeting_intelligence.asr: ASR segment seg_011619-011936 [116.194s-119.358s]: initial_prompt='Susán ORegan, Cr Grahame, Cr Biwyn, a, Jm Mylch, Roger Gordon, Liz Stolwyk, N, jasan.dawson, Cr Bruce Thomas, Cr Andrew Brown, zoom, Marcia, Cr Mike Pettit'
+2026-07-13 22:01:15,337 INFO faster_whisper: Processing audio with duration 00:03.164
+2026-07-13 22:01:18,127 INFO faster_whisper: Detected language 'en' with probability 0.99
+2026-07-13 22:01:22,704 INFO src.meeting_intelligence.asr: ASR segment seg_012026-012083 [120.258s-120.830s]: initial_prompt='Susán ORegan, Cr Grahame, Cr Biwyn, a, Jm Mylch, Roger Gordon, Liz Stolwyk, N, jasan.dawson, Cr Bruce Thomas, Cr Andrew Brown, zoom, Marcia, Cr Mike Pettit'
+2026-07-13 22:01:22,704 INFO faster_whisper: Processing audio with duration 00:00.572
+2026-07-13 22:01:25,498 INFO faster_whisper: Detected language 'en' with probability 0.92
+2026-07-13 22:01:29,111 INFO src.meeting_intelligence.asr: ASR segment seg_012103-012160 [121.026s-121.598s]: initial_prompt='Susán ORegan, Cr Grahame, Cr Biwyn, a, Jm Mylch, Roger Gordon, Liz Stolwyk, N, jasan.dawson, Cr Bruce Thomas, Cr Andrew Brown, zoom, Marcia, Cr Mike Pettit'
+2026-07-13 22:01:29,111 INFO faster_whisper: Processing audio with duration 00:00.572
+2026-07-13 22:01:31,895 INFO faster_whisper: Detected language 'en' with probability 0.98
+2026-07-13 22:01:35,476 INFO src.meeting_intelligence.asr: ASR segment seg_012202-012259 [122.018s-122.590s]: initial_prompt='Susán ORegan, Cr Grahame, Cr Biwyn, a, Jm Mylch, Roger Gordon, Liz Stolwyk, N, jasan.dawson, Cr Bruce Thomas, Cr Andrew Brown, zoom, Marcia, Cr Mike Pettit'
+2026-07-13 22:01:35,476 INFO faster_whisper: Processing audio with duration 00:00.572
+2026-07-13 22:01:38,239 INFO faster_whisper: Detected language 'en' with probability 0.93
+2026-07-13 22:01:41,787 INFO src.meeting_intelligence.asr: ASR segment seg_012282-012528 [122.818s-125.278s]: initial_prompt='Susán ORegan, Cr Grahame, Cr Biwyn, a, Jm Mylch, Roger Gordon, Liz Stolwyk, N, jasan.dawson, Cr Bruce Thomas, Cr Andrew Brown, zoom, Marcia, Cr Mike Pettit'
+2026-07-13 22:01:41,787 INFO faster_whisper: Processing audio with duration 00:02.460
+2026-07-13 22:01:44,577 INFO faster_whisper: Detected language 'mi' with probability 0.54
+2026-07-13 22:01:48,813 INFO src.meeting_intelligence.asr: ASR segment seg_012781-013011 [127.810s-130.110s]: initial_prompt='Susán ORegan, Cr Grahame, Cr Biwyn, a, Jm Mylch, Roger Gordon, Liz Stolwyk, N, jasan.dawson, Cr Bruce Thomas, Cr Andrew Brown, zoom, Marcia, Cr Mike Pettit'
+2026-07-13 22:01:48,813 INFO faster_whisper: Processing audio with duration 00:02.300
+2026-07-13 22:01:51,572 INFO faster_whisper: Detected language 'en' with probability 0.97
+2026-07-13 22:01:55,505 INFO src.meeting_intelligence.asr: ASR segment seg_013056-013123 [130.562s-131.230s]: initial_prompt='Susán ORegan, Cr Grahame, Cr Biwyn, a, Jm Mylch, Roger Gordon, Liz Stolwyk, N, jasan.dawson, Cr Bruce Thomas, Cr Andrew Brown, zoom, Marcia, Cr Mike Pettit'
+2026-07-13 22:01:55,505 INFO faster_whisper: Processing audio with duration 00:00.668
+2026-07-13 22:01:58,276 INFO faster_whisper: Detected language 'en' with probability 0.79
+2026-07-13 22:02:01,897 INFO src.meeting_intelligence.asr: ASR segment seg_013143-013897 [131.426s-138.974s]: initial_prompt="Sugan O'Regan, Cr Grahame, Cr, im Mylchre, Roger Gordon, CYLOUB, Liz Stolwyk, WARSS, 医, trctare St Pierre, aon.daws, Cr Andrew Brown, zoom, Marcia, Cr Mlike Pettit"
+2026-07-13 22:02:01,898 INFO faster_whisper: Processing audio with duration 00:07.548
+2026-07-13 22:02:04,660 INFO faster_whisper: Detected language 'mi' with probability 0.82
+2026-07-13 22:02:10,638 INFO src.meeting_intelligence.asr: ASR segment seg_013965-014035 [139.650s-140.350s]: initial_prompt="Cr Susan O'Regan, Cr Grahame, Im Mylchre, Roger Gordor, CrLOUB, Liz Stolwyk, aon.dawso, Cr Bruce Thomía, Cr Andrew Brown, zoom, Marcia, C Mike Pettit"
+2026-07-13 22:02:10,638 INFO faster_whisper: Processing audio with duration 00:00.700
+2026-07-13 22:02:13,432 INFO faster_whisper: Detected language 'en' with probability 0.80
+2026-07-13 22:02:23,235 INFO src.meeting_intelligence.asr: ASR segment seg_014048-014109 [140.482s-141.086s]: initial_prompt="Cr Susan O'Regan, Cr Grahame, Im Mylchre, Roger Gordor, CrLOUB, Liz Stolwyk, aon.dawso, Cr Bruce Thomía, Cr Andrew Brown, zoom, Marcia, C Mike Pettit"
+2026-07-13 22:02:23,235 INFO faster_whisper: Processing audio with duration 00:00.604
+2026-07-13 22:02:26,099 INFO faster_whisper: Detected language 'en' with probability 0.60
+2026-07-13 22:02:29,907 INFO src.meeting_intelligence.asr: ASR segment seg_014144-014224 [141.442s-142.238s]: initial_prompt="W, pa, Cr Susan O'Regan, Cr Gr, Ken Morris, Cr Ewyn Andree, Reger Gordon, CrLouBrown, Liz Stolwyk, Cmctare St Pien, Cr Bruce The, zoom, Cr Mike Pettit"
+2026-07-13 22:02:29,908 INFO faster_whisper: Processing audio with duration 00:00.796
+2026-07-13 22:02:32,691 INFO faster_whisper: Detected language 'en' with probability 0.97
+2026-07-13 22:02:36,351 INFO src.meeting_intelligence.asr: ASR segment seg_014253-014413 [142.530s-144.126s]: initial_prompt="W, pa, Cr Susan O'Regan, Cr Gr, Ken Morris, Cr Ewyn Andree, Reger Gordon, CrLouBrown, Liz Stolwyk, Cmctare St Pien, Cr Bruce The, zoom, Cr Mike Pettit"
+2026-07-13 22:02:36,351 INFO faster_whisper: Processing audio with duration 00:01.596
+2026-07-13 22:02:39,117 INFO faster_whisper: Detected language 'en' with probability 0.71
+2026-07-13 22:02:43,028 INFO src.meeting_intelligence.asr: ASR segment seg_014435-014512 [144.354s-145.118s]: initial_prompt="W, pa, Cr Susan O'Regan, Cr Gr, Ken Morris, Cr Ewyn Andree, Reger Gordon, CrLouBrown, Liz Stolwyk, Cmctare St Pien, Cr Bruce The, zoom, Cr Mike Pettit"
+2026-07-13 22:02:43,028 INFO faster_whisper: Processing audio with duration 00:00.764
+2026-07-13 22:02:45,793 INFO faster_whisper: Detected language 'en' with probability 0.60
+2026-07-13 22:02:49,380 INFO src.meeting_intelligence.asr: ASR segment seg_014557-014681 [145.570s-146.814s]: initial_prompt="W, pa, Cr Susan O'Regan, Cr Gr, Ken Morris, Cr Ewyn Andree, Reger Gordon, CrLouBrown, Liz Stolwyk, Cmctare St Pien, Cr Bruce The, zoom, Cr Mike Pettit"
+2026-07-13 22:02:49,380 INFO faster_whisper: Processing audio with duration 00:01.244
+2026-07-13 22:02:52,149 INFO faster_whisper: Detected language 'en' with probability 0.94
+2026-07-13 22:02:55,935 INFO src.meeting_intelligence.asr: ASR segment seg_014733-014800 [147.330s-147.998s]: initial_prompt="W, ba, Cr Susan O'Regan, Ken Moeris, Cr Ewyn And, Reger Gordon, CrLouBrow, Liz Stolwyk, Dmptire St Plerre, Cr Bruce Thom, zoom, Cr Andreg bro, Cr Mike Pettit"
+2026-07-13 22:02:55,935 INFO faster_whisper: Processing audio with duration 00:00.668
+2026-07-13 22:02:58,695 INFO faster_whisper: Detected language 'en' with probability 0.90
+2026-07-13 22:03:02,268 INFO src.meeting_intelligence.asr: ASR segment seg_014861-014982 [148.610s-149.822s]: initial_prompt="W, ba, Cr Susan O'Regan, Ken Moeris, Cr Ewyn And, Reger Gordon, CrLouBrow, Liz Stolwyk, Dmptire St Plerre, Cr Bruce Thom, zoom, Cr Andreg bro, Cr Mike Pettit"
+2026-07-13 22:03:02,268 INFO faster_whisper: Processing audio with duration 00:01.212
+2026-07-13 22:03:05,080 INFO faster_whisper: Detected language 'en' with probability 0.83
+2026-07-13 22:03:08,692 INFO src.meeting_intelligence.asr: ASR segment seg_015008-015251 [150.082s-152.510s]: initial_prompt="W, ba, Cr Susan O'Regan, Ken Moeris, Cr Ewyn And, Reger Gordon, CrLouBrow, Liz Stolwyk, Dmptire St Plerre, Cr Bruce Thom, zoom, Cr Andreg bro, Cr Mike Pettit"
+2026-07-13 22:03:08,692 INFO faster_whisper: Processing audio with duration 00:02.428
+2026-07-13 22:03:11,461 INFO faster_whisper: Detected language 'en' with probability 0.88
+2026-07-13 22:03:15,304 INFO src.meeting_intelligence.asr: ASR segment seg_015367-015677 [153.666s-156.766s]: initial_prompt="W, ba, Cr Susan O'Regan, Ken Moeris, Cr Ewyn And, Reger Gordon, CrLouBrow, Liz Stolwyk, Dmptire St Plerre, Cr Bruce Thom, zoom, Cr Andreg bro, Cr Mike Pettit"
+2026-07-13 22:03:15,304 INFO faster_whisper: Processing audio with duration 00:03.100
+2026-07-13 22:03:18,061 INFO faster_whisper: Detected language 'mi' with probability 0.62
+2026-07-13 22:03:22,271 INFO src.meeting_intelligence.asr: ASR segment seg_015863-015936 [158.626s-159.358s]: initial_prompt="W, pa, Cr Susan O'Regan, Ken Morris, Cr Ewyn And, Roger Gordo, Cr LeuBrown, Liz Stolwyk, Crttare St P, janon-dawson, Cr Biruce Thomas, zoom, Or Andrea Bre, Cr Mike Pettit"
+2026-07-13 22:03:22,271 INFO faster_whisper: Processing audio with duration 00:00.732
+2026-07-13 22:03:25,033 INFO faster_whisper: Detected language 'en' with probability 0.98
+2026-07-13 22:03:28,765 INFO src.meeting_intelligence.asr: ASR segment seg_016000-016147 [160.002s-161.470s]: initial_prompt="W, pa, Cr Susan O'Regan, Ken Morris, Cr Ewyn And, Roger Gordo, Cr LeuBrown, Liz Stolwyk, Crttare St P, janon-dawson, Cr Biruce Thomas, zoom, Or Andrea Bre, Cr Mike Pettit"
+2026-07-13 22:03:28,765 INFO faster_whisper: Processing audio with duration 00:01.468
+2026-07-13 22:03:31,564 INFO faster_whisper: Detected language 'en' with probability 0.95
+2026-07-13 22:03:35,485 INFO src.meeting_intelligence.asr: ASR segment seg_016355-016880 [163.554s-168.798s]: initial_prompt='insan dewvon, zoom'
+2026-07-13 22:03:35,485 INFO faster_whisper: Processing audio with duration 00:05.244
+2026-07-13 22:03:38,245 INFO faster_whisper: Detected language 'en' with probability 0.92
+2026-07-13 22:03:42,882 INFO src.meeting_intelligence.asr: ASR segment seg_016903-017104 [169.026s-171.038s]: initial_prompt='insan dewvon, zoom'
+2026-07-13 22:03:42,882 INFO faster_whisper: Processing audio with duration 00:02.012
+2026-07-13 22:03:45,674 INFO faster_whisper: Detected language 'en' with probability 0.95
+2026-07-13 22:03:49,556 INFO src.meeting_intelligence.asr: ASR segment seg_017767-017827 [177.666s-178.270s]: initial_prompt='WAIPA DISTRICT COUNCIL'
+2026-07-13 22:03:49,556 INFO faster_whisper: Processing audio with duration 00:00.604
+2026-07-13 22:03:52,343 INFO faster_whisper: Detected language 'en' with probability 0.94
+2026-07-13 22:03:55,807 INFO src.meeting_intelligence.asr: ASR segment seg_018058-018665 [180.578s-186.654s]: initial_prompt='WAIPA DISTRICT COUNCIL'
+2026-07-13 22:03:55,807 INFO faster_whisper: Processing audio with duration 00:06.076
+2026-07-13 22:03:58,618 INFO faster_whisper: Detected language 'en' with probability 0.86
+2026-07-13 22:04:03,610 INFO src.meeting_intelligence.asr: ASR segment seg_018701-019158 [187.010s-191.582s]: initial_prompt='WAIPA DISTRICT COUNCIL'
+2026-07-13 22:04:03,610 INFO faster_whisper: Processing audio with duration 00:04.572
+2026-07-13 22:04:06,379 INFO faster_whisper: Detected language 'en' with probability 0.49
+2026-07-13 22:04:10,775 INFO src.meeting_intelligence.asr: ASR segment seg_019232-020041 [192.322s-200.414s]: initial_prompt='The Mighty, WAIPA DISTRICT COUNCIL, COVID-19: tourism Impacts & response'
+2026-07-13 22:04:10,775 INFO faster_whisper: Processing audio with duration 00:08.092
+2026-07-13 22:04:13,544 INFO faster_whisper: Detected language 'en' with probability 0.67
+2026-07-13 22:04:18,595 INFO src.meeting_intelligence.asr: ASR segment seg_020080-020707 [200.802s-207.070s]: initial_prompt='TheMighty, Waikato, WAIPADISTRICTCOUNCIL, COVID-19: tourism Impsots & response, zoom'
+2026-07-13 22:04:18,595 INFO faster_whisper: Processing audio with duration 00:06.268
+2026-07-13 22:04:21,360 INFO faster_whisper: Detected language 'en' with probability 0.90
+2026-07-13 22:04:26,864 INFO src.meeting_intelligence.asr: ASR segment seg_020739-021062 [207.394s-210.622s]: initial_prompt='TheMighty, Waikato, WAIPADISTRICTCOUNCIL, COVID-19: tourism Impsots & response, zoom'
+2026-07-13 22:04:26,864 INFO faster_whisper: Processing audio with duration 00:03.228
+2026-07-13 22:04:29,627 INFO faster_whisper: Detected language 'en' with probability 0.89
+2026-07-13 22:04:33,582 INFO src.meeting_intelligence.asr: ASR segment seg_021088-021577 [210.882s-215.774s]: initial_prompt='TheMighty, Waikato, WAIPADISTRICTCOUNCIL, COVID-19: tourism Impsots & response, zoom'
+2026-07-13 22:04:33,582 INFO faster_whisper: Processing audio with duration 00:04.892
+2026-07-13 22:04:36,345 INFO faster_whisper: Detected language 'en' with probability 0.86
+2026-07-13 22:04:40,660 INFO src.meeting_intelligence.asr: ASR segment seg_021600-021744 [216.002s-217.438s]: initial_prompt='TheMighty, Waikato, WAIPADISTRICTCOUNCIL, COVID-19: tourism Impsots & response, zoom'
+2026-07-13 22:04:40,660 INFO faster_whisper: Processing audio with duration 00:01.436
+2026-07-13 22:04:43,469 INFO faster_whisper: Detected language 'en' with probability 0.93
+2026-07-13 22:04:47,000 INFO src.meeting_intelligence.asr: ASR segment seg_021767-022560 [217.666s-225.598s]: initial_prompt='TheMighty, Waikato, WAIPADISTRICTCOUNCIL, COVID-19: tourism Impsots & response, zoom'
+2026-07-13 22:04:47,000 INFO faster_whisper: Processing audio with duration 00:07.932
+2026-07-13 22:04:49,771 INFO faster_whisper: Detected language 'en' with probability 0.58
+2026-07-13 22:04:55,085 INFO src.meeting_intelligence.asr: ASR segment seg_022826-022912 [228.258s-229.118s]: initial_prompt='TheMighty, Waikato, WAIPADISTRICTCOUNCIL, COVID-19: tourism Impsots & response, zoom'
+2026-07-13 22:04:55,085 INFO faster_whisper: Processing audio with duration 00:00.860
+2026-07-13 22:04:57,852 INFO faster_whisper: Detected language 'en' with probability 0.75
+2026-07-13 22:05:10,083 INFO src.meeting_intelligence.asr: ASR segment seg_022938-023241 [229.378s-232.414s]: initial_prompt='TheMighty, Waikato, WAIPADISTRICTCOUNCIL, COVID-19: tourism Impsots & response, zoom'
+2026-07-13 22:05:10,084 INFO faster_whisper: Processing audio with duration 00:03.036
+2026-07-13 22:05:12,951 INFO faster_whisper: Detected language 'en' with probability 0.94
+2026-07-13 22:05:16,842 INFO src.meeting_intelligence.asr: ASR segment seg_023507-023571 [235.074s-235.710s]: initial_prompt='International visitor arrivals, Week ending 17 April 2020, TheMighty, Waikato, zoom'
+2026-07-13 22:05:16,842 INFO faster_whisper: Processing audio with duration 00:00.636
+2026-07-13 22:05:19,603 INFO faster_whisper: Detected language 'en' with probability 0.96
+2026-07-13 22:05:23,014 INFO src.meeting_intelligence.asr: ASR segment seg_023607-024739 [236.066s-247.390s]: initial_prompt='International visitor arrivals, Week ending 17 April 2020, TheMighty, Waikato, zoom'
+2026-07-13 22:05:23,014 INFO faster_whisper: Processing audio with duration 00:11.324
+2026-07-13 22:05:25,786 INFO faster_whisper: Detected language 'en' with probability 0.54
+2026-07-13 22:05:31,457 INFO src.meeting_intelligence.asr: ASR segment seg_024775-025321 [247.746s-253.214s]: initial_prompt='International visitor arrivals, Week ending 17 April 2020, TheMighty, Waikato, zoom'
+2026-07-13 22:05:31,457 INFO faster_whisper: Processing audio with duration 00:05.468
+2026-07-13 22:05:34,271 INFO faster_whisper: Detected language 'en' with probability 0.65
+2026-07-13 22:05:38,750 INFO src.meeting_intelligence.asr: ASR segment seg_025344-025833 [253.442s-258.334s]: initial_prompt='International visitor arrivals, Week ending 17 April 2020, TheMighty, Waikato, zoom'
+2026-07-13 22:05:38,750 INFO faster_whisper: Processing audio with duration 00:04.892
+2026-07-13 22:05:41,545 INFO faster_whisper: Detected language 'en' with probability 0.87
+2026-07-13 22:05:46,047 INFO src.meeting_intelligence.asr: ASR segment seg_025850-026253 [258.498s-262.526s]: initial_prompt='International visitor arrivals, Week ending 17 April 2020, TheMighty, Waikato, zoom'
+2026-07-13 22:05:46,047 INFO faster_whisper: Processing audio with duration 00:04.028
+2026-07-13 22:05:48,856 INFO faster_whisper: Detected language 'mi' with probability 0.68
+2026-07-13 22:05:52,988 INFO src.meeting_intelligence.asr: ASR segment seg_026304-026768 [263.042s-267.678s]: initial_prompt='International visitor arrivals, Week ending 17 April 2020, TheMighty, Waikato, zoom'
+2026-07-13 22:05:52,988 INFO faster_whisper: Processing audio with duration 00:04.636
+2026-07-13 22:05:55,744 INFO faster_whisper: Detected language 'en' with probability 0.94
+2026-07-13 22:06:00,296 INFO src.meeting_intelligence.asr: ASR segment seg_026787-027357 [267.874s-273.566s]: initial_prompt='International visitor arrivals, Week ending 17 April 2020, TheMighty, Waikato, zoom'
+2026-07-13 22:06:00,296 INFO faster_whisper: Processing audio with duration 00:05.692
+2026-07-13 22:06:03,062 INFO faster_whisper: Detected language 'en' with probability 0.69
+2026-07-13 22:06:07,565 INFO src.meeting_intelligence.asr: ASR segment seg_027427-027552 [274.274s-275.518s]: initial_prompt='International visitor arrivals, Week ending 17 April 2020, TheMighty, Waikato, zoom'
+2026-07-13 22:06:07,565 INFO faster_whisper: Processing audio with duration 00:01.244
+2026-07-13 22:06:10,380 INFO faster_whisper: Detected language 'en' with probability 0.91
+2026-07-13 22:06:13,988 INFO src.meeting_intelligence.asr: ASR segment seg_027623-027677 [276.226s-276.766s]: initial_prompt='International visitor arrivals, Week ending 17 April 2020, TheMighty, Waikato, zoom'
+2026-07-13 22:06:13,988 INFO faster_whisper: Processing audio with duration 00:00.540
+2026-07-13 22:06:16,763 INFO faster_whisper: Detected language 'en' with probability 0.76
+2026-07-13 22:06:24,754 INFO src.meeting_intelligence.asr: ASR segment seg_027930-028633 [279.298s-286.334s]: initial_prompt='Weekly card transactions, ason Dawso., Hamilton & Waikato RTO region - week ending 12 April 2O2O, TheMiehtu, zoom'
+2026-07-13 22:06:24,754 INFO faster_whisper: Processing audio with duration 00:07.036
+2026-07-13 22:06:27,622 INFO faster_whisper: Detected language 'mi' with probability 0.60
+2026-07-13 22:06:32,160 INFO src.meeting_intelligence.asr: ASR segment seg_028650-029107 [286.498s-291.070s]: initial_prompt='Weekly card transactions, ason Dawso., Hamilton & Waikato RTO region - week ending 12 April 2O2O, TheMiehtu, zoom'
+2026-07-13 22:06:32,160 INFO faster_whisper: Processing audio with duration 00:04.572
+2026-07-13 22:06:34,973 INFO faster_whisper: Detected language 'en' with probability 0.83
+2026-07-13 22:06:39,830 INFO src.meeting_intelligence.asr: ASR segment seg_029130-029555 [291.298s-295.550s]: initial_prompt='Weekly card transactions, ason Dawso., Hamilton & Waikato RTO region - week ending 12 April 2O2O, TheMiehtu, zoom'
+2026-07-13 22:06:39,830 INFO faster_whisper: Processing audio with duration 00:04.252
+2026-07-13 22:06:42,650 INFO faster_whisper: Detected language 'en' with probability 0.64
+2026-07-13 22:06:47,103 INFO src.meeting_intelligence.asr: ASR segment seg_029584-030093 [295.842s-300.926s]: initial_prompt='Weekly card transactions, ason Dawso., Hamilton & Waikato RTO region - week ending 12 April 2O2O, TheMiehtu, zoom'
+2026-07-13 22:06:47,103 INFO faster_whisper: Processing audio with duration 00:05.084
+2026-07-13 22:06:49,907 INFO faster_whisper: Detected language 'mi' with probability 0.71
+2026-07-13 22:06:54,184 INFO src.meeting_intelligence.asr: ASR segment seg_030128-030189 [301.282s-301.886s]: initial_prompt='Weekly card transactions, ason Dawso., Hamilton & Waikato RTO region - week ending 12 April 2O2O, TheMiehtu, zoom'
+2026-07-13 22:06:54,184 INFO faster_whisper: Processing audio with duration 00:00.604
+2026-07-13 22:06:57,010 INFO faster_whisper: Detected language 'en' with probability 0.99
+2026-07-13 22:07:01,172 INFO src.meeting_intelligence.asr: ASR segment seg_030890-031395 [308.898s-313.950s]: initial_prompt='COVID-19 - regional tourism impact, • Tourism was already impacted - loss of China group travel (Jan 2020), • Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event organisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Reduction in service and staff - essential service & maintenance only, • Temporary/seasonal closure – "hibernation", • Permanent closure – loss to industry and communities, TheMighty, zoom'
+2026-07-13 22:07:01,172 INFO faster_whisper: Processing audio with duration 00:05.052
+2026-07-13 22:07:04,006 INFO faster_whisper: Detected language 'en' with probability 0.73
+2026-07-13 22:07:14,443 INFO src.meeting_intelligence.asr: ASR segment seg_031405-031741 [314.050s-317.406s]: initial_prompt='COVID-19 - regional tourism impact, • Tourism was already impacted - loss of China group travel (Jan 2020), • Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event organisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Reduction in service and staff - essential service & maintenance only, • Temporary/seasonal closure – "hibernation", • Permanent closure – loss to industry and communities, TheMighty, zoom'
+2026-07-13 22:07:14,443 INFO faster_whisper: Processing audio with duration 00:03.356
+2026-07-13 22:07:17,229 INFO faster_whisper: Detected language 'en' with probability 0.94
+2026-07-13 22:07:21,979 INFO src.meeting_intelligence.asr: ASR segment seg_031757-032182 [317.570s-321.822s]: initial_prompt='COVID-19 - regional tourism impact, • Tourism was already impacted - loss of China group travel (Jan 2020), • Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event organisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Reduction in service and staff - essential service & maintenance only, • Temporary/seasonal closure – "hibernation", • Permanent closure – loss to industry and communities, TheMighty, zoom'
+2026-07-13 22:07:21,979 INFO faster_whisper: Processing audio with duration 00:04.252
+2026-07-13 22:07:24,767 INFO faster_whisper: Detected language 'en' with probability 0.92
+2026-07-13 22:07:36,029 INFO src.meeting_intelligence.asr: ASR segment seg_032199-032614 [321.986s-326.142s]: initial_prompt='COVID-19 - regional tourism impact, • Tourism was already impacted - loss of China group travel (Jan 2020), • Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event organisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Reduction in service and staff - essential service & maintenance only, • Temporary/seasonal closure – "hibernation", • Permanent closure – loss to industry and communities, TheMighty, zoom'
+2026-07-13 22:07:36,029 INFO faster_whisper: Processing audio with duration 00:04.156
+2026-07-13 22:07:38,817 INFO faster_whisper: Detected language 'en' with probability 0.92
+2026-07-13 22:09:45,617 INFO src.meeting_intelligence.asr: ASR segment seg_032647-033145 [326.466s-331.454s]: initial_prompt='COVID-19 - regional tourism impact, • Tourism was already impacted - loss of China group travel (Jan 2020), • Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event organisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Reduction in service and staff - essential service & maintenance only, • Temporary/seasonal closure – "hibernation", • Permanent closure – loss to industry and communities, TheMighty, zoom'
+2026-07-13 22:09:45,618 INFO faster_whisper: Processing audio with duration 00:04.988
+2026-07-13 22:09:48,704 INFO faster_whisper: Detected language 'mi' with probability 0.65
+2026-07-13 22:09:54,136 INFO src.meeting_intelligence.asr: ASR segment seg_033165-033715 [331.650s-337.150s]: initial_prompt='COVID-19 - regional tourism impact, • Tourism was already impacted - loss of China group travel (Jan 2020), • Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event organisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Reduction in service and staff - essential service & maintenance only, • Temporary/seasonal closure – "hibernation", • Permanent closure – loss to industry and communities, TheMighty, zoom'
+2026-07-13 22:09:54,136 INFO faster_whisper: Processing audio with duration 00:05.500
+2026-07-13 22:09:57,024 INFO faster_whisper: Detected language 'en' with probability 0.51
+2026-07-13 22:10:07,560 INFO src.meeting_intelligence.asr: ASR segment seg_033728-034016 [337.282s-340.158s]: initial_prompt='COVID-19 - regional tourism impact, • Tourism was already impacted - loss of China group travel (Jan 2020), • Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event organisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Reduction in service and staff - essential service & maintenance only, • Temporary/seasonal closure – "hibernation", • Permanent closure – loss to industry and communities, TheMighty, zoom'
+2026-07-13 22:10:07,560 INFO faster_whisper: Processing audio with duration 00:02.876
+2026-07-13 22:10:10,488 INFO faster_whisper: Detected language 'en' with probability 0.81
+2026-07-13 22:10:15,233 INFO src.meeting_intelligence.asr: ASR segment seg_034112-034189 [341.122s-341.886s]: initial_prompt='COVID-19 - regional tourism impact, • Tourism was already impacted - loss of China group travel (Jan 2020), • Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event organisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Reduction in service and staff - essential service & maintenance only, • Temporary/seasonal closure – "hibernation", • Permanent closure – loss to industry and communities, TheMighty, zoom'
+2026-07-13 22:10:15,233 INFO faster_whisper: Processing audio with duration 00:00.764
+2026-07-13 22:10:18,118 INFO faster_whisper: Detected language 'en' with probability 0.91
+2026-07-13 22:10:28,603 INFO src.meeting_intelligence.asr: ASR segment seg_034202-034624 [342.018s-346.238s]: initial_prompt='COVID-19 - regional tourism impact, • Tourism was already impacted - loss of China group travel (Jan 2020), • Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event organisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Reduction in service and staff - essential service & maintenance only, • Temporary/seasonal closure – "hibernation", • Permanent closure – loss to industry and communities, TheMighty, zoom'
+2026-07-13 22:10:28,604 INFO faster_whisper: Processing audio with duration 00:04.220
+2026-07-13 22:10:31,474 INFO faster_whisper: Detected language 'en' with probability 0.97
+2026-07-13 22:10:40,448 INFO src.meeting_intelligence.asr: ASR segment seg_034650-035312 [346.498s-353.118s]: initial_prompt='COVID-19 - regional tourism impact, • Tourism was already impacted - loss of China group travel (Jan 2020), • Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event onganisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Temporary/seasonal closure - "hibernation", • Permanent closure - loss to industry and communities, TheMighty, Walkato, zoom'
+2026-07-13 22:10:40,448 INFO faster_whisper: Processing audio with duration 00:06.620
+2026-07-13 22:10:43,682 INFO faster_whisper: Detected language 'en' with probability 0.91
+2026-07-13 22:10:52,456 INFO src.meeting_intelligence.asr: ASR segment seg_035325-035891 [353.250s-358.910s]: initial_prompt='COVID-19 - regional tourism imp, Tourism was already impacted - loss of China group travel (Jan 2020), Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event organisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Temporary/seasonal closure - "hibernation\', • Reduction in service and staff - essential service & maintenance only, • Permanent closure - loss to industry and communities, TheMighty, Waikats'
+2026-07-13 22:10:52,456 INFO faster_whisper: Processing audio with duration 00:05.660
+2026-07-13 22:10:55,291 INFO faster_whisper: Detected language 'en' with probability 0.69
+2026-07-13 22:11:05,883 INFO src.meeting_intelligence.asr: ASR segment seg_035904-036275 [359.042s-362.750s]: initial_prompt='COVID-19 - regional tourism imp, Tourism was already impacted - loss of China group travel (Jan 2020), Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event organisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Temporary/seasonal closure - "hibernation\', • Reduction in service and staff - essential service & maintenance only, • Permanent closure - loss to industry and communities, TheMighty, Waikats'
+2026-07-13 22:11:05,883 INFO faster_whisper: Processing audio with duration 00:03.708
+2026-07-13 22:11:08,664 INFO faster_whisper: Detected language 'en' with probability 0.77
+2026-07-13 22:11:13,816 INFO src.meeting_intelligence.asr: ASR segment seg_036307-036614 [363.074s-366.142s]: initial_prompt='COVID-19 - regional tourism imp, Tourism was already impacted - loss of China group travel (Jan 2020), Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event organisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Temporary/seasonal closure - "hibernation\', • Reduction in service and staff - essential service & maintenance only, • Permanent closure - loss to industry and communities, TheMighty, Waikats'
+2026-07-13 22:11:13,816 INFO faster_whisper: Processing audio with duration 00:03.068
+2026-07-13 22:11:16,605 INFO faster_whisper: Detected language 'mi' with probability 0.78
+2026-07-13 22:11:25,390 INFO src.meeting_intelligence.asr: ASR segment seg_036688-037107 [366.882s-371.070s]: initial_prompt='COVID-19 - regional tourism imp, Tourism was already impacted - loss of China group travel (Jan 2020), Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event organisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Temporary/seasonal closure - "hibernation\', • Reduction in service and staff - essential service & maintenance only, • Permanent closure - loss to industry and communities, TheMighty, Waikats'
+2026-07-13 22:11:25,390 INFO faster_whisper: Processing audio with duration 00:04.188
+2026-07-13 22:11:28,166 INFO faster_whisper: Detected language 'en' with probability 0.87
+2026-07-13 22:15:19,121 INFO src.meeting_intelligence.asr: ASR segment seg_037139-037523 [371.394s-375.230s]: initial_prompt='COVID-19 - regional tourism imp, Tourism was already impacted - loss of China group travel (Jan 2020), Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event organisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Temporary/seasonal closure - "hibernation\', • Reduction in service and staff - essential service & maintenance only, • Permanent closure - loss to industry and communities, TheMighty, Waikats'
+2026-07-13 22:15:19,121 INFO faster_whisper: Processing audio with duration 00:03.836
+2026-07-13 22:15:21,956 INFO faster_whisper: Detected language 'en' with probability 0.54
+2026-07-13 22:15:30,521 INFO src.meeting_intelligence.asr: ASR segment seg_037536-037990 [375.362s-379.902s]: initial_prompt='COVID-19 - regional tourism imp, Tourism was already impacted - loss of China group travel (Jan 2020), Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event organisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Temporary/seasonal closure - "hibernation\', • Reduction in service and staff - essential service & maintenance only, • Permanent closure - loss to industry and communities, TheMighty, Waikats'
+2026-07-13 22:15:30,522 INFO faster_whisper: Processing audio with duration 00:04.540
+2026-07-13 22:15:33,356 INFO faster_whisper: Detected language 'en' with probability 0.92
+2026-07-13 22:18:03,789 INFO src.meeting_intelligence.asr: ASR segment seg_038016-038585 [380.162s-385.854s]: initial_prompt='COVID-19 - regional tourism imp, Tourism was already impacted - loss of China group travel (Jan 2020), Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event organisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Temporary/seasonal closure - "hibernation\', • Reduction in service and staff - essential service & maintenance only, • Permanent closure - loss to industry and communities, TheMighty, Waikats'
+2026-07-13 22:18:03,789 INFO faster_whisper: Processing audio with duration 00:05.692
+2026-07-13 22:18:06,612 INFO faster_whisper: Detected language 'mi' with probability 0.49
+2026-07-13 22:18:12,491 INFO src.meeting_intelligence.asr: ASR segment seg_038602-039075 [386.018s-390.750s]: initial_prompt='COVID-19 - regional tourism imp, Tourism was already impacted - loss of China group travel (Jan 2020), Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event organisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Temporary/seasonal closure - "hibernation\', • Reduction in service and staff - essential service & maintenance only, • Permanent closure - loss to industry and communities, TheMighty, Waikats'
+2026-07-13 22:18:12,491 INFO faster_whisper: Processing audio with duration 00:04.732
+2026-07-13 22:18:15,273 INFO faster_whisper: Detected language 'en' with probability 0.79
+2026-07-13 22:18:25,975 INFO src.meeting_intelligence.asr: ASR segment seg_039095-039590 [390.946s-395.902s]: initial_prompt='COVID-19 - regional tourism imp, Tourism was already impacted - loss of China group travel (Jan 2020), Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event organisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Temporary/seasonal closure - "hibernation\', • Reduction in service and staff - essential service & maintenance only, • Permanent closure - loss to industry and communities, TheMighty, Waikats'
+2026-07-13 22:18:25,975 INFO faster_whisper: Processing audio with duration 00:04.956
+2026-07-13 22:18:28,754 INFO faster_whisper: Detected language 'en' with probability 0.70
+2026-07-13 22:18:40,787 INFO src.meeting_intelligence.asr: ASR segment seg_039607-040150 [396.066s-401.502s]: initial_prompt='COVID-19 - regional tourism imp, Tourism was already impacted - loss of China group travel (Jan 2020), Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event organisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Temporary/seasonal closure - "hibernation\', • Reduction in service and staff - essential service & maintenance only, • Permanent closure - loss to industry and communities, TheMighty, Waikats'
+2026-07-13 22:18:40,787 INFO faster_whisper: Processing audio with duration 00:05.436
+2026-07-13 22:18:43,577 INFO faster_whisper: Detected language 'en' with probability 0.78
+2026-07-13 22:18:55,652 INFO src.meeting_intelligence.asr: ASR segment seg_040160-040621 [401.602s-406.206s]: initial_prompt='COVID-19 - regional tourism imp, Tourism was already impacted - loss of China group travel (Jan 2020), Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event organisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Temporary/seasonal closure - "hibernation\', • Reduction in service and staff - essential service & maintenance only, • Permanent closure - loss to industry and communities, TheMighty, Waikats'
+2026-07-13 22:18:55,652 INFO faster_whisper: Processing audio with duration 00:04.604
+2026-07-13 22:18:58,436 INFO faster_whisper: Detected language 'en' with probability 0.97
+2026-07-13 22:19:09,385 INFO src.meeting_intelligence.asr: ASR segment seg_040653-041865 [406.530s-418.654s]: initial_prompt='COVID-19 - regional tourism imp, Tourism was already impacted - loss of China group travel (Jan 2020), Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event organisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Temporary/seasonal closure - "hibernation\', • Reduction in service and staff - essential service & maintenance only, • Permanent closure - loss to industry and communities, TheMighty, Waikats'
+2026-07-13 22:19:09,385 INFO faster_whisper: Processing audio with duration 00:12.124
+2026-07-13 22:19:12,167 INFO faster_whisper: Detected language 'en' with probability 0.82
+2026-07-13 22:19:19,823 INFO src.meeting_intelligence.asr: ASR segment seg_041888-042483 [418.882s-424.830s]: initial_prompt='COVID-19 - regional tourism imp, Tourism was already impacted - loss of China group travel (Jan 2020), Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event organisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Temporary/seasonal closure - "hibernation\', • Reduction in service and staff - essential service & maintenance only, • Permanent closure - loss to industry and communities, TheMighty, Waikats'
+2026-07-13 22:19:19,824 INFO faster_whisper: Processing audio with duration 00:05.948
+2026-07-13 22:19:22,610 INFO faster_whisper: Detected language 'en' with probability 0.80
+2026-07-13 22:22:00,322 INFO src.meeting_intelligence.asr: ASR segment seg_042509-043078 [425.090s-430.782s]: initial_prompt='COVID-19 - regional tourism imp, Tourism was already impacted - loss of China group travel (Jan 2020), Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event organisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Temporary/seasonal closure - "hibernation\', • Reduction in service and staff - essential service & maintenance only, • Permanent closure - loss to industry and communities, TheMighty, Waikats'
+2026-07-13 22:22:00,322 INFO faster_whisper: Processing audio with duration 00:05.692
+2026-07-13 22:22:03,360 INFO faster_whisper: Detected language 'en' with probability 0.89
+2026-07-13 22:22:17,700 INFO src.meeting_intelligence.asr: ASR segment seg_043152-043555 [431.522s-435.550s]: initial_prompt='COVID-19 - regional tourism imp, Tourism was already impacted - loss of China group travel (Jan 2020), Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event organisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Temporary/seasonal closure - "hibernation\', • Reduction in service and staff - essential service & maintenance only, • Permanent closure - loss to industry and communities, TheMighty, Waikats'
+2026-07-13 22:22:17,700 INFO faster_whisper: Processing audio with duration 00:04.028
+2026-07-13 22:22:20,569 INFO faster_whisper: Detected language 'en' with probability 0.83
+2026-07-13 22:22:29,464 INFO src.meeting_intelligence.asr: ASR segment seg_043578-043731 [435.778s-437.310s]: initial_prompt='COVID-19 - regional tourism imp, Tourism was already impacted - loss of China group travel (Jan 2020), Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event organisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Temporary/seasonal closure - "hibernation\', • Reduction in service and staff - essential service & maintenance only, • Permanent closure - loss to industry and communities, TheMighty, Waikats'
+2026-07-13 22:22:29,464 INFO faster_whisper: Processing audio with duration 00:01.532
+2026-07-13 22:22:32,394 INFO faster_whisper: Detected language 'en' with probability 0.95
+2026-07-13 22:22:36,750 INFO src.meeting_intelligence.asr: ASR segment seg_043795-043894 [437.954s-438.942s]: initial_prompt='COVID-19 - regional tourism imp, Tourism was already impacted - loss of China group travel (Jan 2020), Visitor industry effectively shut down overnight - accommodation,, retail, hospitality, transport, tourism operators, event organisers & venues, • Job losses and business closures - full impact to be measured, • Immediate business impact:, • Temporary/seasonal closure - "hibernation\', • Reduction in service and staff - essential service & maintenance only, • Permanent closure - loss to industry and communities, TheMighty, Waikats'
+2026-07-13 22:22:36,750 INFO faster_whisper: Processing audio with duration 00:00.988
+2026-07-13 22:22:39,645 INFO faster_whisper: Detected language 'en' with probability 0.91
+2026-07-13 22:22:53,181 INFO src.meeting_intelligence.asr: ASR segment seg_044176-044326 [441.762s-443.262s]: initial_prompt='COVID-19 – regional tourism respor, INDUSTRY SUPPORT, COMMUNITY SUPPORT, BUSINESS &, WELFARE SUPPORT, Hamilton, Te Waka, &Waikato, Anga Whakamas Walkato, TOVRISM, HAMILTON, ENTRAL, North Waikato:, • Regional voice to national, response: RTNZ & C19-TAG, Southern Waikato:, Hamilton City & Walkato District, Regional stakeholder response, Waipa, South Waikato & Taupo, Advisory to local government, Eastern Waikato:, Partnered with Te Waka on, Matamata-Piako, Hauraki &, business support, Thames-Coromandel, • Civil Defence welfare partner, Waipa, Waitomo & Otorohanga, Western Waikato:, HAURAKI, The Mighty, Walkats'
+2026-07-13 22:22:53,181 INFO faster_whisper: Processing audio with duration 00:01.500
+2026-07-13 22:22:56,081 INFO faster_whisper: Detected language 'en' with probability 0.69
+2026-07-13 22:23:01,107 INFO src.meeting_intelligence.asr: ASR segment seg_044400-044457 [444.002s-444.574s]: initial_prompt='COVID-19 – regional tourism respor, INDUSTRY SUPPORT, COMMUNITY SUPPORT, BUSINESS &, WELFARE SUPPORT, Hamilton, Te Waka, &Waikato, Anga Whakamas Walkato, TOVRISM, HAMILTON, ENTRAL, North Waikato:, • Regional voice to national, response: RTNZ & C19-TAG, Southern Waikato:, Hamilton City & Walkato District, Regional stakeholder response, Waipa, South Waikato & Taupo, Advisory to local government, Eastern Waikato:, Partnered with Te Waka on, Matamata-Piako, Hauraki &, business support, Thames-Coromandel, • Civil Defence welfare partner, Waipa, Waitomo & Otorohanga, Western Waikato:, HAURAKI, The Mighty, Walkats'
+2026-07-13 22:23:01,107 INFO faster_whisper: Processing audio with duration 00:00.572
+2026-07-13 22:23:04,020 INFO faster_whisper: Detected language 'en' with probability 0.99
+2026-07-13 22:23:08,307 INFO src.meeting_intelligence.asr: ASR segment seg_044471-045289 [444.706s-452.894s]: initial_prompt='COVID-19 – regional tourism respor, INDUSTRY SUPPORT, COMMUNITY SUPPORT, BUSINESS &, WELFARE SUPPORT, Hamilton, Te Waka, &Waikato, Anga Whakama, aa Waikabo, MERGENCY MURACEMIN, TOVRISM, JAMILTON, ENTRAL, North Waikato:, Regional voice to national, Hamilton City & Waikato District, response: RTNZ & C19-TAG, Waipa, Southern Waikato:, Regional stakeholder response, South Waikato & Taupo, Advisory to local government, Eastern Waikato:, Partnered with Te Waka on, Thames-Coromandel, Matamata-Piako, Hauraki &, •Civil Defence welfare partner, business support, Western Waikato:, HAURAK, Waipa. Waitomo & Otorohanga, The Mighty, Walkats'
+2026-07-13 22:23:08,307 INFO faster_whisper: Processing audio with duration 00:08.188
+2026-07-13 22:23:11,181 INFO faster_whisper: Detected language 'en' with probability 0.85
+2026-07-13 22:23:19,307 INFO src.meeting_intelligence.asr: ASR segment seg_045392-046121 [453.922s-461.214s]: initial_prompt='COVID-19 – regional tourism respor, INDUSTRY SUPPORT, COMMUNITY SUPPORT, BUSINESS &, WELFARE SUPPORT, Hamilton, Te Waka, &Waikato, Anga Whakamar Walkaso, TOVAISM, AMILTON, ENTRAL, North Waikato:, • Regional voice to national, response: RTNZ & C19-TAG, Southern Walkato:, Hamilton City & Waikato District, Regional stakeholder response, Walpa, South Waikato & Taupo, Advisory to local government, Eastern Waikato:, Partnered with Te Waka on, Thames-Coromandel, Matamata-Piako, Hauraki &, • Civil Defence welfare partner, business support, Western Waikato:, HAURAKI, Waipa. Waitomo & Otorohanga, Walkats, The Mighty'
+2026-07-13 22:23:19,308 INFO faster_whisper: Processing audio with duration 00:07.292
+2026-07-13 22:23:22,174 INFO faster_whisper: Detected language 'en' with probability 0.95
+2026-07-13 22:25:42,238 INFO src.meeting_intelligence.asr: ASR segment seg_046138-046829 [461.378s-468.286s]: initial_prompt='COVID-19 – regional tourism respor, INDUSTRY SUPPORT, COMMUNITY SUPPORT, BUSINESS &, WELFARE SUPPORT, Hamilton, Te Waka, &Waikato, Anga Whakamar Walkaso, TOVAISM, AMILTON, ENTRAL, North Waikato:, • Regional voice to national, response: RTNZ & C19-TAG, Southern Walkato:, Hamilton City & Waikato District, Regional stakeholder response, Walpa, South Waikato & Taupo, Advisory to local government, Eastern Waikato:, Partnered with Te Waka on, Thames-Coromandel, Matamata-Piako, Hauraki &, • Civil Defence welfare partner, business support, Western Waikato:, HAURAKI, Waipa. Waitomo & Otorohanga, Walkats, The Mighty'
+2026-07-13 22:25:42,238 INFO faster_whisper: Processing audio with duration 00:06.908
+2026-07-13 22:25:45,168 INFO faster_whisper: Detected language 'en' with probability 0.95
+2026-07-13 22:26:55,183 INFO src.meeting_intelligence.asr: ASR segment seg_046855-046957 [468.546s-469.566s]: initial_prompt='COVID-19 – regional tourism respor, INDUSTRY SUPPORT, COMMUNITY SUPPORT, BUSINESS &, WELFARE SUPPORT, Hamilton, Te Waka, &Waikato, Anga Whakamar Walkaso, TOVAISM, AMILTON, ENTRAL, North Waikato:, • Regional voice to national, response: RTNZ & C19-TAG, Southern Walkato:, Hamilton City & Waikato District, Regional stakeholder response, Walpa, South Waikato & Taupo, Advisory to local government, Eastern Waikato:, Partnered with Te Waka on, Thames-Coromandel, Matamata-Piako, Hauraki &, • Civil Defence welfare partner, business support, Western Waikato:, HAURAKI, Waipa. Waitomo & Otorohanga, Walkats, The Mighty'
+2026-07-13 22:26:55,184 INFO faster_whisper: Processing audio with duration 00:01.020
+2026-07-13 22:26:58,076 INFO faster_whisper: Detected language 'en' with probability 0.91
+2026-07-13 22:27:02,382 INFO src.meeting_intelligence.asr: ASR segment seg_046967-047363 [469.666s-473.630s]: initial_prompt='COVID-19 – regional tourism respor, INDUSTRY SUPPORT, COMMUNITY SUPPORT, BUSINESS &, WELFARE SUPPORT, Hamilton, Te Waka, &Waikato, Anga Whakamar Walkaso, TOVAISM, AMILTON, ENTRAL, North Waikato:, • Regional voice to national, response: RTNZ & C19-TAG, Southern Walkato:, Hamilton City & Waikato District, Regional stakeholder response, Walpa, South Waikato & Taupo, Advisory to local government, Eastern Waikato:, Partnered with Te Waka on, Thames-Coromandel, Matamata-Piako, Hauraki &, • Civil Defence welfare partner, business support, Western Waikato:, HAURAKI, Waipa. Waitomo & Otorohanga, Walkats, The Mighty'
+2026-07-13 22:27:02,382 INFO faster_whisper: Processing audio with duration 00:03.964
+2026-07-13 22:27:05,216 INFO faster_whisper: Detected language 'en' with probability 0.98
+2026-07-13 22:27:16,392 INFO src.meeting_intelligence.asr: ASR segment seg_047383-047712 [473.826s-477.118s]: initial_prompt='COVID-19 – regional tourism respor, INDUSTRY SUPPORT, COMMUNITY SUPPORT, BUSINESS &, WELFARE SUPPORT, Hamilton, Te Waka, &Waikato, Anga Whakamaa Walkuno, TOVRISM, JAMILION, ENTRAL, North Waikato:, Regional voice to national, Hamilton City & Wailkato District, response: RTNZ & C19-TAG, Waipa, Southern Waikato:, Regional stakeholder response, Eastern Waikato:, South Waikato & Taupo, Advisory to local government, Partnered with Te Waka on, Thames-Coromandel, Matamata-Piako, Hauraki &, •Civil Defence welfare partner, business support, Western Waikato:, HAURAK, Waipa, Waitomo & Otorohanga, The Mighty, Walkate'
+2026-07-13 22:27:16,392 INFO faster_whisper: Processing audio with duration 00:03.292
+2026-07-13 22:27:19,214 INFO faster_whisper: Detected language 'en' with probability 0.70
+2026-07-13 22:27:25,126 INFO src.meeting_intelligence.asr: ASR segment seg_047722-048000 [477.218s-480.003s]: initial_prompt='COVID-19 – regional tourism respor, INDUSTRY SUPPORT, COMMUNITY SUPPORT, BUSINESS &, WELFARE SUPPORT, Hamilton, Te Waka, &Waikato, Anga Whakama Walkano, TOVRISM, HAMILTON, ENTRAL, North Waikato:, • Regional voice to national, Hamilton City & Wailkato District, response: RTNZ & C19-TAG, Waipa, South Waikato & Taupo, Southern Waikato:, Regional stakeholder response, Advisory to local government, Eastern Waikato:, Partnered with Te Waka on, Matamata-Piako, Hauraki &, business support, Thames-Coromandel, Civil Defence welfare parther, Waipa, Waitomo & Otorohanga, Western Waikato:, HAURAKI, Walkats, The Mighty'
+2026-07-13 22:27:25,126 INFO faster_whisper: Processing audio with duration 00:02.785
+2026-07-13 22:27:27,970 INFO faster_whisper: Detected language 'en' with probability 0.95
+2026-07-13 22:28:47,836 INFO src.meeting_intelligence.asr: ASR transcribed 124/124 chunk(s)
+2026-07-13 22:28:47,900 INFO src.meeting_intelligence.pipeline: Wrote work_dir/execrsice-video_clip_00-08/asr_segments.json (124 item(s))
+2026-07-13 22:28:47,906 WARNING src.meeting_intelligence.merge: 12 ASR unit(s) did not overlap any speaker turn and were dropped
+2026-07-13 22:28:47,906 INFO src.meeting_intelligence.merge: Merged into 96 utterance(s) from 111 speaker turn(s)
+2026-07-13 22:28:47,907 INFO src.meeting_intelligence.transcript: Merged 96 utterance(s) into 19 transcript segment(s)
+2026-07-13 22:28:47,907 INFO src.meeting_intelligence.pipeline: Wrote work_dir/execrsice-video_clip_00-08/transcript.json
+
+===>
+2026-07-13 22:28:47,907 INFO src.meeting_intelligence.pipeline: [6/8] Speaker Naming (name-tag <-> turn co-occurrence)
+2026-07-13 22:28:47,908 INFO src.meeting_intelligence.speaker_naming: Speaker naming resolved 4/6 speaker(s) to a real name
+2026-07-13 22:28:47,908 INFO src.meeting_intelligence.pipeline: Wrote work_dir/execrsice-video_clip_00-08/speaker_name_map.json
+
+===>
+2026-07-13 22:28:47,908 INFO src.meeting_intelligence.pipeline: [7/8] Fusion (interval-overlap timeline alignment)
+2026-07-13 22:28:47,908 INFO src.meeting_intelligence.fusion: Fused 19 transcript segment(s) with 43 visual frame(s)
+2026-07-13 22:28:47,908 INFO src.meeting_intelligence.pipeline: Wrote work_dir/execrsice-video_clip_00-08/fused_timeline.json
+
+===>
+2026-07-14 08:16:12,964 INFO src.meeting_intelligence.pipeline: [8/8] LLM Enrichment (gemini)
+2026-07-14 08:16:13,874 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-07-14 08:16:34,105 INFO httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-07-14 08:16:34,110 INFO src.meeting_intelligence.llm: LLM enrichment (Gemini/gemini-3.5-flash) produced 2 topic(s), 1 action item(s)
+2026-07-14 08:16:34,112 INFO src.meeting_intelligence.pipeline: Wrote work_dir/execrsice-video_clip_00-08/meeting_intelligence.json
+2026-07-14 08:16:34,113 INFO src.meeting_intelligence.pipeline: Pipeline complete -> work_dir/execrsice-video_clip_00-08/meeting_intelligence.json
+Wrote work_dir/execrsice-video_clip_00-08/meeting_intelligence.json
