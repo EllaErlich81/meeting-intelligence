@@ -1,0 +1,45 @@
+{
+  "summary": "The Waipā District Council meeting began with procedural approvals and a correction to the minutes of the February 18 meeting. Jason Dawson from Hamilton & Waikato Tourism then presented an update on the tourism sector, focusing on the heavy impacts of COVID-19, including the loss of international visitors, business hibernation in accommodation, retail, and hospitality, and the long-term outlook for local operators.",
+  "topics": [
+    {
+      "topic": "Procedural Matters and Minutes Confirmation",
+      "summary": "The Council processed apologies and confirmed the order of the meeting. During the confirmation of the minutes from the meeting on 18 February, Andrew Grahame and Bruce Thomas noted that their attendance had not been recorded. The minutes were confirmed as a true and correct record subject to this change being made.",
+      "evidence": {
+        "timestamps": [
+          0.031,
+          156.648
+        ],
+        "speakers": [
+          "Cr Susan O'Regan",
+          "Unknown"
+        ],
+        "visual_reference": "Confirmation of the minutes"
+      }
+    },
+    {
+      "topic": "COVID-19 Tourism Sector Impact",
+      "summary": "Jason Dawson from Hamilton & Waikato Tourism presented a tourism sector update. While the Waipā District previously experienced strong growth, the onset of COVID-19 and international travel restrictions resulted in an immediate shutdown of the visitor economy. He highlighted sharp declines in international arrivals, a drop in card transactions, and business hibernations or permanent closures across hospitality, retail, and accommodation.",
+      "evidence": {
+        "timestamps": [
+          158.605,
+          480.057
+        ],
+        "speakers": [
+          "jason dawson",
+          "Cr Susan O'Regan",
+          "Unknown"
+        ],
+        "visual_reference": "COVID-19 - regional tourism imp"
+      }
+    }
+  ],
+  "action_items": [
+    {
+      "task": "Amend the minutes of the 18 February meeting to record the attendance of Andrew Grahame and Bruce Thomas.",
+      "assignee": "Sam",
+      "evidence_quote": "Yes, we'll make the changes."
+    }
+  ],
+  "llm_provider": "gemini",
+  "llm_model": "gemini-3.5-flash"
+}

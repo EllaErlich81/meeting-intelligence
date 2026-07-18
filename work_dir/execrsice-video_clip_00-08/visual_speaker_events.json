@@ -1,0 +1,308 @@
+{
+  "events": [
+    {
+      "start": 0.0,
+      "end": 27.0,
+      "display_name": "Cr Andrew Brow",
+      "layout": "gallery_view",
+      "signal": "active_speaker_border",
+      "confidence": 0.792
+    },
+    {
+      "start": 27.0,
+      "end": 42.0,
+      "display_name": "Cr Andrew lirow",
+      "layout": "gallery_view",
+      "signal": "active_speaker_border",
+      "confidence": 0.765
+    },
+    {
+      "start": 42.0,
+      "end": 58.0,
+      "display_name": "Cr Grahame Wabbe",
+      "layout": "gallery_view",
+      "signal": "active_speaker_border",
+      "confidence": 0.753
+    },
+    {
+      "start": 58.0,
+      "end": 76.5,
+      "display_name": "Cr Andrew Beow",
+      "layout": "gallery_view",
+      "signal": "active_speaker_border",
+      "confidence": 0.769
+    },
+    {
+      "start": 76.5,
+      "end": 79.5,
+      "display_name": "Kem Mocris",
+      "layout": "gallery_view",
+      "signal": "active_speaker_border",
+      "confidence": 0.696
+    },
+    {
+      "start": 79.5,
+      "end": 85.0,
+      "display_name": "Cr Grahame Webbt",
+      "layout": "gallery_view",
+      "signal": "active_speaker_border",
+      "confidence": 0.729
+    },
+    {
+      "start": 85.0,
+      "end": 87.0,
+      "display_name": "Cr Susan O'Regan",
+      "layout": "gallery_view",
+      "signal": "active_speaker_border",
+      "confidence": 0.784
+    },
+    {
+      "start": 87.0,
+      "end": 89.0,
+      "display_name": "Cr Andrew Brown",
+      "layout": "gallery_view",
+      "signal": "active_speaker_border",
+      "confidence": 0.779
+    },
+    {
+      "start": 89.0,
+      "end": 91.0,
+      "display_name": "Cr Susan ORegan",
+      "layout": "gallery_view",
+      "signal": "active_speaker_border",
+      "confidence": 0.736
+    },
+    {
+      "start": 91.0,
+      "end": 94.0,
+      "display_name": "Cr Suasian ORegan",
+      "layout": "gallery_view",
+      "signal": "active_speaker_border",
+      "confidence": 0.756
+    },
+    {
+      "start": 94.0,
+      "end": 96.5,
+      "display_name": "Cr Andrew Brown",
+      "layout": "gallery_view",
+      "signal": "active_speaker_border",
+      "confidence": 0.86
+    },
+    {
+      "start": 96.5,
+      "end": 140.0,
+      "display_name": "Cr Andrew Brows",
+      "layout": "gallery_view",
+      "signal": "active_speaker_border",
+      "confidence": 0.872
+    },
+    {
+      "start": 140.0,
+      "end": 141.5,
+      "display_name": "Cr.Andrew Brown",
+      "layout": "gallery_view",
+      "signal": "active_speaker_border",
+      "confidence": 0.797
+    },
+    {
+      "start": 141.5,
+      "end": 142.0,
+      "display_name": "CrBruce Thonfas",
+      "layout": "gallery_view",
+      "signal": "active_speaker_border",
+      "confidence": 0.807
+    },
+    {
+      "start": 142.0,
+      "end": 147.0,
+      "display_name": "Cr Bruce Thonmas",
+      "layout": "gallery_view",
+      "signal": "active_speaker_border",
+      "confidence": 0.782
+    },
+    {
+      "start": 147.0,
+      "end": 159.0,
+      "display_name": "Cr Andres broun",
+      "layout": "gallery_view",
+      "signal": "active_speaker_border",
+      "confidence": 0.689
+    },
+    {
+      "start": 159.0,
+      "end": 163.5,
+      "display_name": "jaoandawson",
+      "layout": "gallery_view",
+      "signal": "active_speaker_border",
+      "confidence": 0.622
+    },
+    {
+      "start": 163.5,
+      "end": 166.0,
+      "display_name": "Cr Andkew Broen",
+      "layout": "gallery_view",
+      "signal": "active_speaker_border",
+      "confidence": 0.682
+    },
+    {
+      "start": 166.0,
+      "end": 167.5,
+      "display_name": "jason dawion",
+      "layout": "gallery_view",
+      "signal": "active_speaker_border",
+      "confidence": 0.695
+    },
+    {
+      "start": 167.5,
+      "end": 171.5,
+      "display_name": "jasan dewson",
+      "layout": "shared_screen",
+      "signal": "presentation_badge",
+      "confidence": 0.667
+    },
+    {
+      "start": 171.5,
+      "end": 175.5,
+      "display_name": "jason dewsón",
+      "layout": "shared_screen",
+      "signal": "presentation_badge",
+      "confidence": 0.689
+    },
+    {
+      "start": 175.5,
+      "end": 177.5,
+      "display_name": "jason dewson",
+      "layout": "shared_screen",
+      "signal": "presentation_badge",
+      "confidence": 0.629
+    },
+    {
+      "start": 177.5,
+      "end": 193.0,
+      "display_name": "jason dawsos",
+      "layout": "shared_screen",
+      "signal": "presentation_badge",
+      "confidence": 0.459
+    },
+    {
+      "start": 193.0,
+      "end": 193.5,
+      "display_name": "jason dawson",
+      "layout": "shared_screen",
+      "signal": "presentation_badge",
+      "confidence": 0.72
+    },
+    {
+      "start": 193.5,
+      "end": 194.0,
+      "display_name": "n on",
+      "layout": "shared_screen",
+      "signal": "presentation_badge",
+      "confidence": 0.501
+    },
+    {
+      "start": 194.0,
+      "end": 202.5,
+      "display_name": "jason dawson",
+      "layout": "shared_screen",
+      "signal": "presentation_badge",
+      "confidence": 0.711
+    },
+    {
+      "start": 202.5,
+      "end": 203.0,
+      "display_name": "ason dawson",
+      "layout": "shared_screen",
+      "signal": "presentation_badge",
+      "confidence": 0.58
+    },
+    {
+      "start": 203.0,
+      "end": 233.5,
+      "display_name": "jason dawson",
+      "layout": "shared_screen",
+      "signal": "presentation_badge",
+      "confidence": 0.702
+    },
+    {
+      "start": 233.5,
+      "end": 277.0,
+      "display_name": "Jason Dawso...",
+      "layout": "shared_screen",
+      "signal": "presentation_badge",
+      "confidence": 0.784
+    },
+    {
+      "start": 277.0,
+      "end": 304.5,
+      "display_name": "Jason Dawso.",
+      "layout": "shared_screen",
+      "signal": "presentation_badge",
+      "confidence": 0.675
+    },
+    {
+      "start": 304.5,
+      "end": 352.5,
+      "display_name": "Jason Dawso",
+      "layout": "shared_screen",
+      "signal": "presentation_badge",
+      "confidence": 0.73
+    },
+    {
+      "start": 352.5,
+      "end": 353.5,
+      "display_name": "Jaton Dawso",
+      "layout": "shared_screen",
+      "signal": "presentation_badge",
+      "confidence": 0.704
+    },
+    {
+      "start": 353.5,
+      "end": 355.0,
+      "display_name": "ct",
+      "layout": "shared_screen",
+      "signal": "presentation_badge",
+      "confidence": 0.695
+    },
+    {
+      "start": 441.0,
+      "end": 452.0,
+      "display_name": "Jason Dawso...",
+      "layout": "shared_screen",
+      "signal": "presentation_badge",
+      "confidence": 0.609
+    },
+    {
+      "start": 452.0,
+      "end": 455.0,
+      "display_name": "ASS OURRSOT",
+      "layout": "shared_screen",
+      "signal": "presentation_badge",
+      "confidence": 0.44
+    },
+    {
+      "start": 455.0,
+      "end": 474.5,
+      "display_name": "Jason Dawso.",
+      "layout": "shared_screen",
+      "signal": "presentation_badge",
+      "confidence": 0.612
+    },
+    {
+      "start": 474.5,
+      "end": 478.0,
+      "display_name": "Jason Dawso...",
+      "layout": "shared_screen",
+      "signal": "presentation_badge",
+      "confidence": 0.557
+    },
+    {
+      "start": 478.0,
+      "end": 479.0,
+      "display_name": "Jason Daws.",
+      "layout": "shared_screen",
+      "signal": "presentation_badge",
+      "confidence": 0.534
+    }
+  ]
+}
