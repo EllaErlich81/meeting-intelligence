@@ -1,0 +1,60 @@
+{
+  "summary": "The Waipā District Council met to address standard procedural matters, confirm the minutes of the February 18 meeting with minor corrections to attendance, and receive an extensive briefing on the impacts of COVID-19 on the regional tourism sector. Jason Dawson from Hamilton & Waikato Tourism presented their three-tiered strategy (Mitigate, Restart, Reimagine), detailing the Mighty Local campaign, workforce redeployment efforts, domestic travel scenario planning, and future shifts toward a sustainable, community-led tourism model.",
+  "topics": [
+    {
+      "topic": "Apologies and Procedural Items",
+      "summary": "The meeting opened with procedural administrative tasks, including capturing apologies from Hazel and recording Jim's early departure at 1:30 PM. The Council confirmed that there were no late items, changes to the order of the meeting, or disclosures of members' interests.",
+      "evidence": {
+        "timestamps": [
+          0.031,
+          107.845
+        ],
+        "speakers": [
+          "Cr Susan O'Regan",
+          "Unknown"
+        ],
+        "visual_reference": "an ORegan, Cr Bwyn Andre, Jm Mylche, Roger Gordon, Liz Stolwyk, Cr Bruce Tho, Cr Andrew Brown"
+      }
+    },
+    {
+      "topic": "Confirmation of Minutes (18 February)",
+      "summary": "The Council reviewed the minutes from the meeting on 18 February. A correction was raised by Councillor Graham, who noted he was present but his name was missing from the attendance record. Councillor Bruce Thomas supported this correction, and the minutes were approved subject to this amendment being made by Sam.",
+      "evidence": {
+        "timestamps": [
+          108.571,
+          156.648
+        ],
+        "speakers": [
+          "Cr Susan O'Regan",
+          "Unknown"
+        ],
+        "visual_reference": "Susan ORegan, Cr Grahame, Cr Biwyn Andree, jasan.dawson, Cr Bruce Thomas, Cr Andrew Brown"
+      }
+    },
+    {
+      "topic": "COVID-19 Regional Tourism Impact and Response Strategy",
+      "summary": "Jason Dawson from Hamilton & Waikato Tourism provided an in-depth update on the state of tourism in the Waipā district during COVID-19. He discussed immediate business impacts (hibernation, job losses, and permanent closures), international and domestic airline connectivity, and upcoming events (such as Fieldays going online and the ICC Women's Cricket World Cup). He outlined their response framework consisting of Mitigation (operator check-ins and kiwi fruit sector redeployment), Restart (shovel-ready projects and the 'Mighty Local' campaign to encourage regional/local spending), and Reimagine (long-term structural changes focusing on sustainable, community-led tourism net benefits). Finally, he requested local government support for rates relief, continuing resource consents, and establishing a Regional Major Events Fund.",
+      "evidence": {
+        "timestamps": [
+          158.605,
+          1560.074
+        ],
+        "speakers": [
+          "Jason Dawso...",
+          "Unknown",
+          "Cr Susan O'Regan"
+        ],
+        "visual_reference": "COVID-19 - regional tourism imp, COVID-19 – regional tourism respor, COVID-19 - strategic issues, COVID-19 - events update, MITIGATE: Our response & action, RESTART: Our response & actions, REIMAGINE: Our response & actions, Call to local government"
+      }
+    }
+  ],
+  "action_items": [
+    {
+      "task": "Amend the attendance record of the 18 February meeting minutes to include Councillor Graham.",
+      "assignee": "Unknown",
+      "evidence_quote": "Yes, we'll make the changes."
+    }
+  ],
+  "llm_provider": "gemini",
+  "llm_model": "gemini-3.5-flash"
+}

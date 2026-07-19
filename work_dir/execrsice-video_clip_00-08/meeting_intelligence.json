@@ -1,0 +1,45 @@
+{
+  "summary": "The meeting commenced with administrative procedures, including apologies, late items, and a correction to the February 18 minutes to accurately list Andrew Graham as an attendee. Following administration, Jason Dawson delivered a presentation detailing the performance of the local tourism sector, highlighting strong double-digit growth in Waipā before the COVID-19 pandemic, followed by the severe economic impacts, business hibernations, and job losses resulting from international travel restrictions.",
+  "topics": [
+    {
+      "topic": "Meeting Opening and Administration",
+      "summary": "The committee opened the meeting, addressed apologies, confirmed there were no late items or disclosures of interests, and approved the minutes of the February 18 meeting after noting a correction to record Andrew Graham's attendance.",
+      "evidence": {
+        "timestamps": [
+          0.031,
+          141.443
+        ],
+        "speakers": [
+          "Cr Susan O'Regan",
+          "Unknown"
+        ],
+        "visual_reference": "Cr Susan O'Regan, Cr Andrew Brown, Roger Gordon, Liz Stolwyk"
+      }
+    },
+    {
+      "topic": "COVID-19 Regional Tourism Impact",
+      "summary": "Jason Dawson presented the regional tourism update, detailing Waipā's strong pre-COVID growth followed by immediate downturns due to international border closures, loss of China group travel, and the resulting business hibernations and job losses across hospitality and accommodation.",
+      "evidence": {
+        "timestamps": [
+          141.443,
+          480.057
+        ],
+        "speakers": [
+          "Cr Susan O'Regan",
+          "jason dawson",
+          "Unknown"
+        ],
+        "visual_reference": "COVID-19 - regional tourism imp, Tourism was already impacted - loss of China group travel (Jan 2020), Temporary/seasonal closure - \"hibernation\""
+      }
+    }
+  ],
+  "action_items": [
+    {
+      "task": "Correct the February 18 minutes to record Andrew Graham's attendance.",
+      "assignee": "Sam",
+      "evidence_quote": "So I'm sure we can have that remedied, Sam. Yes, we'll make the changes."
+    }
+  ],
+  "llm_provider": "gemini",
+  "llm_model": "gemini-3.5-flash"
+}

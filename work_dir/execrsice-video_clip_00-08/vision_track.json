@@ -1,0 +1,1173 @@
+{
+  "frames": [
+    {
+      "slide_id": "slide_000000",
+      "start_time": 0.0,
+      "end_time": 27.0,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00001.png",
+      "content": {
+        "title": "zoom",
+        "bullet_points": [
+          "Cr Bwyn Andree",
+          "T",
+          "m.Michr",
+          "Roger Gordon",
+          "Lia Stolwyk",
+          "Er Clare St Pierre",
+          "Cr Broce Tho",
+          "Cr Andrew Brown",
+          "Cr Mike Pertit"
+        ],
+        "paragraphs": [],
+        "raw_text": "Cr Bwyn Andree\nT\nm.Michr\nRoger Gordon\nLia Stolwyk\nEr Clare St Pierre\nCr Broce Tho\nCr Andrew Brown\nzoom\nCr Mike Pertit"
+      },
+      "display_name": "Cr Andrew Brow",
+      "display_name_source": "active_speaker_border",
+      "ocr_confidence": 0.78,
+      "detection_confidence": 0.94
+    },
+    {
+      "slide_id": "slide_002700",
+      "start_time": 27.0,
+      "end_time": 42.0,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00002.png",
+      "content": {
+        "title": "zoom",
+        "bullet_points": [
+          "ORegan",
+          "Cr Blwyn Andre",
+          "m Mylchre",
+          "Roger Gordon",
+          "Liz Stolwyk",
+          "Cr Bruce The",
+          "Cr Andrew Birow"
+        ],
+        "paragraphs": [],
+        "raw_text": "ORegan\nCr Blwyn Andre\nm Mylchre\nRoger Gordon\nLiz Stolwyk\nCr Bruce The\nCr Andrew Birow\nzoom"
+      },
+      "display_name": "Cr Andrew lirow",
+      "display_name_source": "active_speaker_border",
+      "ocr_confidence": 0.911,
+      "detection_confidence": 0.887
+    },
+    {
+      "slide_id": "slide_004200",
+      "start_time": 42.0,
+      "end_time": 58.0,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00003.png",
+      "content": {
+        "title": "zoom",
+        "bullet_points": [
+          "n ORegan",
+          "Cr Blwyn Andr ee",
+          "To",
+          "Roger Gordo",
+          "Liz Stolwyk",
+          "CrClare St Pierre",
+          "Cr Bruce The",
+          "Cr Andrew Brown"
+        ],
+        "paragraphs": [],
+        "raw_text": "n ORegan\nCr Blwyn Andr ee\nTo\nRoger Gordo\nLiz Stolwyk\nCrClare St Pierre\nCr Bruce The\nCr Andrew Brown\nzoom"
+      },
+      "display_name": "Cr Grahame Wabbe",
+      "display_name_source": "active_speaker_border",
+      "ocr_confidence": 0.835,
+      "detection_confidence": 0.863
+    },
+    {
+      "slide_id": "slide_005800",
+      "start_time": 58.0,
+      "end_time": 76.5,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00004.png",
+      "content": {
+        "title": "zoom",
+        "bullet_points": [
+          "an ORegan",
+          "Cr Bwyn Andre",
+          "Jm Mylche",
+          "Roger Gordon",
+          "Liz Stolwyk",
+          "Cr Bruce Tho",
+          "Cr Andrew Brown"
+        ],
+        "paragraphs": [],
+        "raw_text": "an ORegan\nCr Bwyn Andre\nJm Mylche\nRoger Gordon\nLiz Stolwyk\nCr Bruce Tho\nCr Andrew Brown\nzoom"
+      },
+      "display_name": "Cr Andrew Beow",
+      "display_name_source": "active_speaker_border",
+      "ocr_confidence": 0.92,
+      "detection_confidence": 0.894
+    },
+    {
+      "slide_id": "slide_007650",
+      "start_time": 76.5,
+      "end_time": 79.5,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00005.png",
+      "content": {
+        "title": "zoom",
+        "bullet_points": [
+          "gan ORegan",
+          "Cr Grahame",
+          "Roger Gorden",
+          "Liz Stolwyk",
+          "Erittare St Pierme",
+          "Cr Bruce The",
+          "Cr Andrew Brom",
+          "pilo Coles"
+        ],
+        "paragraphs": [],
+        "raw_text": "gan ORegan\nCr Grahame\nRoger Gorden\nLiz Stolwyk\nErittare St Pierme\nCr Bruce The\nCr Andrew Brom\npilo Coles\nzoom"
+      },
+      "display_name": "Kem Mocris",
+      "display_name_source": "active_speaker_border",
+      "ocr_confidence": 0.893,
+      "detection_confidence": 0.749
+    },
+    {
+      "slide_id": "slide_007950",
+      "start_time": 79.5,
+      "end_time": 85.0,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00006.png",
+      "content": {
+        "title": "zoom",
+        "bullet_points": [
+          "san O'Regan",
+          "Cr Blwyn And",
+          "9",
+          "Jm Mylche e",
+          "Roger Gordo",
+          "Liz Stolwyk",
+          "Cr Bruce The",
+          "Cr Andrew Brows",
+          "Philp Coles",
+          "Marcue Go"
+        ],
+        "paragraphs": [],
+        "raw_text": "san O'Regan\nCr Blwyn And\n9\nJm Mylche e\nRoger Gordo\nLiz Stolwyk\nCr Bruce The\nCr Andrew Brows\nPhilp Coles\nzoom\nMarcue Go"
+      },
+      "display_name": "Cr Grahame Webbt",
+      "display_name_source": "active_speaker_border",
+      "ocr_confidence": 0.888,
+      "detection_confidence": 0.814
+    },
+    {
+      "slide_id": "slide_008500",
+      "start_time": 85.0,
+      "end_time": 87.0,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00007.png",
+      "content": {
+        "title": "zoom",
+        "bullet_points": [
+          "Cr Susin O'Regan",
+          "Cr Grahane",
+          "Cr Bwyn n",
+          "9",
+          "Roger Gord",
+          "Liz Stolwyk",
+          "Cr Bruce The",
+          "Cr Andrew Browt"
+        ],
+        "paragraphs": [],
+        "raw_text": "Cr Susin O'Regan\nCr Grahane\nCr Bwyn n\n9\nRoger Gord\nLiz Stolwyk\nCr Bruce The\nCr Andrew Browt\nzoom"
+      },
+      "display_name": "Cr Susan O'Regan",
+      "display_name_source": "active_speaker_border",
+      "ocr_confidence": 0.862,
+      "detection_confidence": 0.925
+    },
+    {
+      "slide_id": "slide_008700",
+      "start_time": 87.0,
+      "end_time": 89.0,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00008.png",
+      "content": {
+        "title": "zoom",
+        "bullet_points": [
+          "Ruan O'Regan",
+          "Cr Grahame",
+          "Cr Blwyn And",
+          "9",
+          "Roger Gorda",
+          "Liz Stolwyk",
+          "Cr Bruce Tho",
+          "Cr Andrew Brown"
+        ],
+        "paragraphs": [],
+        "raw_text": "Ruan O'Regan\nCr Grahame\nCr Blwyn And\n9\nRoger Gorda\nLiz Stolwyk\nCr Bruce Tho\nCr Andrew Brown\nzoom"
+      },
+      "display_name": "Cr Andrew Brown",
+      "display_name_source": "active_speaker_border",
+      "ocr_confidence": 0.834,
+      "detection_confidence": 0.914
+    },
+    {
+      "slide_id": "slide_008900",
+      "start_time": 89.0,
+      "end_time": 91.0,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00009.png",
+      "content": {
+        "title": "zoom",
+        "bullet_points": [
+          "Cr Sulin ORegan",
+          "Cr Grahame",
+          "Cr Bwys ánd",
+          "Roger Gordan",
+          "Liz Stolwyk",
+          "Cr Bruce The",
+          "Cr Andrew Brown"
+        ],
+        "paragraphs": [],
+        "raw_text": "Cr Sulin ORegan\nCr Grahame\nCr Bwys ánd\nRoger Gordan\nLiz Stolwyk\nCr Bruce The\nCr Andrew Brown\nzoom"
+      },
+      "display_name": "Cr Susan ORegan",
+      "display_name_source": "active_speaker_border",
+      "ocr_confidence": 0.918,
+      "detection_confidence": 0.828
+    },
+    {
+      "slide_id": "slide_009100",
+      "start_time": 91.0,
+      "end_time": 94.0,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00010.png",
+      "content": {
+        "title": "zoom",
+        "bullet_points": [
+          "Cr Suasin ORegan",
+          "Cr Grahame V",
+          "Cr Bwyn ánd",
+          "Roger Gordan",
+          "Liz Stolwyk",
+          "jason.dawson",
+          "Cr Andrew Brown",
+          "Cr Mike Pettit"
+        ],
+        "paragraphs": [],
+        "raw_text": "Cr Suasin ORegan\nCr Grahame V\nCr Bwyn ánd\nRoger Gordan\nLiz Stolwyk\njason.dawson\nCr Andrew Brown\nzoom\nCr Mike Pettit"
+      },
+      "display_name": "Cr Suasian ORegan",
+      "display_name_source": "active_speaker_border",
+      "ocr_confidence": 0.91,
+      "detection_confidence": 0.868
+    },
+    {
+      "slide_id": "slide_009400",
+      "start_time": 94.0,
+      "end_time": 94.5,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00011.png",
+      "content": {
+        "title": "zoom",
+        "bullet_points": [
+          "Cr Susin ORegan",
+          "Cr Grahame",
+          "Liz Stolwyk",
+          "Cr Bruce Th",
+          "Cr Andrew Brown"
+        ],
+        "paragraphs": [],
+        "raw_text": "Cr Susin ORegan\nCr Grahame\nLiz Stolwyk\nCr Bruce Th\nCr Andrew Brown\nzoom"
+      },
+      "display_name": "Cr Andrew Brown",
+      "display_name_source": "active_speaker_border",
+      "ocr_confidence": 0.934,
+      "detection_confidence": 0.898
+    },
+    {
+      "slide_id": "slide_009450",
+      "start_time": 94.5,
+      "end_time": 96.5,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00012.png",
+      "content": {
+        "title": "2",
+        "bullet_points": [
+          "sin ORegan",
+          "Cr Grahame",
+          "Cr Bn kndree",
+          "2",
+          "Jem Mylch",
+          "Roger Gordon",
+          "crLouB",
+          "Liz Stolwyk",
+          "jason.dawson",
+          "Cr Bruce Th",
+          "Cr Andrew Brow",
+          "zoom",
+          "Marcia",
+          "Cr Mike Pettit"
+        ],
+        "paragraphs": [],
+        "raw_text": "sin ORegan\nCr Grahame\nCr Bn kndree\n2\nJem Mylch\nRoger Gordon\ncrLouB\nLiz Stolwyk\n2\njason.dawson\nCr Bruce Th\nCr Andrew Brow\nzoom\nMarcia\nCr Mike Pettit"
+      },
+      "display_name": "Cr Andrew Brown",
+      "display_name_source": "active_speaker_border",
+      "ocr_confidence": 0.813,
+      "detection_confidence": 0.987
+    },
+    {
+      "slide_id": "slide_009650",
+      "start_time": 96.5,
+      "end_time": 138.5,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00013.png",
+      "content": {
+        "title": "zoom",
+        "bullet_points": [
+          "Susan ORegan",
+          "Cr Grahame",
+          "Cr Biwyn Andree",
+          "a",
+          "Jm Mylch",
+          "Roger Gordon",
+          "Liz Stolwyk",
+          "N",
+          "jasan.dawson",
+          "Cr Bruce Thomas",
+          "Cr Andrew Brown",
+          "Marcia",
+          "Cr Mike Pettit"
+        ],
+        "paragraphs": [],
+        "raw_text": "Susan ORegan\nCr Grahame\nCr Biwyn Andree\na\nJm Mylch\nRoger Gordon\nLiz Stolwyk\nN\njasan.dawson\nCr Bruce Thomas\nCr Andrew Brown\nzoom\nMarcia\nCr Mike Pettit"
+      },
+      "display_name": "Cr Andrew Brows",
+      "display_name_source": "active_speaker_border",
+      "ocr_confidence": 0.834,
+      "detection_confidence": 0.969
+    },
+    {
+      "slide_id": "slide_013850",
+      "start_time": 138.5,
+      "end_time": 140.0,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00014.png",
+      "content": {
+        "title": "zoom",
+        "bullet_points": [
+          "Susan ORegan",
+          "Cr Grahame",
+          "Cr",
+          "im Mylchre",
+          "Roger Gordon",
+          "CYLOUB",
+          "Liz Stolwyk",
+          "WARSS",
+          "医",
+          "trctare St Pien",
+          "aon.dawso",
+          "Cr Andrew Brows",
+          "Marcia",
+          "Cr Mlike Pettit"
+        ],
+        "paragraphs": [],
+        "raw_text": "Susan ORegan\nCr Grahame\nCr\nim Mylchre\nRoger Gordon\nCYLOUB\nLiz Stolwyk\nWARSS\n医\ntrctare St Pien\naon.dawso\nCr Andrew Brows\nzoom\nMarcia\nCr Mlike Pettit"
+      },
+      "display_name": "Cr Andrew Brows",
+      "display_name_source": "active_speaker_border",
+      "ocr_confidence": 0.768,
+      "detection_confidence": 0.967
+    },
+    {
+      "slide_id": "slide_014000",
+      "start_time": 140.0,
+      "end_time": 141.5,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00015.png",
+      "content": {
+        "title": "zoom",
+        "bullet_points": [
+          "Cr Susan O'Regan",
+          "C Grahame",
+          "Im Mylchre",
+          "Roger Gordon",
+          "CrLOUB",
+          "Liz Stolwyk",
+          "HArT",
+          "aon.dawso",
+          "Cr Bruce Thomía",
+          "Cr Andrew Brown",
+          "Marcia",
+          "C Mike Pettit"
+        ],
+        "paragraphs": [],
+        "raw_text": "Cr Susan O'Regan\nC Grahame\nIm Mylchre\nRoger Gordon\nCrLOUB\nLiz Stolwyk\nHArT\naon.dawso\nCr Bruce Thomía\nCr Andrew Brown\nzoom\nMarcia\nC Mike Pettit"
+      },
+      "display_name": "Cr.Andrew Brown",
+      "display_name_source": "active_speaker_border",
+      "ocr_confidence": 0.828,
+      "detection_confidence": 0.95
+    },
+    {
+      "slide_id": "slide_014150",
+      "start_time": 141.5,
+      "end_time": 142.0,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00016.png",
+      "content": {
+        "title": "zoom",
+        "bullet_points": [
+          "Cr Susan O'Regan",
+          "Ken Moris",
+          "Reger Gordon",
+          "Lia Stolaryk",
+          "Cmictare St Pien",
+          "Cr Bruce The",
+          "Cr Mike Pettit"
+        ],
+        "paragraphs": [],
+        "raw_text": "Cr Susan O'Regan\nKen Moris\nReger Gordon\nLia Stolaryk\nCmictare St Pien\nCr Bruce The\nzoom\nCr Mike Pettit"
+      },
+      "display_name": "CrBruce Thonfas",
+      "display_name_source": "active_speaker_border",
+      "ocr_confidence": 0.898,
+      "detection_confidence": 0.97
+    },
+    {
+      "slide_id": "slide_014200",
+      "start_time": 142.0,
+      "end_time": 147.0,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00017.png",
+      "content": {
+        "title": "W",
+        "bullet_points": [
+          "pa",
+          "Cr Susan O'Regan",
+          "Ken Moris",
+          "Cr Dwym Andree",
+          "Reger Gordon",
+          "CrLouBrown",
+          "Liz Stolwyk",
+          "Cmctare St Pien",
+          "Cr Bruce The",
+          "zoom",
+          "Zr Mike Pettit"
+        ],
+        "paragraphs": [],
+        "raw_text": "W\npa\nCr Susan O'Regan\nKen Moris\nCr Dwym Andree\nReger Gordon\nCrLouBrown\nLiz Stolwyk\nCmctare St Pien\nCr Bruce The\nzoom\nZr Mike Pettit"
+      },
+      "display_name": "Cr Bruce Thonmas",
+      "display_name_source": "active_speaker_border",
+      "ocr_confidence": 0.872,
+      "detection_confidence": 0.92
+    },
+    {
+      "slide_id": "slide_014700",
+      "start_time": 147.0,
+      "end_time": 159.0,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00018.png",
+      "content": {
+        "title": "W",
+        "bullet_points": [
+          "ba",
+          "Cr Susan O'Regan",
+          "Ken Moris",
+          "Reger Gordon",
+          "CrLouBrow",
+          "Liz Stolwyk",
+          "Dmptire St Plerre",
+          "Cr Bruce Thom",
+          "zoom",
+          "Cr Mike Pettit"
+        ],
+        "paragraphs": [],
+        "raw_text": "W\nba\nCr Susan O'Regan\nKen Moris\nReger Gordon\nCrLouBrow\nLiz Stolwyk\nDmptire St Plerre\nCr Bruce Thom\nzoom\nCr Mike Pettit"
+      },
+      "display_name": "Cr Andres broun",
+      "display_name_source": "active_speaker_border",
+      "ocr_confidence": 0.839,
+      "detection_confidence": 0.734
+    },
+    {
+      "slide_id": "slide_015900",
+      "start_time": 159.0,
+      "end_time": 163.5,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00019.png",
+      "content": {
+        "title": "W",
+        "bullet_points": [
+          "pa",
+          "Cr Susan O'Regan",
+          "Ken Morris",
+          "Cr Ewyn And",
+          "Roger Gordo",
+          "Cr LeuBrown",
+          "Liz Stolwyk",
+          "Cretave St P",
+          "janon-dawson",
+          "Cr Biruce Thomas",
+          "zoom",
+          "Or Andrea Bre",
+          "Cr Mike Pettit"
+        ],
+        "paragraphs": [],
+        "raw_text": "W\npa\nCr Susan O'Regan\nKen Morris\nCr Ewyn And\nRoger Gordo\nCr LeuBrown\nLiz Stolwyk\nCretave St P\njanon-dawson\nCr Biruce Thomas\nzoom\nOr Andrea Bre\nCr Mike Pettit"
+      },
+      "display_name": "jaoandawson",
+      "display_name_source": "active_speaker_border",
+      "ocr_confidence": 0.837,
+      "detection_confidence": 0.601
+    },
+    {
+      "slide_id": "slide_016350",
+      "start_time": 163.5,
+      "end_time": 166.0,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00020.png",
+      "content": {
+        "title": "W",
+        "bullet_points": [
+          "pa",
+          "Cr Susan ÖRegan",
+          "Cr üwyn Andr",
+          "Roger Gordon",
+          "Cr.Loubrown",
+          "Liz Stolwyk",
+          "Crictave St Pe",
+          "jason dawion",
+          "Cr Bruce The",
+          "zoom",
+          "Gr Andrew Bro",
+          "Or Mike Peesit"
+        ],
+        "paragraphs": [],
+        "raw_text": "W\npa\nCr Susan ÖRegan\nCr üwyn Andr\nRoger Gordon\nCr.Loubrown\nLiz Stolwyk\nCrictave St Pe\njason dawion\nCr Bruce The\nzoom\nGr Andrew Bro\nOr Mike Peesit"
+      },
+      "display_name": "Cr Andkew Broen",
+      "display_name_source": "active_speaker_border",
+      "ocr_confidence": 0.82,
+      "detection_confidence": 0.721
+    },
+    {
+      "slide_id": "slide_016600",
+      "start_time": 166.0,
+      "end_time": 167.5,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00021.png",
+      "content": {
+        "title": "W",
+        "bullet_points": [
+          "ba",
+          "Cr Suran O'Regan",
+          "Cr Grahame Webbe",
+          "Cr Eüwyn Andr",
+          "Roger Gardon",
+          "Cr. Loubrown",
+          "Lie Stolwyk",
+          "Crictave St Pe",
+          "jasondawion",
+          "Cr Bruce The",
+          "zoom",
+          "Cr Mike Persit"
+        ],
+        "paragraphs": [],
+        "raw_text": "W\nba\nCr Suran O'Regan\nCr Grahame Webbe\nCr Eüwyn Andr\nRoger Gardon\nCr. Loubrown\nLie Stolwyk\nCrictave St Pe\njasondawion\nCr Bruce The\nzoom\nCr Mike Persit"
+      },
+      "display_name": "jason dawion",
+      "display_name_source": "active_speaker_border",
+      "ocr_confidence": 0.822,
+      "detection_confidence": 0.746
+    },
+    {
+      "slide_id": "slide_016750",
+      "start_time": 167.5,
+      "end_time": 171.5,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00022.png",
+      "content": {
+        "title": "zoom",
+        "bullet_points": [
+          "insan dewvon"
+        ],
+        "paragraphs": [],
+        "raw_text": "insan dewvon\nzoom"
+      },
+      "display_name": "jasan dewson",
+      "display_name_source": "presentation_badge",
+      "ocr_confidence": 0.882,
+      "detection_confidence": 0.811
+    },
+    {
+      "slide_id": "slide_017150",
+      "start_time": 171.5,
+      "end_time": 175.5,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00023.png",
+      "content": {
+        "title": "zoom",
+        "bullet_points": [],
+        "paragraphs": [],
+        "raw_text": "zoom"
+      },
+      "display_name": "jason dewsón",
+      "display_name_source": "presentation_badge",
+      "ocr_confidence": 1.0,
+      "detection_confidence": 0.855
+    },
+    {
+      "slide_id": "slide_017550",
+      "start_time": 175.5,
+      "end_time": 177.0,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00024.png",
+      "content": {
+        "title": "WAIPA DISTRICT COUNCIL",
+        "bullet_points": [],
+        "paragraphs": [],
+        "raw_text": "WAIPA DISTRICT COUNCIL"
+      },
+      "display_name": "jason dewson",
+      "display_name_source": "presentation_badge",
+      "ocr_confidence": 0.984,
+      "detection_confidence": 0.759
+    },
+    {
+      "slide_id": "slide_017700",
+      "start_time": 177.0,
+      "end_time": 177.5,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00025.png",
+      "content": {
+        "title": "WAIPA DISTRICT COUNCIL",
+        "bullet_points": [],
+        "paragraphs": [],
+        "raw_text": "WAIPA DISTRICT COUNCIL"
+      },
+      "display_name": "jason dewson",
+      "display_name_source": "presentation_badge",
+      "ocr_confidence": 0.989,
+      "detection_confidence": 0.444
+    },
+    {
+      "slide_id": "slide_017750",
+      "start_time": 177.5,
+      "end_time": 193.0,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00026.png",
+      "content": {
+        "title": "WAIPA DISTRICT COUNCIL",
+        "bullet_points": [],
+        "paragraphs": [],
+        "raw_text": "WAIPA DISTRICT COUNCIL"
+      },
+      "display_name": "jason dawsos",
+      "display_name_source": "presentation_badge",
+      "ocr_confidence": 0.985,
+      "detection_confidence": 0.394
+    },
+    {
+      "slide_id": "slide_019300",
+      "start_time": 193.0,
+      "end_time": 193.5,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00027.png",
+      "content": {
+        "title": "WAIPADISTRICTCOUNCIL",
+        "bullet_points": [],
+        "paragraphs": [],
+        "raw_text": "WAIPADISTRICTCOUNCIL"
+      },
+      "display_name": "jason dawson",
+      "display_name_source": "presentation_badge",
+      "ocr_confidence": 0.999,
+      "detection_confidence": 0.917
+    },
+    {
+      "slide_id": "slide_019350",
+      "start_time": 193.5,
+      "end_time": 194.0,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00028.png",
+      "content": {
+        "title": "P",
+        "bullet_points": [
+          "zoom"
+        ],
+        "paragraphs": [],
+        "raw_text": "P\nzoom"
+      },
+      "display_name": "n on",
+      "display_name_source": "presentation_badge",
+      "ocr_confidence": 0.998,
+      "detection_confidence": 0.479
+    },
+    {
+      "slide_id": "slide_019400",
+      "start_time": 194.0,
+      "end_time": 200.0,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00029.png",
+      "content": {
+        "title": "zoom",
+        "bullet_points": [
+          "P"
+        ],
+        "paragraphs": [],
+        "raw_text": "P\nzoom"
+      },
+      "display_name": "jason dawson",
+      "display_name_source": "presentation_badge",
+      "ocr_confidence": 0.999,
+      "detection_confidence": 0.897
+    },
+    {
+      "slide_id": "slide_020000",
+      "start_time": 200.0,
+      "end_time": 202.5,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00030.png",
+      "content": {
+        "title": "The Mighty",
+        "bullet_points": [
+          "WAIPA DISTRICT COUNCIL",
+          "COVID-19: tourism Impacts & response",
+          "Han"
+        ],
+        "paragraphs": [],
+        "raw_text": "The Mighty\nWAIPA DISTRICT COUNCIL\nCOVID-19: tourism Impacts & response\nHan"
+      },
+      "display_name": "jason dawson",
+      "display_name_source": "presentation_badge",
+      "ocr_confidence": 0.95,
+      "detection_confidence": 0.634
+    },
+    {
+      "slide_id": "slide_020250",
+      "start_time": 202.5,
+      "end_time": 203.0,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00031.png",
+      "content": {
+        "title": "bm",
+        "bullet_points": [
+          "The Mighty",
+          "Wairato",
+          "WAIPA DISTRICT COUNCIL",
+          "Hamilton",
+          "COVID-19: tourism impacts & response"
+        ],
+        "paragraphs": [],
+        "raw_text": "The Mighty\nWairato\nWAIPA DISTRICT COUNCIL\nHamilton\nCOVID-19: tourism impacts & response\nbm"
+      },
+      "display_name": "ason dawson",
+      "display_name_source": "presentation_badge",
+      "ocr_confidence": 0.905,
+      "detection_confidence": 0.636
+    },
+    {
+      "slide_id": "slide_020300",
+      "start_time": 203.0,
+      "end_time": 233.5,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00032.png",
+      "content": {
+        "title": "zoom",
+        "bullet_points": [
+          "TheMighty",
+          "Waikato",
+          "WAIPADISTRICTCOUNCIL",
+          "COVID-19: tourism impsots & response"
+        ],
+        "paragraphs": [],
+        "raw_text": "TheMighty\nWaikato\nWAIPADISTRICTCOUNCIL\nCOVID-19: tourism impsots & response\nzoom"
+      },
+      "display_name": "jason dawson",
+      "display_name_source": "presentation_badge",
+      "ocr_confidence": 0.966,
+      "detection_confidence": 0.88
+    },
+    {
+      "slide_id": "slide_023350",
+      "start_time": 233.5,
+      "end_time": 234.0,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00033.png",
+      "content": {
+        "title": null,
+        "bullet_points": [],
+        "paragraphs": [],
+        "raw_text": ""
+      },
+      "display_name": "Jason Dawso...",
+      "display_name_source": "presentation_badge",
+      "ocr_confidence": null,
+      "detection_confidence": 0.891
+    },
+    {
+      "slide_id": "slide_023400",
+      "start_time": 234.0,
+      "end_time": 277.0,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00034.png",
+      "content": {
+        "title": "zoom",
+        "bullet_points": [
+          "International visitor arrivals",
+          "Week ending 17 April 2020",
+          "TheMighty",
+          "Waikato"
+        ],
+        "paragraphs": [],
+        "raw_text": "International visitor arrivals\nWeek ending 17 April 2020\nTheMighty\nWaikato\nzoom"
+      },
+      "display_name": "Jason Dawso...",
+      "display_name_source": "presentation_badge",
+      "ocr_confidence": 0.968,
+      "detection_confidence": 0.931
+    },
+    {
+      "slide_id": "slide_027700",
+      "start_time": 277.0,
+      "end_time": 304.5,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00035.png",
+      "content": {
+        "title": "Weekly card transactions",
+        "bullet_points": [
+          "sonDawso.",
+          "TheMiehtu",
+          "zoom"
+        ],
+        "paragraphs": [
+          "Hamilton & Waikato RTO region - week ending 12 April 2O2O"
+        ],
+        "raw_text": "Weekly card transactions\nsonDawso.\nHamilton & Waikato RTO region - week ending 12 April 2O2O\nTheMiehtu\nzoom"
+      },
+      "display_name": "Jason Dawso.",
+      "display_name_source": "presentation_badge",
+      "ocr_confidence": 0.933,
+      "detection_confidence": 0.826
+    },
+    {
+      "slide_id": "slide_030450",
+      "start_time": 304.5,
+      "end_time": 352.5,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00036.png",
+      "content": {
+        "title": "COVID-19 - regional tourism impact",
+        "bullet_points": [
+          "Tourism was already impacted - loss of China group travel (Jan 2020)",
+          "Visitor industry effectively shut down overnight - accommodation,",
+          "Job losses and business closures - full impact to be measured",
+          "Immediate business impact:",
+          "Reduction in service and staff - essential service & maintenance only",
+          "Temporary/seasonal closure – \"hibernation\"",
+          "Permanent closure - loss to industry and communities",
+          "TheMighty",
+          "zoom"
+        ],
+        "paragraphs": [
+          "retail, hospitality, transport, tourism operators, event organisers & venues"
+        ],
+        "raw_text": "COVID-19 - regional tourism impact\n• Tourism was already impacted - loss of China group travel (Jan 2020)\n• Visitor industry effectively shut down overnight - accommodation,\nretail, hospitality, transport, tourism operators, event organisers & venues\n• Job losses and business closures - full impact to be measured\n• Immediate business impact:\n• Reduction in service and staff - essential service & maintenance only\n• Temporary/seasonal closure – \"hibernation\"\n• Permanent closure - loss to industry and communities\nTheMighty\nzoom"
+      },
+      "display_name": "Jason Dawso",
+      "display_name_source": "presentation_badge",
+      "ocr_confidence": 0.988,
+      "detection_confidence": 0.937
+    },
+    {
+      "slide_id": "slide_035250",
+      "start_time": 352.5,
+      "end_time": 353.5,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00037.png",
+      "content": {
+        "title": "COVID-19 - regional tourism impact",
+        "bullet_points": [
+          "Tourism was already impacted - loss of China group travel (Jan 2020)",
+          "Visitor industry effectively shut down overnight - accommodation,",
+          "Job losses and business closures - full impact to be measured",
+          "Immediate business impact:",
+          "Temporary/seasonal closure - \"hibernation\"",
+          "Permanent closure - loss to industry and communities",
+          "TheMighty",
+          "Walkato",
+          "zoom"
+        ],
+        "paragraphs": [
+          "retail, hospitality, transport, tourism operators, event organisers & venues"
+        ],
+        "raw_text": "COVID-19 - regional tourism impact\n• Tourism was already impacted - loss of China group travel (Jan 2020)\n• Visitor industry effectively shut down overnight - accommodation,\nretail, hospitality, transport, tourism operators, event organisers & venues\n• Job losses and business closures - full impact to be measured\n• Immediate business impact:\n• Temporary/seasonal closure - \"hibernation\"\n• Permanent closure - loss to industry and communities\nTheMighty\nWalkato\nzoom"
+      },
+      "display_name": "Jaton Dawso",
+      "display_name_source": "presentation_badge",
+      "ocr_confidence": 0.978,
+      "detection_confidence": 0.884
+    },
+    {
+      "slide_id": "slide_035350",
+      "start_time": 353.5,
+      "end_time": 355.0,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00038.png",
+      "content": {
+        "title": "COVID-19 - regional tourism impact",
+        "bullet_points": [
+          "Tourism was already impacted - loss of China group travel (Jan 2020)",
+          "Visitor industry effectively shut down overnight - accommodation,",
+          "Immediate business impact:",
+          "Reduction in service and staff - essential service & maintenance only",
+          "Temporary/seasonal closure - \"hibernation\"",
+          "Permanent closure - loss to industry and communities",
+          "TheMighty",
+          "zoom"
+        ],
+        "paragraphs": [
+          "retail, hospitality, transport, tourism operators, event onganisers & venues",
+          "Job losses and business closures - full impact to be measured"
+        ],
+        "raw_text": "COVID-19 - regional tourism impact\n• Tourism was already impacted - loss of China group travel (Jan 2020)\n• Visitor industry effectively shut down overnight - accommodation,\nretail, hospitality, transport, tourism operators, event onganisers & venues\nJob losses and business closures - full impact to be measured\n• Immediate business impact:\n• Reduction in service and staff - essential service & maintenance only\n• Temporary/seasonal closure - \"hibernation\"\n• Permanent closure - loss to industry and communities\nTheMighty\nzoom"
+      },
+      "display_name": "ct",
+      "display_name_source": "presentation_badge",
+      "ocr_confidence": 0.98,
+      "detection_confidence": 0.866
+    },
+    {
+      "slide_id": "slide_035500",
+      "start_time": 355.0,
+      "end_time": 441.0,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00039.png",
+      "content": {
+        "title": "COVID-19 - regional tourism imp",
+        "bullet_points": [
+          "Visitor industry effectively shut down overnight - accommodation,",
+          "Job losses and business closures - full impact to be measured",
+          "Immediate business impact:",
+          "Temporary/seasonal closure - \"hibernation\"",
+          "Reduction in service and staff - essential service & maintenance only",
+          "Permanent closure - loss to industry and communities",
+          "TheMighty",
+          "Waikats"
+        ],
+        "paragraphs": [
+          "Tourism was already impacted - loss of China group travel (Jan 2020)",
+          "retail, hospitality, transport, tourism operators, event organisers & venues"
+        ],
+        "raw_text": "COVID-19 - regional tourism imp\nTourism was already impacted - loss of China group travel (Jan 2020)\nVisitor industry effectively shut down overnight - accommodation,\nretail, hospitality, transport, tourism operators, event organisers & venues\n• Job losses and business closures - full impact to be measured\n• Immediate business impact:\n• Temporary/seasonal closure - \"hibernation\"\n• Reduction in service and staff - essential service & maintenance only\n• Permanent closure - loss to industry and communities\nTheMighty\nWaikats"
+      },
+      "display_name": null,
+      "display_name_source": null,
+      "ocr_confidence": 0.973,
+      "detection_confidence": null
+    },
+    {
+      "slide_id": "slide_044100",
+      "start_time": 441.0,
+      "end_time": 452.0,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00040.png",
+      "content": {
+        "title": "COVID-19 – regional tourism respor",
+        "bullet_points": [
+          "INDUSTRY SUPPORT",
+          "COMMUNITY SUPPORT",
+          "BUSINESS &",
+          "WELFARE SUPPORT",
+          "Hamilton",
+          "Te Waka",
+          "&Waikato",
+          "Anga Whakamas Waikato",
+          "TOVRISM",
+          "HAMILTON",
+          "ENTRAL",
+          "North Waikato:",
+          "Regional voice to national",
+          "response: RTNZ & C19-TAG",
+          "Southern Waikato:",
+          "Hamilton City & Walkato District",
+          "Regional stakeholder response",
+          "Waipa",
+          "South Waikato & Taupo",
+          "Advisory to local government",
+          "Eastern Waikato:",
+          "Partnered with Te Waka on",
+          "Matamata-Piako, Hauraki &",
+          "business support",
+          "Thames-Coromandel",
+          "•Civil Defence welfare partner",
+          "Waipa, Waitomo & Otorohanga",
+          "Western Waikato:",
+          "Wrromo",
+          "HAURAKI",
+          "The Mighty",
+          "Walkats"
+        ],
+        "paragraphs": [],
+        "raw_text": "COVID-19 – regional tourism respor\nINDUSTRY SUPPORT\nCOMMUNITY SUPPORT\nBUSINESS &\nWELFARE SUPPORT\nHamilton\nTe Waka\n&Waikato\nAnga Whakamas Waikato\nTOVRISM\nHAMILTON\nENTRAL\nNorth Waikato:\nRegional voice to national\nresponse: RTNZ & C19-TAG\nSouthern Waikato:\nHamilton City & Walkato District\nRegional stakeholder response\nWaipa\nSouth Waikato & Taupo\nAdvisory to local government\nEastern Waikato:\nPartnered with Te Waka on\nMatamata-Piako, Hauraki &\nbusiness support\nThames-Coromandel\n•Civil Defence welfare partner\nWaipa, Waitomo & Otorohanga\nWestern Waikato:\nWrromo\nHAURAKI\nThe Mighty\nWalkats"
+      },
+      "display_name": "Jason Dawso...",
+      "display_name_source": "presentation_badge",
+      "ocr_confidence": 0.97,
+      "detection_confidence": 0.695
+    },
+    {
+      "slide_id": "slide_045200",
+      "start_time": 452.0,
+      "end_time": 455.0,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00041.png",
+      "content": {
+        "title": "COVID-19 – regional tourism respor",
+        "bullet_points": [
+          "INDUSTRY SUPPORT",
+          "COMMUNITY SUPPORT",
+          "BUSINESS &",
+          "WELFARE SUPPORT",
+          "Hamilton",
+          "Te Waka",
+          "&Waikato",
+          "Anga Whakama",
+          "a Waikato",
+          "MIRGENCY MURACEMIN",
+          "TOVRISM",
+          "JAMILTON",
+          "ENTRAL",
+          "North Waikato:",
+          "Regional voice to national",
+          "Hamilton City & Waikato District",
+          "response: RTNZ & C19-TAG",
+          "Waipa",
+          "Southern Waikato:",
+          "Regional stakeholder response",
+          "South Waikato & Taupo",
+          "Advisory to local government",
+          "Eastern Waikato:",
+          "Partnered with Te Waka on",
+          "Thames-Coromandel",
+          "Matamata-Piako, Hauraki &",
+          "Civil Defence welfare partner",
+          "business support",
+          "Western Waikato:",
+          "HAURAK",
+          "Waipa. Waitomo & Otorohanga",
+          "The Mighty",
+          "Walkats"
+        ],
+        "paragraphs": [],
+        "raw_text": "COVID-19 – regional tourism respor\nINDUSTRY SUPPORT\nCOMMUNITY SUPPORT\nBUSINESS &\nWELFARE SUPPORT\nHamilton\nTe Waka\n&Waikato\nAnga Whakama\na Waikato\nMIRGENCY MURACEMIN\nTOVRISM\nJAMILTON\nENTRAL\nNorth Waikato:\nRegional voice to national\nHamilton City & Waikato District\nresponse: RTNZ & C19-TAG\nWaipa\nSouthern Waikato:\nRegional stakeholder response\nSouth Waikato & Taupo\nAdvisory to local government\nEastern Waikato:\nPartnered with Te Waka on\nThames-Coromandel\nMatamata-Piako, Hauraki &\n• Civil Defence welfare partner\nbusiness support\nWestern Waikato:\nHAURAK\nWaipa. Waitomo & Otorohanga\nThe Mighty\nWalkats"
+      },
+      "display_name": "ASS OURRSOT",
+      "display_name_source": "presentation_badge",
+      "ocr_confidence": 0.973,
+      "detection_confidence": 0.357
+    },
+    {
+      "slide_id": "slide_045500",
+      "start_time": 455.0,
+      "end_time": 474.5,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00042.png",
+      "content": {
+        "title": "COVID-19 – regional tourism respor",
+        "bullet_points": [
+          "INDUSTRY SUPPORT",
+          "COMMUNITY SUPPORT",
+          "BUSINESS &",
+          "WELFARE SUPPORT",
+          "Hamilton",
+          "Te Waka",
+          "&Waikato",
+          "TOVAISM",
+          "HAMILTON",
+          "ENTRAL",
+          "North Waikato:",
+          "Regional voice to national",
+          "response: RTNZ & C19-TAG",
+          "Southern Waikato:",
+          "Hamilton City & Waikato District",
+          "Regional stakeholder response",
+          "Waipa",
+          "South Waikato & Taupo",
+          "Advisory to local government",
+          "Eastern Waikato:",
+          "Partnered with Te Waka on",
+          "Matamata-Piako, Hauraki &",
+          "business support",
+          "Thames-Coromandel",
+          "Civil Defence welfare partner",
+          "Waipa. Waitomo & Otorohanga",
+          "Western Waikato:",
+          "HAURAKI",
+          "Walkats",
+          "The Mighty"
+        ],
+        "paragraphs": [],
+        "raw_text": "COVID-19 – regional tourism respor\nINDUSTRY SUPPORT\nCOMMUNITY SUPPORT\nBUSINESS &\nWELFARE SUPPORT\nHamilton\nTe Waka\n&Waikato\nTOVAISM\nHAMILTON\nENTRAL\nNorth Waikato:\nRegional voice to national\nresponse: RTNZ & C19-TAG\nSouthern Waikato:\nHamilton City & Waikato District\nRegional stakeholder response\nWaipa\nSouth Waikato & Taupo\nAdvisory to local government\nEastern Waikato:\nPartnered with Te Waka on\nMatamata-Piako, Hauraki &\nbusiness support\nThames-Coromandel\n• Civil Defence welfare partner\nWaipa. Waitomo & Otorohanga\nWestern Waikato:\nHAURAKI\nWalkats\nThe Mighty"
+      },
+      "display_name": "Jason Dawso.",
+      "display_name_source": "presentation_badge",
+      "ocr_confidence": 0.982,
+      "detection_confidence": 0.7
+    },
+    {
+      "slide_id": "slide_047450",
+      "start_time": 474.5,
+      "end_time": 478.0,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00043.png",
+      "content": {
+        "title": "COVID-19 – regional tourism respor",
+        "bullet_points": [
+          "INDUSTRY SUPPORT",
+          "COMMUNITY SUPPORT",
+          "BUSINESS &",
+          "WELFARE SUPPORT",
+          "Hamilton",
+          "Te Waka",
+          "&Waikato",
+          "Anga Whakamaa Walkuno",
+          "TOVRISM",
+          "JAMILION",
+          "ENTRAL",
+          "North Waikato:",
+          "Regional voice to national",
+          "Hamilton City & Wailkato District",
+          "response: RTNZ & C19-TAG",
+          "Waipa",
+          "Southern Waikato:",
+          "Regional stakeholder response",
+          "Eastern Waikato:",
+          "South Waikato & Taupo",
+          "Advisory to local government",
+          "Partnered with Te Waka on",
+          "Thames-Coromandel",
+          "Matamata-Piako, Hauraki &",
+          "•Civil Defence welfare partner",
+          "business support",
+          "Western Waikato:",
+          "HAURAK",
+          "Waipa, Waitomo & Otorohanga",
+          "The Mighty",
+          "Walkats"
+        ],
+        "paragraphs": [],
+        "raw_text": "COVID-19 – regional tourism respor\nINDUSTRY SUPPORT\nCOMMUNITY SUPPORT\nBUSINESS &\nWELFARE SUPPORT\nHamilton\nTe Waka\n&Waikato\nAnga Whakamaa Walkuno\nTOVRISM\nJAMILION\nENTRAL\nNorth Waikato:\nRegional voice to national\nHamilton City & Wailkato District\nresponse: RTNZ & C19-TAG\nWaipa\nSouthern Waikato:\nRegional stakeholder response\nEastern Waikato:\nSouth Waikato & Taupo\nAdvisory to local government\nPartnered with Te Waka on\nThames-Coromandel\nMatamata-Piako, Hauraki &\n•Civil Defence welfare partner\nbusiness support\nWestern Waikato:\nHAURAK\nWaipa, Waitomo & Otorohanga\nThe Mighty\nWalkats"
+      },
+      "display_name": "Jason Dawso...",
+      "display_name_source": "presentation_badge",
+      "ocr_confidence": 0.974,
+      "detection_confidence": 0.591
+    },
+    {
+      "slide_id": "slide_047800",
+      "start_time": 478.0,
+      "end_time": null,
+      "frame_path": "work_dir/execrsice-video_clip_00-08/frames/frame_00044.png",
+      "content": {
+        "title": "COVID-19 – regional tourism respor",
+        "bullet_points": [
+          "INDUSTRY SUPPORT",
+          "COMMUNITY SUPPORT",
+          "BUSINESS &",
+          "WELFARE SUPPORT",
+          "Hamilton",
+          "Te Waka",
+          "&Waikato",
+          "Anga Whakamaa Walkano",
+          "TOVRISM",
+          "ENTRAL",
+          "North Waikato:",
+          "Regional voice to national",
+          "Southern Waikato:",
+          "Hamilton City & Wailkato District",
+          "response: RTNZ & C19-TAG",
+          "Regional stakeholder response",
+          "Waipa",
+          "South Waikato & Taupo",
+          "Advisory to local government",
+          "Eastern Waikato:",
+          "Partnered with Te Waka on",
+          "Matamata-Piako, Hauraki &",
+          "business support",
+          "Thames-Coromandel",
+          "•Civil Defence welfare parther",
+          "Waipa, Waitomo & Otorohanga",
+          "Western Waikato:",
+          "HAURAKI",
+          "Walkats",
+          "The Mighty"
+        ],
+        "paragraphs": [],
+        "raw_text": "COVID-19 – regional tourism respor\nINDUSTRY SUPPORT\nCOMMUNITY SUPPORT\nBUSINESS &\nWELFARE SUPPORT\nHamilton\nTe Waka\n&Waikato\nAnga Whakamaa Walkano\nTOVRISM\nENTRAL\nNorth Waikato:\nRegional voice to national\nSouthern Waikato:\nHamilton City & Wailkato District\nresponse: RTNZ & C19-TAG\nRegional stakeholder response\nWaipa\nSouth Waikato & Taupo\nAdvisory to local government\nEastern Waikato:\nPartnered with Te Waka on\nMatamata-Piako, Hauraki &\nbusiness support\nThames-Coromandel\n•Civil Defence welfare parther\nWaipa, Waitomo & Otorohanga\nWestern Waikato:\nHAURAKI\nWalkats\nThe Mighty"
+      },
+      "display_name": "Jason Daws.",
+      "display_name_source": "presentation_badge",
+      "ocr_confidence": 0.978,
+      "detection_confidence": 0.545
+    }
+  ]
+}

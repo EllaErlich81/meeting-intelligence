@@ -1,0 +1,7 @@
+{
+  "video_path": "data/execrsice-video.mp4",
+  "wav_path": "work_dir_USE_INITIAL_PROMPT/execrsice-video/execrsice-video.wav",
+  "duration_sec": 1560.1,
+  "sample_rate": 16000,
+  "channels": 1
+}

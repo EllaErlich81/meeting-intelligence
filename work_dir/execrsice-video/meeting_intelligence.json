@@ -1,0 +1,59 @@
+{
+  "summary": "The meeting commenced with administrative procedures, including apologies and the correction of the February 18 meeting minutes to accurately reflect member attendance. Jason Dawson, representing regional tourism, then delivered a comprehensive briefing on the severe impacts of the COVID-19 pandemic on the Waipā District's visitor economy. He detailed a structured three-tiered response strategy (Mitigate, Restart, and Reimagine) to transition from immediate crisis management to long-term sustainable tourism, urging continued support and partnership from local government.",
+  "topics": [
+    {
+      "topic": "Meeting Administration and Minutes Correction",
+      "summary": "The meeting opened with apologies and administrative confirmations. During the review of the February 18 minutes, Cr Andrew Graham and Cr Bruce Thomas pointed out that their attendance was not recorded. Susan O'Regan requested that this error be corrected, after which the minutes were moved and confirmed.",
+      "evidence": {
+        "timestamps": [
+          0.031,
+          156.648
+        ],
+        "speakers": [
+          "Cr Susan O'Regan",
+          "Unknown"
+        ],
+        "visual_reference": "Susan ORegan, Cr Grahame, Cr Biwyn Andree, a, Jm Mylch, Roger Gordon, Liz Stolwyk, N, jasan.dawson, Cr Bruce Thomas, Cr Andrew Brown, zoom, Marcia, Cr Mike Pettit"
+      }
+    },
+    {
+      "topic": "COVID-19 Tourism Impact and Mitigation Phase",
+      "summary": "Jason Dawson presented on the severe disruptions to tourism from COVID-19, including the sudden decline in international arrivals and widespread business hibernations. He outlined immediate mitigation measures, including operator check-ins and successful workforce redeployment initiatives that transitioned displaced workers (such as Hobbiton staff) into seasonal agricultural roles.",
+      "evidence": {
+        "timestamps": [
+          158.605,
+          1029.085
+        ],
+        "speakers": [
+          "Jason Dawso...",
+          "Cr Susan O'Regan",
+          "Unknown"
+        ],
+        "visual_reference": "COVID-19 - regional tourism imp, Tourism was already impacted - loss of China group travel (Jan 2020), Visitor industry effectively shut down overnight"
+      }
+    },
+    {
+      "topic": "Tourism Sector Restart, Reimagine, and Local Government Call to Action",
+      "summary": "Dawson outlined recovery pathways through the 'Restart' and 'Reimagine' phases. The Restart phase highlights shovel-ready projects and the phased 'Mighty Local' campaign to encourage regional engagement. The Reimagine phase focuses on building a sustainable, community-led destination management plan. Finally, Dawson appealed to local government to support businesses through rates relief, licensing flexibility, and continued funding.",
+      "evidence": {
+        "timestamps": [
+          1029.338,
+          1560.074
+        ],
+        "speakers": [
+          "Jason Dawso..."
+        ],
+        "visual_reference": "RESTART: Our response & actions, REIMAGINE: Our response & actions, Call to local government, Promoting rates relief, remissions & instalment policies"
+      }
+    }
+  ],
+  "action_items": [
+    {
+      "task": "Update the February 18 meeting minutes to include Cr Andrew Graham and Cr Bruce Thomas in the attendance record",
+      "assignee": "Sam",
+      "evidence_quote": "So I'm sure we can have that remedied, Sam. Yes, we'll make the changes."
+    }
+  ],
+  "llm_provider": "gemini",
+  "llm_model": "gemini-3.5-flash"
+}

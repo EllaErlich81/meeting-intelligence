@@ -1,0 +1,9140 @@
+[
+  {
+    "segment_id": "seg_000003-000089",
+    "start": 0.034,
+    "end": 0.894,
+    "text": "We are now reading open.",
+    "words": [
+      {
+        "start": 0.034,
+        "end": 0.134,
+        "text": "We",
+        "probability": 0.011
+      },
+      {
+        "start": 0.134,
+        "end": 0.134,
+        "text": "are",
+        "probability": 0.375
+      },
+      {
+        "start": 0.134,
+        "end": 0.254,
+        "text": "now",
+        "probability": 0.354
+      },
+      {
+        "start": 0.254,
+        "end": 0.254,
+        "text": "reading",
+        "probability": 0.12
+      },
+      {
+        "start": 0.254,
+        "end": 0.434,
+        "text": "open.",
+        "probability": 0.819
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_000135-000227",
+    "start": 1.346,
+    "end": 2.27,
+    "text": "Welcome, everybody.",
+    "words": [
+      {
+        "start": 1.346,
+        "end": 1.546,
+        "text": "Welcome,",
+        "probability": 0.876
+      },
+      {
+        "start": 1.566,
+        "end": 1.786,
+        "text": "everybody.",
+        "probability": 0.999
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_000285-000358",
+    "start": 2.85,
+    "end": 3.582,
+    "text": "Um,",
+    "words": [
+      {
+        "start": 2.85,
+        "end": 3.01,
+        "text": "Um,",
+        "probability": 0.536
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_000461-001216",
+    "start": 4.61,
+    "end": 12.158,
+    "text": "So we'll start with the apologies and I guess we have Hazel, everyone else seems to be here I think, so could I have a mover please?",
+    "words": [
+      {
+        "start": 4.61,
+        "end": 4.91,
+        "text": "So",
+        "probability": 0.645
+      },
+      {
+        "start": 4.91,
+        "end": 5.87,
+        "text": "we'll",
+        "probability": 0.916
+      },
+      {
+        "start": 5.87,
+        "end": 6.07,
+        "text": "start",
+        "probability": 1.0
+      },
+      {
+        "start": 6.07,
+        "end": 6.25,
+        "text": "with",
+        "probability": 0.999
+      },
+      {
+        "start": 6.25,
+        "end": 6.39,
+        "text": "the",
+        "probability": 0.974
+      },
+      {
+        "start": 6.39,
+        "end": 6.79,
+        "text": "apologies",
+        "probability": 0.998
+      },
+      {
+        "start": 6.79,
+        "end": 7.17,
+        "text": "and",
+        "probability": 0.564
+      },
+      {
+        "start": 7.17,
+        "end": 7.31,
+        "text": "I",
+        "probability": 0.992
+      },
+      {
+        "start": 7.31,
+        "end": 7.59,
+        "text": "guess",
+        "probability": 0.987
+      },
+      {
+        "start": 7.59,
+        "end": 7.79,
+        "text": "we",
+        "probability": 0.999
+      },
+      {
+        "start": 7.79,
+        "end": 8.13,
+        "text": "have",
+        "probability": 1.0
+      },
+      {
+        "start": 8.13,
+        "end": 8.87,
+        "text": "Hazel,",
+        "probability": 0.972
+      },
+      {
+        "start": 8.87,
+        "end": 9.07,
+        "text": "everyone",
+        "probability": 0.997
+      },
+      {
+        "start": 9.07,
+        "end": 9.35,
+        "text": "else",
+        "probability": 1.0
+      },
+      {
+        "start": 9.35,
+        "end": 9.55,
+        "text": "seems",
+        "probability": 0.998
+      },
+      {
+        "start": 9.55,
+        "end": 9.67,
+        "text": "to",
+        "probability": 1.0
+      },
+      {
+        "start": 9.67,
+        "end": 9.73,
+        "text": "be",
+        "probability": 1.0
+      },
+      {
+        "start": 9.73,
+        "end": 9.91,
+        "text": "here",
+        "probability": 1.0
+      },
+      {
+        "start": 9.91,
+        "end": 10.03,
+        "text": "I",
+        "probability": 0.877
+      },
+      {
+        "start": 10.03,
+        "end": 10.23,
+        "text": "think,",
+        "probability": 1.0
+      },
+      {
+        "start": 10.31,
+        "end": 10.51,
+        "text": "so",
+        "probability": 0.998
+      },
+      {
+        "start": 10.51,
+        "end": 10.83,
+        "text": "could",
+        "probability": 0.997
+      },
+      {
+        "start": 10.83,
+        "end": 10.95,
+        "text": "I",
+        "probability": 0.999
+      },
+      {
+        "start": 10.95,
+        "end": 11.03,
+        "text": "have",
+        "probability": 0.99
+      },
+      {
+        "start": 11.03,
+        "end": 11.11,
+        "text": "a",
+        "probability": 0.998
+      },
+      {
+        "start": 11.11,
+        "end": 11.37,
+        "text": "mover",
+        "probability": 0.996
+      },
+      {
+        "start": 11.37,
+        "end": 11.59,
+        "text": "please?",
+        "probability": 0.996
+      }
+    ],
+    "language": "mi"
+  },
+  {
+    "segment_id": "seg_001242-001353",
+    "start": 12.418,
+    "end": 13.534,
+    "text": "Andrew, just.",
+    "words": [
+      {
+        "start": 12.418,
+        "end": 12.978,
+        "text": "Andrew,",
+        "probability": 0.899
+      },
+      {
+        "start": 13.078,
+        "end": 13.278,
+        "text": "just.",
+        "probability": 0.99
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_001370-001478",
+    "start": 13.698,
+    "end": 14.782,
+    "text": "Just before you did.",
+    "words": [
+      {
+        "start": 13.698,
+        "end": 13.818,
+        "text": "Just",
+        "probability": 0.479
+      },
+      {
+        "start": 13.818,
+        "end": 14.078,
+        "text": "before",
+        "probability": 0.999
+      },
+      {
+        "start": 14.078,
+        "end": 14.318,
+        "text": "you",
+        "probability": 0.992
+      },
+      {
+        "start": 14.318,
+        "end": 14.458,
+        "text": "did.",
+        "probability": 0.323
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_001514-001635",
+    "start": 15.138,
+    "end": 16.35,
+    "text": "Just before you do.",
+    "words": [
+      {
+        "start": 15.138,
+        "end": 15.258,
+        "text": "Just",
+        "probability": 0.384
+      },
+      {
+        "start": 15.258,
+        "end": 15.458,
+        "text": "before",
+        "probability": 0.997
+      },
+      {
+        "start": 15.458,
+        "end": 15.658,
+        "text": "you",
+        "probability": 0.998
+      },
+      {
+        "start": 15.658,
+        "end": 15.818,
+        "text": "do.",
+        "probability": 0.992
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_001651-002326",
+    "start": 16.514,
+    "end": 23.262,
+    "text": "I had to leave the meeting at 1.30 to attend a future-proof meeting, so sorry about that, so my apologies from then.",
+    "words": [
+      {
+        "start": 16.514,
+        "end": 16.934,
+        "text": "I",
+        "probability": 0.657
+      },
+      {
+        "start": 16.934,
+        "end": 17.334,
+        "text": "had",
+        "probability": 0.633
+      },
+      {
+        "start": 17.334,
+        "end": 17.474,
+        "text": "to",
+        "probability": 0.999
+      },
+      {
+        "start": 17.474,
+        "end": 17.634,
+        "text": "leave",
+        "probability": 1.0
+      },
+      {
+        "start": 17.634,
+        "end": 17.754,
+        "text": "the",
+        "probability": 0.995
+      },
+      {
+        "start": 17.754,
+        "end": 18.014,
+        "text": "meeting",
+        "probability": 0.999
+      },
+      {
+        "start": 18.014,
+        "end": 18.174,
+        "text": "at",
+        "probability": 0.997
+      },
+      {
+        "start": 18.174,
+        "end": 18.314,
+        "text": "1",
+        "probability": 0.976
+      },
+      {
+        "start": 18.314,
+        "end": 18.774,
+        "text": ".30",
+        "probability": 0.82
+      },
+      {
+        "start": 18.774,
+        "end": 19.034,
+        "text": "to",
+        "probability": 0.898
+      },
+      {
+        "start": 19.034,
+        "end": 19.354,
+        "text": "attend",
+        "probability": 1.0
+      },
+      {
+        "start": 19.354,
+        "end": 19.514,
+        "text": "a",
+        "probability": 0.99
+      },
+      {
+        "start": 19.514,
+        "end": 19.774,
+        "text": "future",
+        "probability": 0.972
+      },
+      {
+        "start": 19.774,
+        "end": 20.034,
+        "text": "-proof",
+        "probability": 0.788
+      },
+      {
+        "start": 20.034,
+        "end": 20.414,
+        "text": "meeting,",
+        "probability": 0.998
+      },
+      {
+        "start": 20.514,
+        "end": 20.694,
+        "text": "so",
+        "probability": 0.996
+      },
+      {
+        "start": 20.694,
+        "end": 20.994,
+        "text": "sorry",
+        "probability": 0.993
+      },
+      {
+        "start": 20.994,
+        "end": 21.214,
+        "text": "about",
+        "probability": 1.0
+      },
+      {
+        "start": 21.214,
+        "end": 21.494,
+        "text": "that,",
+        "probability": 1.0
+      },
+      {
+        "start": 21.594,
+        "end": 21.774,
+        "text": "so",
+        "probability": 0.98
+      },
+      {
+        "start": 21.774,
+        "end": 21.974,
+        "text": "my",
+        "probability": 0.978
+      },
+      {
+        "start": 21.974,
+        "end": 22.394,
+        "text": "apologies",
+        "probability": 1.0
+      },
+      {
+        "start": 22.394,
+        "end": 22.714,
+        "text": "from",
+        "probability": 0.998
+      },
+      {
+        "start": 22.714,
+        "end": 22.854,
+        "text": "then.",
+        "probability": 0.789
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_002371-002483",
+    "start": 23.714,
+    "end": 24.83,
+    "text": "Good as gold. Thanks, Jim.",
+    "words": [
+      {
+        "start": 23.714,
+        "end": 23.834,
+        "text": "Good",
+        "probability": 0.716
+      },
+      {
+        "start": 23.834,
+        "end": 23.934,
+        "text": "as",
+        "probability": 0.787
+      },
+      {
+        "start": 23.934,
+        "end": 24.114,
+        "text": "gold.",
+        "probability": 0.865
+      },
+      {
+        "start": 24.154,
+        "end": 24.334,
+        "text": "Thanks,",
+        "probability": 0.997
+      },
+      {
+        "start": 24.414,
+        "end": 24.534,
+        "text": "Jim.",
+        "probability": 0.979
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_002541-002765",
+    "start": 25.41,
+    "end": 27.646,
+    "text": "So we should we include that in the",
+    "words": [
+      {
+        "start": 25.41,
+        "end": 25.81,
+        "text": "So",
+        "probability": 0.593
+      },
+      {
+        "start": 25.81,
+        "end": 25.93,
+        "text": "we",
+        "probability": 0.525
+      },
+      {
+        "start": 25.93,
+        "end": 26.17,
+        "text": "should",
+        "probability": 0.046
+      },
+      {
+        "start": 26.17,
+        "end": 26.57,
+        "text": "we",
+        "probability": 0.708
+      },
+      {
+        "start": 26.57,
+        "end": 26.87,
+        "text": "include",
+        "probability": 0.999
+      },
+      {
+        "start": 26.87,
+        "end": 27.07,
+        "text": "that",
+        "probability": 0.997
+      },
+      {
+        "start": 27.07,
+        "end": 27.23,
+        "text": "in",
+        "probability": 0.941
+      },
+      {
+        "start": 27.23,
+        "end": 27.31,
+        "text": "the",
+        "probability": 0.947
+      }
+    ],
+    "language": "mi"
+  },
+  {
+    "segment_id": "seg_002781-002864",
+    "start": 27.81,
+    "end": 28.638,
+    "text": "in the",
+    "words": [
+      {
+        "start": 27.81,
+        "end": 27.93,
+        "text": "in",
+        "probability": 0.509
+      },
+      {
+        "start": 27.93,
+        "end": 28.03,
+        "text": "the",
+        "probability": 0.989
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_002899-002957",
+    "start": 28.994,
+    "end": 29.566,
+    "text": "And then",
+    "words": [
+      {
+        "start": 28.994,
+        "end": 29.134,
+        "text": "And",
+        "probability": 0.525
+      },
+      {
+        "start": 29.134,
+        "end": 29.134,
+        "text": "then",
+        "probability": 0.788
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_002979-003126",
+    "start": 29.794,
+    "end": 31.262,
+    "text": "in the motion as well.",
+    "words": [
+      {
+        "start": 29.794,
+        "end": 29.914,
+        "text": "in",
+        "probability": 0.344
+      },
+      {
+        "start": 29.914,
+        "end": 30.394,
+        "text": "the",
+        "probability": 0.99
+      },
+      {
+        "start": 30.394,
+        "end": 30.514,
+        "text": "motion",
+        "probability": 0.979
+      },
+      {
+        "start": 30.514,
+        "end": 30.814,
+        "text": "as",
+        "probability": 0.978
+      },
+      {
+        "start": 30.814,
+        "end": 30.974,
+        "text": "well.",
+        "probability": 0.999
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_003200-003363",
+    "start": 32.002,
+    "end": 33.63,
+    "text": "If someone would like to move, please.",
+    "words": [
+      {
+        "start": 32.002,
+        "end": 32.102,
+        "text": "If",
+        "probability": 0.368
+      },
+      {
+        "start": 32.102,
+        "end": 32.262,
+        "text": "someone",
+        "probability": 0.99
+      },
+      {
+        "start": 32.262,
+        "end": 32.362,
+        "text": "would",
+        "probability": 0.939
+      },
+      {
+        "start": 32.362,
+        "end": 32.542,
+        "text": "like",
+        "probability": 0.997
+      },
+      {
+        "start": 32.542,
+        "end": 32.582,
+        "text": "to",
+        "probability": 0.998
+      },
+      {
+        "start": 32.582,
+        "end": 32.802,
+        "text": "move,",
+        "probability": 0.989
+      },
+      {
+        "start": 32.902,
+        "end": 33.162,
+        "text": "please.",
+        "probability": 0.999
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_003389-003494",
+    "start": 33.89,
+    "end": 34.942,
+    "text": "Happy to move, Mike.",
+    "words": [
+      {
+        "start": 33.89,
+        "end": 34.09,
+        "text": "Happy",
+        "probability": 0.31
+      },
+      {
+        "start": 34.09,
+        "end": 34.13,
+        "text": "to",
+        "probability": 0.991
+      },
+      {
+        "start": 34.13,
+        "end": 34.29,
+        "text": "move,",
+        "probability": 0.996
+      },
+      {
+        "start": 34.49,
+        "end": 34.67,
+        "text": "Mike.",
+        "probability": 0.979
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_003539-003728",
+    "start": 35.394,
+    "end": 37.278,
+    "text": "Thanks, Lou. Thanks, Susan.",
+    "words": [
+      {
+        "start": 35.394,
+        "end": 35.594,
+        "text": "Thanks,",
+        "probability": 0.638
+      },
+      {
+        "start": 35.594,
+        "end": 35.754,
+        "text": "Lou.",
+        "probability": 0.956
+      },
+      {
+        "start": 35.874,
+        "end": 36.094,
+        "text": "Thanks,",
+        "probability": 0.999
+      },
+      {
+        "start": 36.274,
+        "end": 36.714,
+        "text": "Susan.",
+        "probability": 0.998
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_003763-003872",
+    "start": 37.634,
+    "end": 38.718,
+    "text": "all in favor.",
+    "words": [
+      {
+        "start": 37.634,
+        "end": 37.734,
+        "text": "all",
+        "probability": 0.049
+      },
+      {
+        "start": 37.734,
+        "end": 37.794,
+        "text": "in",
+        "probability": 0.979
+      },
+      {
+        "start": 37.794,
+        "end": 38.094,
+        "text": "favor.",
+        "probability": 0.666
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_003911-003961",
+    "start": 39.106,
+    "end": 39.614,
+    "text": "All right.",
+    "words": [
+      {
+        "start": 39.106,
+        "end": 39.266,
+        "text": "All",
+        "probability": 0.453
+      },
+      {
+        "start": 39.266,
+        "end": 39.346,
+        "text": "right.",
+        "probability": 0.997
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_004019-004166",
+    "start": 40.194,
+    "end": 41.662,
+    "text": "country now that's Kerry.",
+    "words": [
+      {
+        "start": 40.194,
+        "end": 40.454,
+        "text": "country",
+        "probability": 0.029
+      },
+      {
+        "start": 40.454,
+        "end": 40.674,
+        "text": "now",
+        "probability": 0.326
+      },
+      {
+        "start": 40.674,
+        "end": 40.974,
+        "text": "that's",
+        "probability": 0.917
+      },
+      {
+        "start": 40.974,
+        "end": 41.214,
+        "text": "Kerry.",
+        "probability": 0.02
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_004311-004509",
+    "start": 43.106,
+    "end": 45.086,
+    "text": "Disclosure of members' interests.",
+    "words": [
+      {
+        "start": 43.106,
+        "end": 43.506,
+        "text": "Disclosure",
+        "probability": 0.975
+      },
+      {
+        "start": 43.506,
+        "end": 43.646,
+        "text": "of",
+        "probability": 0.987
+      },
+      {
+        "start": 43.646,
+        "end": 43.846,
+        "text": "members'",
+        "probability": 0.85
+      },
+      {
+        "start": 44.026,
+        "end": 44.366,
+        "text": "interests.",
+        "probability": 0.986
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_004531-004653",
+    "start": 45.314,
+    "end": 46.526,
+    "text": "Do we have any today?",
+    "words": [
+      {
+        "start": 45.314,
+        "end": 45.394,
+        "text": "Do",
+        "probability": 0.905
+      },
+      {
+        "start": 45.394,
+        "end": 45.474,
+        "text": "we",
+        "probability": 1.0
+      },
+      {
+        "start": 45.474,
+        "end": 45.634,
+        "text": "have",
+        "probability": 1.0
+      },
+      {
+        "start": 45.634,
+        "end": 45.774,
+        "text": "any",
+        "probability": 0.999
+      },
+      {
+        "start": 45.774,
+        "end": 45.994,
+        "text": "today?",
+        "probability": 0.997
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_004909-005177",
+    "start": 49.09,
+    "end": 51.774,
+    "text": "No, I'll move on to item four, late items.",
+    "words": [
+      {
+        "start": 49.09,
+        "end": 49.27,
+        "text": "No,",
+        "probability": 0.609
+      },
+      {
+        "start": 49.27,
+        "end": 49.51,
+        "text": "I'll",
+        "probability": 0.751
+      },
+      {
+        "start": 49.51,
+        "end": 49.61,
+        "text": "move",
+        "probability": 0.999
+      },
+      {
+        "start": 49.61,
+        "end": 49.81,
+        "text": "on",
+        "probability": 0.954
+      },
+      {
+        "start": 49.81,
+        "end": 49.97,
+        "text": "to",
+        "probability": 0.998
+      },
+      {
+        "start": 49.97,
+        "end": 50.19,
+        "text": "item",
+        "probability": 0.932
+      },
+      {
+        "start": 50.19,
+        "end": 50.49,
+        "text": "four,",
+        "probability": 0.813
+      },
+      {
+        "start": 50.55,
+        "end": 50.75,
+        "text": "late",
+        "probability": 0.93
+      },
+      {
+        "start": 50.75,
+        "end": 51.17,
+        "text": "items.",
+        "probability": 0.995
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_005293-005417",
+    "start": 52.93,
+    "end": 54.174,
+    "text": "Any late items?",
+    "words": [
+      {
+        "start": 52.93,
+        "end": 53.05,
+        "text": "Any",
+        "probability": 0.75
+      },
+      {
+        "start": 53.05,
+        "end": 53.31,
+        "text": "late",
+        "probability": 0.463
+      },
+      {
+        "start": 53.31,
+        "end": 53.67,
+        "text": "items?",
+        "probability": 0.996
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_005738-006259",
+    "start": 57.378,
+    "end": 62.59,
+    "text": "No late items, so confirmation of order of meeting. No changes, Ken.",
+    "words": [
+      {
+        "start": 57.378,
+        "end": 57.478,
+        "text": "No",
+        "probability": 0.576
+      },
+      {
+        "start": 57.478,
+        "end": 57.598,
+        "text": "late",
+        "probability": 0.806
+      },
+      {
+        "start": 57.598,
+        "end": 57.918,
+        "text": "items,",
+        "probability": 0.953
+      },
+      {
+        "start": 57.998,
+        "end": 58.218,
+        "text": "so",
+        "probability": 0.979
+      },
+      {
+        "start": 58.218,
+        "end": 58.858,
+        "text": "confirmation",
+        "probability": 0.903
+      },
+      {
+        "start": 58.858,
+        "end": 59.178,
+        "text": "of",
+        "probability": 0.99
+      },
+      {
+        "start": 59.178,
+        "end": 59.438,
+        "text": "order",
+        "probability": 0.965
+      },
+      {
+        "start": 59.438,
+        "end": 59.598,
+        "text": "of",
+        "probability": 0.989
+      },
+      {
+        "start": 59.598,
+        "end": 59.858,
+        "text": "meeting.",
+        "probability": 0.998
+      },
+      {
+        "start": 60.838,
+        "end": 61.318,
+        "text": "No",
+        "probability": 0.987
+      },
+      {
+        "start": 61.318,
+        "end": 61.798,
+        "text": "changes,",
+        "probability": 0.997
+      },
+      {
+        "start": 61.898,
+        "end": 62.098,
+        "text": "Ken.",
+        "probability": 0.96
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_006435-007619",
+    "start": 64.354,
+    "end": 76.19,
+    "text": "No, I don't see any need for change. We do have a number of guests joining us at the meeting today, but they're well aware of the time. So yes, I'm hoping they'll be here at the required time.",
+    "words": [
+      {
+        "start": 64.354,
+        "end": 64.654,
+        "text": "No,",
+        "probability": 0.946
+      },
+      {
+        "start": 64.674,
+        "end": 64.774,
+        "text": "I",
+        "probability": 1.0
+      },
+      {
+        "start": 64.774,
+        "end": 65.134,
+        "text": "don't",
+        "probability": 1.0
+      },
+      {
+        "start": 65.134,
+        "end": 65.334,
+        "text": "see",
+        "probability": 1.0
+      },
+      {
+        "start": 65.334,
+        "end": 65.874,
+        "text": "any",
+        "probability": 0.999
+      },
+      {
+        "start": 65.874,
+        "end": 66.234,
+        "text": "need",
+        "probability": 1.0
+      },
+      {
+        "start": 66.234,
+        "end": 66.534,
+        "text": "for",
+        "probability": 1.0
+      },
+      {
+        "start": 66.534,
+        "end": 67.034,
+        "text": "change.",
+        "probability": 0.996
+      },
+      {
+        "start": 67.254,
+        "end": 67.474,
+        "text": "We",
+        "probability": 1.0
+      },
+      {
+        "start": 67.474,
+        "end": 67.774,
+        "text": "do",
+        "probability": 1.0
+      },
+      {
+        "start": 67.774,
+        "end": 67.974,
+        "text": "have",
+        "probability": 1.0
+      },
+      {
+        "start": 67.974,
+        "end": 68.094,
+        "text": "a",
+        "probability": 1.0
+      },
+      {
+        "start": 68.094,
+        "end": 68.354,
+        "text": "number",
+        "probability": 1.0
+      },
+      {
+        "start": 68.354,
+        "end": 68.614,
+        "text": "of",
+        "probability": 1.0
+      },
+      {
+        "start": 68.614,
+        "end": 69.014,
+        "text": "guests",
+        "probability": 1.0
+      },
+      {
+        "start": 69.014,
+        "end": 69.514,
+        "text": "joining",
+        "probability": 1.0
+      },
+      {
+        "start": 69.514,
+        "end": 69.754,
+        "text": "us",
+        "probability": 1.0
+      },
+      {
+        "start": 69.754,
+        "end": 69.954,
+        "text": "at",
+        "probability": 1.0
+      },
+      {
+        "start": 69.954,
+        "end": 70.014,
+        "text": "the",
+        "probability": 1.0
+      },
+      {
+        "start": 70.014,
+        "end": 70.274,
+        "text": "meeting",
+        "probability": 1.0
+      },
+      {
+        "start": 70.274,
+        "end": 70.574,
+        "text": "today,",
+        "probability": 1.0
+      },
+      {
+        "start": 70.734,
+        "end": 71.414,
+        "text": "but",
+        "probability": 1.0
+      },
+      {
+        "start": 71.414,
+        "end": 71.714,
+        "text": "they're",
+        "probability": 0.942
+      },
+      {
+        "start": 71.714,
+        "end": 71.954,
+        "text": "well",
+        "probability": 0.997
+      },
+      {
+        "start": 71.954,
+        "end": 72.214,
+        "text": "aware",
+        "probability": 1.0
+      },
+      {
+        "start": 72.214,
+        "end": 72.354,
+        "text": "of",
+        "probability": 1.0
+      },
+      {
+        "start": 72.354,
+        "end": 72.434,
+        "text": "the",
+        "probability": 1.0
+      },
+      {
+        "start": 72.434,
+        "end": 72.754,
+        "text": "time.",
+        "probability": 0.998
+      },
+      {
+        "start": 72.854,
+        "end": 73.094,
+        "text": "So",
+        "probability": 0.983
+      },
+      {
+        "start": 73.094,
+        "end": 73.554,
+        "text": "yes,",
+        "probability": 0.562
+      },
+      {
+        "start": 73.574,
+        "end": 73.894,
+        "text": "I'm",
+        "probability": 1.0
+      },
+      {
+        "start": 73.894,
+        "end": 74.034,
+        "text": "hoping",
+        "probability": 1.0
+      },
+      {
+        "start": 74.034,
+        "end": 74.314,
+        "text": "they'll",
+        "probability": 1.0
+      },
+      {
+        "start": 74.314,
+        "end": 74.634,
+        "text": "be",
+        "probability": 0.999
+      },
+      {
+        "start": 74.634,
+        "end": 74.854,
+        "text": "here",
+        "probability": 0.998
+      },
+      {
+        "start": 74.854,
+        "end": 74.954,
+        "text": "at",
+        "probability": 1.0
+      },
+      {
+        "start": 74.954,
+        "end": 75.034,
+        "text": "the",
+        "probability": 1.0
+      },
+      {
+        "start": 75.034,
+        "end": 75.594,
+        "text": "required",
+        "probability": 1.0
+      },
+      {
+        "start": 75.594,
+        "end": 75.934,
+        "text": "time.",
+        "probability": 1.0
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_007709-007872",
+    "start": 77.09,
+    "end": 78.718,
+    "text": "Happy to move Andrew, Grahame.",
+    "words": [
+      {
+        "start": 77.09,
+        "end": 77.35,
+        "text": "Happy",
+        "probability": 0.805
+      },
+      {
+        "start": 77.35,
+        "end": 77.47,
+        "text": "to",
+        "probability": 0.999
+      },
+      {
+        "start": 77.47,
+        "end": 77.65,
+        "text": "move",
+        "probability": 1.0
+      },
+      {
+        "start": 77.65,
+        "end": 77.95,
+        "text": "Andrew,",
+        "probability": 0.207
+      },
+      {
+        "start": 78.09,
+        "end": 78.45,
+        "text": "Grahame.",
+        "probability": 0.515
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_007907-007993",
+    "start": 79.074,
+    "end": 79.934,
+    "text": "Thanks, Graham.",
+    "words": [
+      {
+        "start": 79.074,
+        "end": 79.234,
+        "text": "Thanks,",
+        "probability": 0.729
+      },
+      {
+        "start": 79.254,
+        "end": 79.454,
+        "text": "Graham.",
+        "probability": 0.625
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_008007-008195",
+    "start": 80.066,
+    "end": 81.95,
+    "text": "A seconder? Second, Susan.",
+    "words": [
+      {
+        "start": 80.066,
+        "end": 80.246,
+        "text": "A",
+        "probability": 0.5
+      },
+      {
+        "start": 80.246,
+        "end": 80.706,
+        "text": "seconder?",
+        "probability": 0.954
+      },
+      {
+        "start": 80.706,
+        "end": 81.066,
+        "text": "Second,",
+        "probability": 0.644
+      },
+      {
+        "start": 81.326,
+        "end": 81.646,
+        "text": "Susan.",
+        "probability": 0.856
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_008247-008304",
+    "start": 82.466,
+    "end": 83.038,
+    "text": "Thanks.",
+    "words": [
+      {
+        "start": 82.466,
+        "end": 82.666,
+        "text": "Thanks.",
+        "probability": 0.92
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_008359-008758",
+    "start": 83.586,
+    "end": 87.582,
+    "text": "Susan, I think it was. Cheers. All in favour, please say aye.",
+    "words": [
+      {
+        "start": 83.586,
+        "end": 83.906,
+        "text": "Susan,",
+        "probability": 0.851
+      },
+      {
+        "start": 83.946,
+        "end": 84.086,
+        "text": "I",
+        "probability": 0.975
+      },
+      {
+        "start": 84.086,
+        "end": 84.406,
+        "text": "think",
+        "probability": 0.995
+      },
+      {
+        "start": 84.406,
+        "end": 84.566,
+        "text": "it",
+        "probability": 0.743
+      },
+      {
+        "start": 84.566,
+        "end": 84.846,
+        "text": "was.",
+        "probability": 0.998
+      },
+      {
+        "start": 85.226,
+        "end": 85.546,
+        "text": "Cheers.",
+        "probability": 0.968
+      },
+      {
+        "start": 85.806,
+        "end": 86.126,
+        "text": "All",
+        "probability": 0.997
+      },
+      {
+        "start": 86.126,
+        "end": 86.246,
+        "text": "in",
+        "probability": 0.997
+      },
+      {
+        "start": 86.246,
+        "end": 86.466,
+        "text": "favour,",
+        "probability": 0.788
+      },
+      {
+        "start": 86.626,
+        "end": 86.786,
+        "text": "please",
+        "probability": 0.998
+      },
+      {
+        "start": 86.786,
+        "end": 86.966,
+        "text": "say",
+        "probability": 0.999
+      },
+      {
+        "start": 86.966,
+        "end": 87.126,
+        "text": "aye.",
+        "probability": 0.988
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_008794-008864",
+    "start": 87.938,
+    "end": 88.638,
+    "text": "All right.",
+    "words": [
+      {
+        "start": 87.938,
+        "end": 88.098,
+        "text": "All",
+        "probability": 0.076
+      },
+      {
+        "start": 88.098,
+        "end": 88.258,
+        "text": "right.",
+        "probability": 0.992
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_008887-009001",
+    "start": 88.866,
+    "end": 90.014,
+    "text": "country now carried.",
+    "words": [
+      {
+        "start": 88.866,
+        "end": 89.106,
+        "text": "country",
+        "probability": 0.158
+      },
+      {
+        "start": 89.106,
+        "end": 89.286,
+        "text": "now",
+        "probability": 0.974
+      },
+      {
+        "start": 89.286,
+        "end": 89.526,
+        "text": "carried.",
+        "probability": 0.984
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_009047-009437",
+    "start": 90.466,
+    "end": 94.366,
+    "text": "Okay, item six, which is",
+    "words": [
+      {
+        "start": 90.466,
+        "end": 90.826,
+        "text": "Okay,",
+        "probability": 0.534
+      },
+      {
+        "start": 90.846,
+        "end": 91.266,
+        "text": "item",
+        "probability": 0.86
+      },
+      {
+        "start": 91.266,
+        "end": 91.986,
+        "text": "six,",
+        "probability": 0.927
+      },
+      {
+        "start": 92.226,
+        "end": 92.626,
+        "text": "which",
+        "probability": 1.0
+      },
+      {
+        "start": 92.626,
+        "end": 93.026,
+        "text": "is",
+        "probability": 0.999
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_009495-009696",
+    "start": 94.946,
+    "end": 96.958,
+    "text": "Confirmation of the minutes.",
+    "words": [
+      {
+        "start": 94.946,
+        "end": 95.386,
+        "text": "Confirmation",
+        "probability": 0.833
+      },
+      {
+        "start": 95.386,
+        "end": 95.546,
+        "text": "of",
+        "probability": 0.371
+      },
+      {
+        "start": 95.546,
+        "end": 95.586,
+        "text": "the",
+        "probability": 0.832
+      },
+      {
+        "start": 95.586,
+        "end": 96.046,
+        "text": "minutes.",
+        "probability": 0.966
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_009719-009859",
+    "start": 97.186,
+    "end": 98.59,
+    "text": "from 18 February.",
+    "words": [
+      {
+        "start": 97.186,
+        "end": 97.306,
+        "text": "from",
+        "probability": 0.839
+      },
+      {
+        "start": 97.306,
+        "end": 97.546,
+        "text": "18",
+        "probability": 0.941
+      },
+      {
+        "start": 97.546,
+        "end": 98.046,
+        "text": "February.",
+        "probability": 0.767
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_009968-010109",
+    "start": 99.682,
+    "end": 101.086,
+    "text": "Um, have we all",
+    "words": [
+      {
+        "start": 99.682,
+        "end": 99.782,
+        "text": "Um,",
+        "probability": 0.071
+      },
+      {
+        "start": 99.942,
+        "end": 100.142,
+        "text": "have",
+        "probability": 0.958
+      },
+      {
+        "start": 100.142,
+        "end": 100.402,
+        "text": "we",
+        "probability": 0.998
+      },
+      {
+        "start": 100.402,
+        "end": 100.742,
+        "text": "all",
+        "probability": 0.974
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_010173-010355",
+    "start": 101.73,
+    "end": 103.55,
+    "text": "Our type dials is being read.",
+    "words": [
+      {
+        "start": 101.73,
+        "end": 101.83,
+        "text": "Our",
+        "probability": 0.082
+      },
+      {
+        "start": 101.83,
+        "end": 102.03,
+        "text": "type",
+        "probability": 0.593
+      },
+      {
+        "start": 102.03,
+        "end": 102.45,
+        "text": "dials",
+        "probability": 0.422
+      },
+      {
+        "start": 102.45,
+        "end": 102.45,
+        "text": "is",
+        "probability": 0.365
+      },
+      {
+        "start": 102.45,
+        "end": 102.73,
+        "text": "being",
+        "probability": 0.99
+      },
+      {
+        "start": 102.73,
+        "end": 103.09,
+        "text": "read.",
+        "probability": 0.875
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_010435-010563",
+    "start": 104.354,
+    "end": 105.63,
+    "text": "Um, anything",
+    "words": [
+      {
+        "start": 104.354,
+        "end": 104.474,
+        "text": "Um,",
+        "probability": 0.088
+      },
+      {
+        "start": 104.574,
+        "end": 105.034,
+        "text": "anything",
+        "probability": 0.986
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_010631-010793",
+    "start": 106.306,
+    "end": 107.934,
+    "text": "Reyes from those minutes.",
+    "words": [
+      {
+        "start": 106.306,
+        "end": 106.706,
+        "text": "Reyes",
+        "probability": 0.245
+      },
+      {
+        "start": 106.706,
+        "end": 106.866,
+        "text": "from",
+        "probability": 0.812
+      },
+      {
+        "start": 106.866,
+        "end": 107.066,
+        "text": "those",
+        "probability": 0.975
+      },
+      {
+        "start": 107.066,
+        "end": 107.386,
+        "text": "minutes.",
+        "probability": 0.984
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_010855-011059",
+    "start": 108.546,
+    "end": 110.59,
+    "text": "Andrew Grahame speaking.",
+    "words": [
+      {
+        "start": 108.546,
+        "end": 108.966,
+        "text": "Andrew",
+        "probability": 0.754
+      },
+      {
+        "start": 108.966,
+        "end": 109.886,
+        "text": "Grahame",
+        "probability": 0.583
+      },
+      {
+        "start": 109.886,
+        "end": 110.146,
+        "text": "speaking.",
+        "probability": 0.919
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_011085-011529",
+    "start": 110.85,
+    "end": 115.294,
+    "text": "My diary's showing me that I was at that meeting, but my name's not recorded there.",
+    "words": [
+      {
+        "start": 110.85,
+        "end": 111.41,
+        "text": "My",
+        "probability": 0.688
+      },
+      {
+        "start": 111.41,
+        "end": 111.93,
+        "text": "diary's",
+        "probability": 0.7
+      },
+      {
+        "start": 111.93,
+        "end": 112.21,
+        "text": "showing",
+        "probability": 0.999
+      },
+      {
+        "start": 112.21,
+        "end": 112.41,
+        "text": "me",
+        "probability": 0.994
+      },
+      {
+        "start": 112.41,
+        "end": 112.61,
+        "text": "that",
+        "probability": 0.984
+      },
+      {
+        "start": 112.61,
+        "end": 112.71,
+        "text": "I",
+        "probability": 0.994
+      },
+      {
+        "start": 112.71,
+        "end": 112.83,
+        "text": "was",
+        "probability": 0.999
+      },
+      {
+        "start": 112.83,
+        "end": 112.97,
+        "text": "at",
+        "probability": 0.99
+      },
+      {
+        "start": 112.97,
+        "end": 113.11,
+        "text": "that",
+        "probability": 0.969
+      },
+      {
+        "start": 113.11,
+        "end": 113.39,
+        "text": "meeting,",
+        "probability": 0.999
+      },
+      {
+        "start": 113.49,
+        "end": 113.79,
+        "text": "but",
+        "probability": 0.998
+      },
+      {
+        "start": 113.79,
+        "end": 113.97,
+        "text": "my",
+        "probability": 0.998
+      },
+      {
+        "start": 113.97,
+        "end": 114.25,
+        "text": "name's",
+        "probability": 0.964
+      },
+      {
+        "start": 114.25,
+        "end": 114.39,
+        "text": "not",
+        "probability": 1.0
+      },
+      {
+        "start": 114.39,
+        "end": 114.73,
+        "text": "recorded",
+        "probability": 0.998
+      },
+      {
+        "start": 114.73,
+        "end": 115.01,
+        "text": "there.",
+        "probability": 0.993
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_011619-011936",
+    "start": 116.194,
+    "end": 119.358,
+    "text": "I was going to bring that up too, so yeah, I think there's some.",
+    "words": [
+      {
+        "start": 116.194,
+        "end": 116.474,
+        "text": "I",
+        "probability": 0.546
+      },
+      {
+        "start": 116.474,
+        "end": 116.654,
+        "text": "was",
+        "probability": 1.0
+      },
+      {
+        "start": 116.654,
+        "end": 116.774,
+        "text": "going",
+        "probability": 0.992
+      },
+      {
+        "start": 116.774,
+        "end": 116.874,
+        "text": "to",
+        "probability": 0.998
+      },
+      {
+        "start": 116.874,
+        "end": 117.474,
+        "text": "bring",
+        "probability": 0.995
+      },
+      {
+        "start": 117.474,
+        "end": 117.634,
+        "text": "that",
+        "probability": 1.0
+      },
+      {
+        "start": 117.634,
+        "end": 117.794,
+        "text": "up",
+        "probability": 1.0
+      },
+      {
+        "start": 117.794,
+        "end": 117.974,
+        "text": "too,",
+        "probability": 0.902
+      },
+      {
+        "start": 118.074,
+        "end": 118.194,
+        "text": "so",
+        "probability": 0.989
+      },
+      {
+        "start": 118.194,
+        "end": 118.454,
+        "text": "yeah,",
+        "probability": 0.711
+      },
+      {
+        "start": 118.494,
+        "end": 118.634,
+        "text": "I",
+        "probability": 0.384
+      },
+      {
+        "start": 118.634,
+        "end": 118.774,
+        "text": "think",
+        "probability": 0.974
+      },
+      {
+        "start": 118.774,
+        "end": 118.954,
+        "text": "there's",
+        "probability": 0.965
+      },
+      {
+        "start": 118.954,
+        "end": 119.054,
+        "text": "some.",
+        "probability": 0.998
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_012026-012083",
+    "start": 120.258,
+    "end": 120.83,
+    "text": "Mistake.",
+    "words": [
+      {
+        "start": 120.258,
+        "end": 120.578,
+        "text": "Mistake.",
+        "probability": 0.6
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_012103-012160",
+    "start": 121.026,
+    "end": 121.598,
+    "text": "Thanks Bruce.",
+    "words": [
+      {
+        "start": 121.026,
+        "end": 121.186,
+        "text": "Thanks",
+        "probability": 0.928
+      },
+      {
+        "start": 121.186,
+        "end": 121.286,
+        "text": "Bruce.",
+        "probability": 0.477
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_012202-012259",
+    "start": 122.018,
+    "end": 122.59,
+    "text": "Okay.",
+    "words": [
+      {
+        "start": 122.018,
+        "end": 122.238,
+        "text": "Okay.",
+        "probability": 0.697
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_012282-012528",
+    "start": 122.818,
+    "end": 125.278,
+    "text": "So I'm sure we can have that remedied, Sam.",
+    "words": [
+      {
+        "start": 122.818,
+        "end": 122.998,
+        "text": "So",
+        "probability": 0.68
+      },
+      {
+        "start": 122.998,
+        "end": 123.218,
+        "text": "I'm",
+        "probability": 0.965
+      },
+      {
+        "start": 123.218,
+        "end": 123.418,
+        "text": "sure",
+        "probability": 1.0
+      },
+      {
+        "start": 123.418,
+        "end": 123.578,
+        "text": "we",
+        "probability": 0.999
+      },
+      {
+        "start": 123.578,
+        "end": 123.738,
+        "text": "can",
+        "probability": 1.0
+      },
+      {
+        "start": 123.738,
+        "end": 123.878,
+        "text": "have",
+        "probability": 1.0
+      },
+      {
+        "start": 123.878,
+        "end": 124.018,
+        "text": "that",
+        "probability": 0.999
+      },
+      {
+        "start": 124.018,
+        "end": 124.598,
+        "text": "remedied,",
+        "probability": 0.998
+      },
+      {
+        "start": 124.598,
+        "end": 124.818,
+        "text": "Sam.",
+        "probability": 0.999
+      }
+    ],
+    "language": "mi"
+  },
+  {
+    "segment_id": "seg_012781-013011",
+    "start": 127.81,
+    "end": 130.11,
+    "text": "Yes, we'll make the changes.",
+    "words": [
+      {
+        "start": 128.47,
+        "end": 128.79,
+        "text": "Yes,",
+        "probability": 0.554
+      },
+      {
+        "start": 128.81,
+        "end": 128.93,
+        "text": "we'll",
+        "probability": 0.792
+      },
+      {
+        "start": 128.93,
+        "end": 129.07,
+        "text": "make",
+        "probability": 0.995
+      },
+      {
+        "start": 129.07,
+        "end": 129.23,
+        "text": "the",
+        "probability": 0.995
+      },
+      {
+        "start": 129.23,
+        "end": 129.57,
+        "text": "changes.",
+        "probability": 0.999
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_013056-013123",
+    "start": 130.562,
+    "end": 131.23,
+    "text": "Thank you.",
+    "words": [
+      {
+        "start": 130.562,
+        "end": 130.742,
+        "text": "Thank",
+        "probability": 0.522
+      },
+      {
+        "start": 130.742,
+        "end": 130.842,
+        "text": "you.",
+        "probability": 0.998
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_013143-013897",
+    "start": 131.426,
+    "end": 138.974,
+    "text": "OK, so with that change, could I have a mover for the minutes to be received as a true and correct record, please? Thank you, Marcus.",
+    "words": [
+      {
+        "start": 131.426,
+        "end": 131.546,
+        "text": "OK,",
+        "probability": 0.584
+      },
+      {
+        "start": 131.826,
+        "end": 132.146,
+        "text": "so",
+        "probability": 0.999
+      },
+      {
+        "start": 132.146,
+        "end": 132.686,
+        "text": "with",
+        "probability": 0.876
+      },
+      {
+        "start": 132.686,
+        "end": 132.866,
+        "text": "that",
+        "probability": 1.0
+      },
+      {
+        "start": 132.866,
+        "end": 133.306,
+        "text": "change,",
+        "probability": 0.998
+      },
+      {
+        "start": 133.466,
+        "end": 133.826,
+        "text": "could",
+        "probability": 1.0
+      },
+      {
+        "start": 133.826,
+        "end": 133.986,
+        "text": "I",
+        "probability": 1.0
+      },
+      {
+        "start": 133.986,
+        "end": 134.166,
+        "text": "have",
+        "probability": 1.0
+      },
+      {
+        "start": 134.166,
+        "end": 134.266,
+        "text": "a",
+        "probability": 1.0
+      },
+      {
+        "start": 134.266,
+        "end": 134.506,
+        "text": "mover",
+        "probability": 0.996
+      },
+      {
+        "start": 134.506,
+        "end": 134.746,
+        "text": "for",
+        "probability": 1.0
+      },
+      {
+        "start": 134.746,
+        "end": 134.846,
+        "text": "the",
+        "probability": 1.0
+      },
+      {
+        "start": 134.846,
+        "end": 135.086,
+        "text": "minutes",
+        "probability": 0.998
+      },
+      {
+        "start": 135.086,
+        "end": 135.326,
+        "text": "to",
+        "probability": 1.0
+      },
+      {
+        "start": 135.326,
+        "end": 135.446,
+        "text": "be",
+        "probability": 1.0
+      },
+      {
+        "start": 135.446,
+        "end": 135.966,
+        "text": "received",
+        "probability": 1.0
+      },
+      {
+        "start": 135.966,
+        "end": 136.586,
+        "text": "as",
+        "probability": 0.917
+      },
+      {
+        "start": 136.586,
+        "end": 136.686,
+        "text": "a",
+        "probability": 1.0
+      },
+      {
+        "start": 136.686,
+        "end": 137.086,
+        "text": "true",
+        "probability": 0.993
+      },
+      {
+        "start": 137.086,
+        "end": 137.206,
+        "text": "and",
+        "probability": 1.0
+      },
+      {
+        "start": 137.206,
+        "end": 137.406,
+        "text": "correct",
+        "probability": 0.999
+      },
+      {
+        "start": 137.406,
+        "end": 137.666,
+        "text": "record,",
+        "probability": 0.982
+      },
+      {
+        "start": 137.746,
+        "end": 137.946,
+        "text": "please?",
+        "probability": 1.0
+      },
+      {
+        "start": 137.986,
+        "end": 138.126,
+        "text": "Thank",
+        "probability": 0.999
+      },
+      {
+        "start": 138.126,
+        "end": 138.286,
+        "text": "you,",
+        "probability": 1.0
+      },
+      {
+        "start": 138.286,
+        "end": 138.486,
+        "text": "Marcus.",
+        "probability": 0.99
+      }
+    ],
+    "language": "mi"
+  },
+  {
+    "segment_id": "seg_013965-014035",
+    "start": 139.65,
+    "end": 140.35,
+    "text": "Sikandar.",
+    "words": [
+      {
+        "start": 139.65,
+        "end": 140.07,
+        "text": "Sikandar.",
+        "probability": 0.546
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_014048-014109",
+    "start": 140.482,
+    "end": 141.086,
+    "text": "I'll sign up.",
+    "words": [
+      {
+        "start": 140.482,
+        "end": 140.522,
+        "text": "I'll",
+        "probability": 0.856
+      },
+      {
+        "start": 140.522,
+        "end": 140.682,
+        "text": "sign",
+        "probability": 0.236
+      },
+      {
+        "start": 140.682,
+        "end": 140.862,
+        "text": "up.",
+        "probability": 0.637
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_014144-014224",
+    "start": 141.442,
+    "end": 142.238,
+    "text": "Thanks, Bruce.",
+    "words": [
+      {
+        "start": 141.442,
+        "end": 141.622,
+        "text": "Thanks,",
+        "probability": 0.666
+      },
+      {
+        "start": 141.622,
+        "end": 141.782,
+        "text": "Bruce.",
+        "probability": 0.969
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_014253-014413",
+    "start": 142.53,
+    "end": 144.126,
+    "text": "All in favour, please say aye.",
+    "words": [
+      {
+        "start": 142.53,
+        "end": 142.65,
+        "text": "All",
+        "probability": 0.95
+      },
+      {
+        "start": 142.65,
+        "end": 142.75,
+        "text": "in",
+        "probability": 0.993
+      },
+      {
+        "start": 142.75,
+        "end": 143.01,
+        "text": "favour,",
+        "probability": 0.824
+      },
+      {
+        "start": 143.09,
+        "end": 143.27,
+        "text": "please",
+        "probability": 0.997
+      },
+      {
+        "start": 143.27,
+        "end": 143.45,
+        "text": "say",
+        "probability": 0.956
+      },
+      {
+        "start": 143.45,
+        "end": 143.65,
+        "text": "aye.",
+        "probability": 0.94
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_014435-014512",
+    "start": 144.354,
+    "end": 145.118,
+    "text": "Bye. Bye.",
+    "words": [
+      {
+        "start": 144.354,
+        "end": 144.554,
+        "text": "Bye.",
+        "probability": 0.766
+      },
+      {
+        "start": 144.554,
+        "end": 144.674,
+        "text": "Bye.",
+        "probability": 0.939
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_014557-014681",
+    "start": 145.57,
+    "end": 146.814,
+    "text": "country now carried.",
+    "words": [
+      {
+        "start": 145.57,
+        "end": 145.83,
+        "text": "country",
+        "probability": 0.797
+      },
+      {
+        "start": 145.83,
+        "end": 146.03,
+        "text": "now",
+        "probability": 0.95
+      },
+      {
+        "start": 146.03,
+        "end": 146.35,
+        "text": "carried.",
+        "probability": 0.977
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_014733-014800",
+    "start": 147.33,
+    "end": 147.998,
+    "text": "Thank you.",
+    "words": [
+      {
+        "start": 147.33,
+        "end": 147.51,
+        "text": "Thank",
+        "probability": 0.741
+      },
+      {
+        "start": 147.51,
+        "end": 147.59,
+        "text": "you.",
+        "probability": 0.998
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_014861-014982",
+    "start": 148.61,
+    "end": 149.822,
+    "text": "Item seven.",
+    "words": [
+      {
+        "start": 148.61,
+        "end": 148.87,
+        "text": "Item",
+        "probability": 0.822
+      },
+      {
+        "start": 148.87,
+        "end": 149.33,
+        "text": "seven.",
+        "probability": 0.6
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_015008-015251",
+    "start": 150.082,
+    "end": 152.51,
+    "text": "Jason, has Jason joined us?",
+    "words": [
+      {
+        "start": 150.082,
+        "end": 150.542,
+        "text": "Jason,",
+        "probability": 0.898
+      },
+      {
+        "start": 150.602,
+        "end": 150.982,
+        "text": "has",
+        "probability": 0.96
+      },
+      {
+        "start": 150.982,
+        "end": 151.562,
+        "text": "Jason",
+        "probability": 0.988
+      },
+      {
+        "start": 151.562,
+        "end": 151.902,
+        "text": "joined",
+        "probability": 0.997
+      },
+      {
+        "start": 151.902,
+        "end": 152.182,
+        "text": "us?",
+        "probability": 0.999
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_015367-015677",
+    "start": 153.666,
+    "end": 156.766,
+    "text": "He has. Hi Jason, how are you doing?",
+    "words": [
+      {
+        "start": 153.666,
+        "end": 153.766,
+        "text": "He",
+        "probability": 0.832
+      },
+      {
+        "start": 153.766,
+        "end": 154.046,
+        "text": "has.",
+        "probability": 0.986
+      },
+      {
+        "start": 154.826,
+        "end": 155.066,
+        "text": "Hi",
+        "probability": 0.451
+      },
+      {
+        "start": 155.066,
+        "end": 155.946,
+        "text": "Jason,",
+        "probability": 0.668
+      },
+      {
+        "start": 156.046,
+        "end": 156.146,
+        "text": "how",
+        "probability": 1.0
+      },
+      {
+        "start": 156.146,
+        "end": 156.266,
+        "text": "are",
+        "probability": 0.836
+      },
+      {
+        "start": 156.266,
+        "end": 156.286,
+        "text": "you",
+        "probability": 1.0
+      },
+      {
+        "start": 156.286,
+        "end": 156.466,
+        "text": "doing?",
+        "probability": 1.0
+      }
+    ],
+    "language": "mi"
+  },
+  {
+    "segment_id": "seg_015863-015936",
+    "start": 158.626,
+    "end": 159.358,
+    "text": "Good. Thank you.",
+    "words": [
+      {
+        "start": 158.626,
+        "end": 158.726,
+        "text": "Good.",
+        "probability": 0.453
+      },
+      {
+        "start": 158.726,
+        "end": 158.906,
+        "text": "Thank",
+        "probability": 0.998
+      },
+      {
+        "start": 158.906,
+        "end": 159.046,
+        "text": "you.",
+        "probability": 0.998
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_016000-016147",
+    "start": 160.002,
+    "end": 161.47,
+    "text": "Great, and the floor is yours.",
+    "words": [
+      {
+        "start": 160.002,
+        "end": 160.202,
+        "text": "Great,",
+        "probability": 0.883
+      },
+      {
+        "start": 160.202,
+        "end": 160.442,
+        "text": "and",
+        "probability": 0.726
+      },
+      {
+        "start": 160.442,
+        "end": 160.522,
+        "text": "the",
+        "probability": 0.999
+      },
+      {
+        "start": 160.522,
+        "end": 160.722,
+        "text": "floor",
+        "probability": 1.0
+      },
+      {
+        "start": 160.722,
+        "end": 160.902,
+        "text": "is",
+        "probability": 0.998
+      },
+      {
+        "start": 160.902,
+        "end": 161.082,
+        "text": "yours.",
+        "probability": 1.0
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_016355-016880",
+    "start": 163.554,
+    "end": 168.798,
+    "text": "Okay, Sam, I don't think we had issues with trying to get the presentation. Is that right?",
+    "words": [
+      {
+        "start": 163.554,
+        "end": 163.954,
+        "text": "Okay,",
+        "probability": 0.697
+      },
+      {
+        "start": 164.094,
+        "end": 164.714,
+        "text": "Sam,",
+        "probability": 0.851
+      },
+      {
+        "start": 164.854,
+        "end": 164.934,
+        "text": "I",
+        "probability": 0.997
+      },
+      {
+        "start": 164.934,
+        "end": 165.154,
+        "text": "don't",
+        "probability": 0.999
+      },
+      {
+        "start": 165.154,
+        "end": 165.334,
+        "text": "think",
+        "probability": 1.0
+      },
+      {
+        "start": 165.334,
+        "end": 165.534,
+        "text": "we",
+        "probability": 0.997
+      },
+      {
+        "start": 165.534,
+        "end": 165.714,
+        "text": "had",
+        "probability": 0.876
+      },
+      {
+        "start": 165.714,
+        "end": 166.034,
+        "text": "issues",
+        "probability": 0.894
+      },
+      {
+        "start": 166.034,
+        "end": 166.814,
+        "text": "with",
+        "probability": 0.975
+      },
+      {
+        "start": 166.814,
+        "end": 167.014,
+        "text": "trying",
+        "probability": 0.999
+      },
+      {
+        "start": 167.014,
+        "end": 167.154,
+        "text": "to",
+        "probability": 0.999
+      },
+      {
+        "start": 167.154,
+        "end": 167.234,
+        "text": "get",
+        "probability": 0.998
+      },
+      {
+        "start": 167.234,
+        "end": 167.354,
+        "text": "the",
+        "probability": 1.0
+      },
+      {
+        "start": 167.354,
+        "end": 167.734,
+        "text": "presentation.",
+        "probability": 1.0
+      },
+      {
+        "start": 167.834,
+        "end": 168.194,
+        "text": "Is",
+        "probability": 1.0
+      },
+      {
+        "start": 168.194,
+        "end": 168.334,
+        "text": "that",
+        "probability": 1.0
+      },
+      {
+        "start": 168.334,
+        "end": 168.514,
+        "text": "right?",
+        "probability": 1.0
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_016903-017104",
+    "start": 169.026,
+    "end": 171.038,
+    "text": "Oh, no, same as sharing, brilliant.",
+    "words": [
+      {
+        "start": 169.026,
+        "end": 169.166,
+        "text": "Oh,",
+        "probability": 0.899
+      },
+      {
+        "start": 169.166,
+        "end": 169.486,
+        "text": "no,",
+        "probability": 0.969
+      },
+      {
+        "start": 169.586,
+        "end": 169.866,
+        "text": "same",
+        "probability": 0.936
+      },
+      {
+        "start": 169.866,
+        "end": 170.006,
+        "text": "as",
+        "probability": 0.994
+      },
+      {
+        "start": 170.006,
+        "end": 170.206,
+        "text": "sharing,",
+        "probability": 0.963
+      },
+      {
+        "start": 170.386,
+        "end": 170.626,
+        "text": "brilliant.",
+        "probability": 0.999
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_017767-017827",
+    "start": 177.666,
+    "end": 178.27,
+    "text": "Perfect.",
+    "words": [
+      {
+        "start": 177.666,
+        "end": 177.886,
+        "text": "Perfect.",
+        "probability": 0.585
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_018058-018665",
+    "start": 180.578,
+    "end": 186.654,
+    "text": "Thanks, Sam. Good morning or good afternoon. Sorry, everyone. Thanks for allowing me time just to give you a quick update.",
+    "words": [
+      {
+        "start": 180.578,
+        "end": 180.778,
+        "text": "Thanks,",
+        "probability": 0.493
+      },
+      {
+        "start": 180.778,
+        "end": 180.938,
+        "text": "Sam.",
+        "probability": 0.983
+      },
+      {
+        "start": 181.098,
+        "end": 181.498,
+        "text": "Good",
+        "probability": 0.996
+      },
+      {
+        "start": 181.498,
+        "end": 181.778,
+        "text": "morning",
+        "probability": 0.912
+      },
+      {
+        "start": 181.778,
+        "end": 182.078,
+        "text": "or",
+        "probability": 0.309
+      },
+      {
+        "start": 182.078,
+        "end": 182.298,
+        "text": "good",
+        "probability": 0.995
+      },
+      {
+        "start": 182.298,
+        "end": 182.638,
+        "text": "afternoon.",
+        "probability": 1.0
+      },
+      {
+        "start": 182.658,
+        "end": 182.898,
+        "text": "Sorry,",
+        "probability": 0.999
+      },
+      {
+        "start": 183.018,
+        "end": 183.298,
+        "text": "everyone.",
+        "probability": 1.0
+      },
+      {
+        "start": 183.618,
+        "end": 184.018,
+        "text": "Thanks",
+        "probability": 0.999
+      },
+      {
+        "start": 184.018,
+        "end": 184.258,
+        "text": "for",
+        "probability": 1.0
+      },
+      {
+        "start": 184.258,
+        "end": 184.458,
+        "text": "allowing",
+        "probability": 1.0
+      },
+      {
+        "start": 184.458,
+        "end": 184.638,
+        "text": "me",
+        "probability": 1.0
+      },
+      {
+        "start": 184.638,
+        "end": 184.838,
+        "text": "time",
+        "probability": 1.0
+      },
+      {
+        "start": 184.838,
+        "end": 185.138,
+        "text": "just",
+        "probability": 0.997
+      },
+      {
+        "start": 185.138,
+        "end": 185.258,
+        "text": "to",
+        "probability": 1.0
+      },
+      {
+        "start": 185.258,
+        "end": 185.398,
+        "text": "give",
+        "probability": 1.0
+      },
+      {
+        "start": 185.398,
+        "end": 185.538,
+        "text": "you",
+        "probability": 1.0
+      },
+      {
+        "start": 185.538,
+        "end": 185.638,
+        "text": "a",
+        "probability": 1.0
+      },
+      {
+        "start": 185.638,
+        "end": 185.818,
+        "text": "quick",
+        "probability": 1.0
+      },
+      {
+        "start": 185.818,
+        "end": 186.178,
+        "text": "update.",
+        "probability": 1.0
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_018701-019158",
+    "start": 187.01,
+    "end": 191.582,
+    "text": "on where we are as a sector for tourism and particularly for Waip\u0101 District.",
+    "words": [
+      {
+        "start": 187.01,
+        "end": 187.15,
+        "text": "on",
+        "probability": 0.678
+      },
+      {
+        "start": 187.15,
+        "end": 187.27,
+        "text": "where",
+        "probability": 0.994
+      },
+      {
+        "start": 187.27,
+        "end": 187.41,
+        "text": "we",
+        "probability": 0.997
+      },
+      {
+        "start": 187.41,
+        "end": 187.61,
+        "text": "are",
+        "probability": 0.995
+      },
+      {
+        "start": 187.61,
+        "end": 187.87,
+        "text": "as",
+        "probability": 0.979
+      },
+      {
+        "start": 187.87,
+        "end": 188.01,
+        "text": "a",
+        "probability": 0.996
+      },
+      {
+        "start": 188.01,
+        "end": 188.23,
+        "text": "sector",
+        "probability": 0.998
+      },
+      {
+        "start": 188.23,
+        "end": 188.45,
+        "text": "for",
+        "probability": 0.985
+      },
+      {
+        "start": 188.45,
+        "end": 188.85,
+        "text": "tourism",
+        "probability": 0.991
+      },
+      {
+        "start": 188.85,
+        "end": 189.13,
+        "text": "and",
+        "probability": 0.736
+      },
+      {
+        "start": 189.13,
+        "end": 189.51,
+        "text": "particularly",
+        "probability": 0.979
+      },
+      {
+        "start": 189.51,
+        "end": 189.91,
+        "text": "for",
+        "probability": 0.993
+      },
+      {
+        "start": 189.91,
+        "end": 190.71,
+        "text": "Waip\u0101",
+        "probability": 0.701
+      },
+      {
+        "start": 190.71,
+        "end": 190.95,
+        "text": "District.",
+        "probability": 0.709
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_019232-020041",
+    "start": 192.322,
+    "end": 200.414,
+    "text": "So a report has obviously been provided to you and prepared, which was our last six months performance at the end of 31st December.",
+    "words": [
+      {
+        "start": 192.322,
+        "end": 192.502,
+        "text": "So",
+        "probability": 0.861
+      },
+      {
+        "start": 192.502,
+        "end": 192.682,
+        "text": "a",
+        "probability": 0.753
+      },
+      {
+        "start": 192.682,
+        "end": 193.322,
+        "text": "report",
+        "probability": 0.999
+      },
+      {
+        "start": 193.322,
+        "end": 193.502,
+        "text": "has",
+        "probability": 0.961
+      },
+      {
+        "start": 193.502,
+        "end": 193.742,
+        "text": "obviously",
+        "probability": 0.991
+      },
+      {
+        "start": 193.742,
+        "end": 194.022,
+        "text": "been",
+        "probability": 0.994
+      },
+      {
+        "start": 194.022,
+        "end": 194.462,
+        "text": "provided",
+        "probability": 0.998
+      },
+      {
+        "start": 194.462,
+        "end": 194.682,
+        "text": "to",
+        "probability": 0.999
+      },
+      {
+        "start": 194.682,
+        "end": 194.822,
+        "text": "you",
+        "probability": 0.999
+      },
+      {
+        "start": 194.822,
+        "end": 194.962,
+        "text": "and",
+        "probability": 0.905
+      },
+      {
+        "start": 194.962,
+        "end": 195.302,
+        "text": "prepared,",
+        "probability": 0.995
+      },
+      {
+        "start": 195.442,
+        "end": 195.762,
+        "text": "which",
+        "probability": 1.0
+      },
+      {
+        "start": 195.762,
+        "end": 195.962,
+        "text": "was",
+        "probability": 0.998
+      },
+      {
+        "start": 195.962,
+        "end": 196.262,
+        "text": "our",
+        "probability": 0.995
+      },
+      {
+        "start": 196.262,
+        "end": 196.802,
+        "text": "last",
+        "probability": 1.0
+      },
+      {
+        "start": 196.802,
+        "end": 197.162,
+        "text": "six",
+        "probability": 0.978
+      },
+      {
+        "start": 197.162,
+        "end": 197.402,
+        "text": "months",
+        "probability": 0.896
+      },
+      {
+        "start": 197.402,
+        "end": 197.862,
+        "text": "performance",
+        "probability": 0.885
+      },
+      {
+        "start": 197.862,
+        "end": 198.242,
+        "text": "at",
+        "probability": 0.97
+      },
+      {
+        "start": 198.242,
+        "end": 198.442,
+        "text": "the",
+        "probability": 1.0
+      },
+      {
+        "start": 198.442,
+        "end": 198.682,
+        "text": "end",
+        "probability": 0.996
+      },
+      {
+        "start": 198.682,
+        "end": 198.942,
+        "text": "of",
+        "probability": 1.0
+      },
+      {
+        "start": 198.942,
+        "end": 199.522,
+        "text": "31st",
+        "probability": 0.966
+      },
+      {
+        "start": 199.522,
+        "end": 199.822,
+        "text": "December.",
+        "probability": 0.98
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_020080-020707",
+    "start": 200.802,
+    "end": 207.07,
+    "text": "2019. As you would have seen, WAIPADISTRICTCOUNCIL was going through significant growth, probably one of the fastest-growing tourism impsots, probably one of the fastest-growing tourism impsots, probably one of the",
+    "words": [
+      {
+        "start": 200.802,
+        "end": 201.342,
+        "text": "2019.",
+        "probability": 0.794
+      },
+      {
+        "start": 201.822,
+        "end": 202.222,
+        "text": "As",
+        "probability": 0.977
+      },
+      {
+        "start": 202.222,
+        "end": 202.362,
+        "text": "you",
+        "probability": 1.0
+      },
+      {
+        "start": 202.362,
+        "end": 202.482,
+        "text": "would",
+        "probability": 0.995
+      },
+      {
+        "start": 202.482,
+        "end": 202.582,
+        "text": "have",
+        "probability": 0.966
+      },
+      {
+        "start": 202.582,
+        "end": 202.862,
+        "text": "seen,",
+        "probability": 1.0
+      },
+      {
+        "start": 202.902,
+        "end": 203.862,
+        "text": "WAIPADISTRICTCOUNCIL",
+        "probability": 0.392
+      },
+      {
+        "start": 203.862,
+        "end": 204.002,
+        "text": "was",
+        "probability": 0.944
+      },
+      {
+        "start": 204.002,
+        "end": 204.202,
+        "text": "going",
+        "probability": 0.996
+      },
+      {
+        "start": 204.202,
+        "end": 204.422,
+        "text": "through",
+        "probability": 0.998
+      },
+      {
+        "start": 204.422,
+        "end": 204.762,
+        "text": "significant",
+        "probability": 0.976
+      },
+      {
+        "start": 204.762,
+        "end": 205.302,
+        "text": "growth,",
+        "probability": 0.997
+      },
+      {
+        "start": 205.422,
+        "end": 205.622,
+        "text": "probably",
+        "probability": 0.592
+      },
+      {
+        "start": 205.622,
+        "end": 205.802,
+        "text": "one",
+        "probability": 0.995
+      },
+      {
+        "start": 205.802,
+        "end": 205.882,
+        "text": "of",
+        "probability": 0.999
+      },
+      {
+        "start": 205.882,
+        "end": 205.982,
+        "text": "the",
+        "probability": 0.999
+      },
+      {
+        "start": 205.982,
+        "end": 206.342,
+        "text": "fastest",
+        "probability": 0.998
+      },
+      {
+        "start": 206.342,
+        "end": 206.702,
+        "text": "-growing",
+        "probability": 0.716
+      },
+      {
+        "start": 206.702,
+        "end": 206.842,
+        "text": "tourism",
+        "probability": 0.0
+      },
+      {
+        "start": 206.842,
+        "end": 207.022,
+        "text": "impsots,",
+        "probability": 0.001
+      },
+      {
+        "start": 207.022,
+        "end": 207.022,
+        "text": "probably",
+        "probability": 0.0
+      },
+      {
+        "start": 207.022,
+        "end": 207.022,
+        "text": "one",
+        "probability": 0.036
+      },
+      {
+        "start": 207.022,
+        "end": 207.022,
+        "text": "of",
+        "probability": 0.785
+      },
+      {
+        "start": 207.022,
+        "end": 207.022,
+        "text": "the",
+        "probability": 0.761
+      },
+      {
+        "start": 207.022,
+        "end": 207.022,
+        "text": "fastest",
+        "probability": 0.002
+      },
+      {
+        "start": 207.022,
+        "end": 207.022,
+        "text": "-growing",
+        "probability": 0.662
+      },
+      {
+        "start": 207.022,
+        "end": 207.022,
+        "text": "tourism",
+        "probability": 0.046
+      },
+      {
+        "start": 207.022,
+        "end": 207.022,
+        "text": "impsots,",
+        "probability": 0.755
+      },
+      {
+        "start": 207.022,
+        "end": 207.022,
+        "text": "probably",
+        "probability": 0.875
+      },
+      {
+        "start": 207.022,
+        "end": 207.022,
+        "text": "one",
+        "probability": 0.991
+      },
+      {
+        "start": 207.022,
+        "end": 207.022,
+        "text": "of",
+        "probability": 0.999
+      },
+      {
+        "start": 207.022,
+        "end": 207.022,
+        "text": "the",
+        "probability": 0.999
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_020739-021062",
+    "start": 207.394,
+    "end": 210.622,
+    "text": "regions for us with regards to tourism impact.",
+    "words": [
+      {
+        "start": 207.394,
+        "end": 207.754,
+        "text": "regions",
+        "probability": 0.653
+      },
+      {
+        "start": 207.754,
+        "end": 207.954,
+        "text": "for",
+        "probability": 0.981
+      },
+      {
+        "start": 207.954,
+        "end": 208.214,
+        "text": "us",
+        "probability": 0.999
+      },
+      {
+        "start": 208.214,
+        "end": 208.434,
+        "text": "with",
+        "probability": 0.97
+      },
+      {
+        "start": 208.434,
+        "end": 208.694,
+        "text": "regards",
+        "probability": 0.948
+      },
+      {
+        "start": 208.694,
+        "end": 209.014,
+        "text": "to",
+        "probability": 0.998
+      },
+      {
+        "start": 209.014,
+        "end": 209.374,
+        "text": "tourism",
+        "probability": 0.992
+      },
+      {
+        "start": 209.374,
+        "end": 209.994,
+        "text": "impact.",
+        "probability": 0.982
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_021088-021577",
+    "start": 210.882,
+    "end": 215.774,
+    "text": "You were experiencing double-digit growth pretty much through visitor expenditure and also",
+    "words": [
+      {
+        "start": 210.882,
+        "end": 211.162,
+        "text": "You",
+        "probability": 0.285
+      },
+      {
+        "start": 211.162,
+        "end": 211.262,
+        "text": "were",
+        "probability": 0.905
+      },
+      {
+        "start": 211.262,
+        "end": 211.662,
+        "text": "experiencing",
+        "probability": 1.0
+      },
+      {
+        "start": 211.662,
+        "end": 212.042,
+        "text": "double",
+        "probability": 0.998
+      },
+      {
+        "start": 212.042,
+        "end": 212.382,
+        "text": "-digit",
+        "probability": 0.79
+      },
+      {
+        "start": 212.382,
+        "end": 212.602,
+        "text": "growth",
+        "probability": 1.0
+      },
+      {
+        "start": 212.602,
+        "end": 212.882,
+        "text": "pretty",
+        "probability": 0.866
+      },
+      {
+        "start": 212.882,
+        "end": 213.162,
+        "text": "much",
+        "probability": 1.0
+      },
+      {
+        "start": 213.162,
+        "end": 213.482,
+        "text": "through",
+        "probability": 0.962
+      },
+      {
+        "start": 213.482,
+        "end": 214.082,
+        "text": "visitor",
+        "probability": 0.998
+      },
+      {
+        "start": 214.082,
+        "end": 214.482,
+        "text": "expenditure",
+        "probability": 1.0
+      },
+      {
+        "start": 214.482,
+        "end": 214.982,
+        "text": "and",
+        "probability": 0.886
+      },
+      {
+        "start": 214.982,
+        "end": 215.322,
+        "text": "also",
+        "probability": 0.998
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_021600-021744",
+    "start": 216.002,
+    "end": 217.438,
+    "text": "commercial accommodation.",
+    "words": [
+      {
+        "start": 216.002,
+        "end": 216.222,
+        "text": "commercial",
+        "probability": 0.903
+      },
+      {
+        "start": 216.222,
+        "end": 216.522,
+        "text": "accommodation.",
+        "probability": 0.995
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_021767-022560",
+    "start": 217.666,
+    "end": 225.598,
+    "text": "But we are here today to discuss just obviously a bit of a change in the dynamic given COVID and the impact for tourism, particularly as a sector.",
+    "words": [
+      {
+        "start": 217.666,
+        "end": 217.966,
+        "text": "But",
+        "probability": 0.785
+      },
+      {
+        "start": 217.966,
+        "end": 218.146,
+        "text": "we",
+        "probability": 0.991
+      },
+      {
+        "start": 218.146,
+        "end": 218.246,
+        "text": "are",
+        "probability": 0.99
+      },
+      {
+        "start": 218.246,
+        "end": 218.406,
+        "text": "here",
+        "probability": 1.0
+      },
+      {
+        "start": 218.406,
+        "end": 218.666,
+        "text": "today",
+        "probability": 0.996
+      },
+      {
+        "start": 218.666,
+        "end": 218.866,
+        "text": "to",
+        "probability": 0.998
+      },
+      {
+        "start": 218.866,
+        "end": 219.206,
+        "text": "discuss",
+        "probability": 1.0
+      },
+      {
+        "start": 219.206,
+        "end": 219.406,
+        "text": "just",
+        "probability": 0.874
+      },
+      {
+        "start": 219.406,
+        "end": 219.766,
+        "text": "obviously",
+        "probability": 0.767
+      },
+      {
+        "start": 219.766,
+        "end": 220.186,
+        "text": "a",
+        "probability": 0.988
+      },
+      {
+        "start": 220.186,
+        "end": 220.266,
+        "text": "bit",
+        "probability": 0.999
+      },
+      {
+        "start": 220.266,
+        "end": 220.366,
+        "text": "of",
+        "probability": 1.0
+      },
+      {
+        "start": 220.366,
+        "end": 220.406,
+        "text": "a",
+        "probability": 0.998
+      },
+      {
+        "start": 220.406,
+        "end": 220.786,
+        "text": "change",
+        "probability": 1.0
+      },
+      {
+        "start": 220.786,
+        "end": 221.106,
+        "text": "in",
+        "probability": 0.988
+      },
+      {
+        "start": 221.106,
+        "end": 221.326,
+        "text": "the",
+        "probability": 1.0
+      },
+      {
+        "start": 221.326,
+        "end": 221.726,
+        "text": "dynamic",
+        "probability": 0.998
+      },
+      {
+        "start": 221.726,
+        "end": 222.086,
+        "text": "given",
+        "probability": 0.917
+      },
+      {
+        "start": 222.086,
+        "end": 222.606,
+        "text": "COVID",
+        "probability": 0.89
+      },
+      {
+        "start": 222.606,
+        "end": 222.866,
+        "text": "and",
+        "probability": 0.989
+      },
+      {
+        "start": 222.866,
+        "end": 222.986,
+        "text": "the",
+        "probability": 0.999
+      },
+      {
+        "start": 222.986,
+        "end": 223.306,
+        "text": "impact",
+        "probability": 1.0
+      },
+      {
+        "start": 223.306,
+        "end": 223.706,
+        "text": "for",
+        "probability": 0.998
+      },
+      {
+        "start": 223.706,
+        "end": 224.226,
+        "text": "tourism,",
+        "probability": 1.0
+      },
+      {
+        "start": 224.306,
+        "end": 224.706,
+        "text": "particularly",
+        "probability": 0.999
+      },
+      {
+        "start": 224.706,
+        "end": 224.946,
+        "text": "as",
+        "probability": 0.989
+      },
+      {
+        "start": 224.946,
+        "end": 224.946,
+        "text": "a",
+        "probability": 1.0
+      },
+      {
+        "start": 224.946,
+        "end": 225.246,
+        "text": "sector.",
+        "probability": 1.0
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_022826-022912",
+    "start": 228.258,
+    "end": 229.118,
+    "text": "Um",
+    "words": [
+      {
+        "start": 228.258,
+        "end": 228.578,
+        "text": "Um",
+        "probability": 0.226
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_022938-023241",
+    "start": 229.378,
+    "end": 232.414,
+    "text": "Go to the next slide, Sam.",
+    "words": [
+      {
+        "start": 229.378,
+        "end": 229.618,
+        "text": "Go",
+        "probability": 0.493
+      },
+      {
+        "start": 229.618,
+        "end": 230.198,
+        "text": "to",
+        "probability": 0.993
+      },
+      {
+        "start": 230.198,
+        "end": 230.458,
+        "text": "the",
+        "probability": 0.995
+      },
+      {
+        "start": 230.458,
+        "end": 231.178,
+        "text": "next",
+        "probability": 0.998
+      },
+      {
+        "start": 231.178,
+        "end": 231.578,
+        "text": "slide,",
+        "probability": 0.959
+      },
+      {
+        "start": 231.678,
+        "end": 231.918,
+        "text": "Sam.",
+        "probability": 0.502
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_023507-023571",
+    "start": 235.074,
+    "end": 235.71,
+    "text": "Perfect.",
+    "words": [
+      {
+        "start": 235.074,
+        "end": 235.314,
+        "text": "Perfect.",
+        "probability": 0.811
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_023607-024739",
+    "start": 236.066,
+    "end": 247.39,
+    "text": "So just first a couple of slides, obviously, just covering off some data. We're now receiving international and national data on a weekly basis from the government and also from the airlines.",
+    "words": [
+      {
+        "start": 236.066,
+        "end": 236.386,
+        "text": "So",
+        "probability": 0.728
+      },
+      {
+        "start": 236.386,
+        "end": 236.626,
+        "text": "just",
+        "probability": 0.862
+      },
+      {
+        "start": 236.626,
+        "end": 236.866,
+        "text": "first",
+        "probability": 0.975
+      },
+      {
+        "start": 236.866,
+        "end": 237.106,
+        "text": "a",
+        "probability": 0.771
+      },
+      {
+        "start": 237.106,
+        "end": 237.286,
+        "text": "couple",
+        "probability": 1.0
+      },
+      {
+        "start": 237.286,
+        "end": 237.426,
+        "text": "of",
+        "probability": 0.998
+      },
+      {
+        "start": 237.426,
+        "end": 237.706,
+        "text": "slides,",
+        "probability": 1.0
+      },
+      {
+        "start": 237.846,
+        "end": 238.246,
+        "text": "obviously,",
+        "probability": 0.989
+      },
+      {
+        "start": 238.246,
+        "end": 238.746,
+        "text": "just",
+        "probability": 0.981
+      },
+      {
+        "start": 238.746,
+        "end": 239.126,
+        "text": "covering",
+        "probability": 1.0
+      },
+      {
+        "start": 239.126,
+        "end": 239.306,
+        "text": "off",
+        "probability": 0.994
+      },
+      {
+        "start": 239.306,
+        "end": 239.446,
+        "text": "some",
+        "probability": 0.999
+      },
+      {
+        "start": 239.446,
+        "end": 239.686,
+        "text": "data.",
+        "probability": 1.0
+      },
+      {
+        "start": 239.846,
+        "end": 240.046,
+        "text": "We're",
+        "probability": 0.961
+      },
+      {
+        "start": 240.046,
+        "end": 240.186,
+        "text": "now",
+        "probability": 0.999
+      },
+      {
+        "start": 240.186,
+        "end": 240.666,
+        "text": "receiving",
+        "probability": 1.0
+      },
+      {
+        "start": 240.666,
+        "end": 241.166,
+        "text": "international",
+        "probability": 0.998
+      },
+      {
+        "start": 241.166,
+        "end": 241.786,
+        "text": "and",
+        "probability": 0.998
+      },
+      {
+        "start": 241.786,
+        "end": 242.526,
+        "text": "national",
+        "probability": 0.999
+      },
+      {
+        "start": 242.526,
+        "end": 242.946,
+        "text": "data",
+        "probability": 1.0
+      },
+      {
+        "start": 242.946,
+        "end": 243.526,
+        "text": "on",
+        "probability": 0.997
+      },
+      {
+        "start": 243.526,
+        "end": 243.606,
+        "text": "a",
+        "probability": 1.0
+      },
+      {
+        "start": 243.606,
+        "end": 243.846,
+        "text": "weekly",
+        "probability": 1.0
+      },
+      {
+        "start": 243.846,
+        "end": 244.206,
+        "text": "basis",
+        "probability": 1.0
+      },
+      {
+        "start": 244.206,
+        "end": 244.486,
+        "text": "from",
+        "probability": 0.998
+      },
+      {
+        "start": 244.486,
+        "end": 244.626,
+        "text": "the",
+        "probability": 1.0
+      },
+      {
+        "start": 244.626,
+        "end": 244.886,
+        "text": "government",
+        "probability": 0.942
+      },
+      {
+        "start": 244.886,
+        "end": 245.306,
+        "text": "and",
+        "probability": 0.919
+      },
+      {
+        "start": 245.306,
+        "end": 245.866,
+        "text": "also",
+        "probability": 1.0
+      },
+      {
+        "start": 245.866,
+        "end": 246.306,
+        "text": "from",
+        "probability": 1.0
+      },
+      {
+        "start": 246.306,
+        "end": 246.506,
+        "text": "the",
+        "probability": 1.0
+      },
+      {
+        "start": 246.506,
+        "end": 246.746,
+        "text": "airlines.",
+        "probability": 0.997
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_024775-025321",
+    "start": 247.746,
+    "end": 253.214,
+    "text": "So no surprise obviously since COVID lockdown and international travel restrictions were put in place",
+    "words": [
+      {
+        "start": 247.746,
+        "end": 247.866,
+        "text": "So",
+        "probability": 0.831
+      },
+      {
+        "start": 247.866,
+        "end": 247.966,
+        "text": "no",
+        "probability": 0.538
+      },
+      {
+        "start": 247.966,
+        "end": 248.466,
+        "text": "surprise",
+        "probability": 0.995
+      },
+      {
+        "start": 248.466,
+        "end": 248.926,
+        "text": "obviously",
+        "probability": 0.317
+      },
+      {
+        "start": 248.926,
+        "end": 249.506,
+        "text": "since",
+        "probability": 0.616
+      },
+      {
+        "start": 249.506,
+        "end": 249.986,
+        "text": "COVID",
+        "probability": 0.649
+      },
+      {
+        "start": 249.986,
+        "end": 250.306,
+        "text": "lockdown",
+        "probability": 0.8
+      },
+      {
+        "start": 250.306,
+        "end": 250.606,
+        "text": "and",
+        "probability": 0.958
+      },
+      {
+        "start": 250.606,
+        "end": 250.946,
+        "text": "international",
+        "probability": 0.978
+      },
+      {
+        "start": 250.946,
+        "end": 251.426,
+        "text": "travel",
+        "probability": 0.997
+      },
+      {
+        "start": 251.426,
+        "end": 251.826,
+        "text": "restrictions",
+        "probability": 0.998
+      },
+      {
+        "start": 251.826,
+        "end": 252.226,
+        "text": "were",
+        "probability": 0.981
+      },
+      {
+        "start": 252.226,
+        "end": 252.366,
+        "text": "put",
+        "probability": 0.999
+      },
+      {
+        "start": 252.366,
+        "end": 252.506,
+        "text": "in",
+        "probability": 0.998
+      },
+      {
+        "start": 252.506,
+        "end": 252.786,
+        "text": "place",
+        "probability": 1.0
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_025344-025833",
+    "start": 253.442,
+    "end": 258.334,
+    "text": "international visitor arrivals into New Zealand has been dropping at a very sharp rate.",
+    "words": [
+      {
+        "start": 253.442,
+        "end": 253.922,
+        "text": "international",
+        "probability": 0.663
+      },
+      {
+        "start": 253.922,
+        "end": 254.462,
+        "text": "visitor",
+        "probability": 0.984
+      },
+      {
+        "start": 254.462,
+        "end": 254.922,
+        "text": "arrivals",
+        "probability": 0.998
+      },
+      {
+        "start": 254.922,
+        "end": 255.062,
+        "text": "into",
+        "probability": 0.971
+      },
+      {
+        "start": 255.062,
+        "end": 255.202,
+        "text": "New",
+        "probability": 0.982
+      },
+      {
+        "start": 255.202,
+        "end": 255.522,
+        "text": "Zealand",
+        "probability": 1.0
+      },
+      {
+        "start": 255.522,
+        "end": 255.802,
+        "text": "has",
+        "probability": 0.47
+      },
+      {
+        "start": 255.802,
+        "end": 256.002,
+        "text": "been",
+        "probability": 0.995
+      },
+      {
+        "start": 256.002,
+        "end": 256.362,
+        "text": "dropping",
+        "probability": 0.723
+      },
+      {
+        "start": 256.362,
+        "end": 256.822,
+        "text": "at",
+        "probability": 0.952
+      },
+      {
+        "start": 256.822,
+        "end": 256.942,
+        "text": "a",
+        "probability": 0.99
+      },
+      {
+        "start": 256.942,
+        "end": 257.222,
+        "text": "very",
+        "probability": 0.98
+      },
+      {
+        "start": 257.222,
+        "end": 257.562,
+        "text": "sharp",
+        "probability": 0.998
+      },
+      {
+        "start": 257.562,
+        "end": 257.862,
+        "text": "rate.",
+        "probability": 1.0
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_025850-026253",
+    "start": 258.498,
+    "end": 262.526,
+    "text": "We still do have airline connectivity which I will go through",
+    "words": [
+      {
+        "start": 258.498,
+        "end": 258.778,
+        "text": "We",
+        "probability": 0.529
+      },
+      {
+        "start": 258.778,
+        "end": 258.998,
+        "text": "still",
+        "probability": 0.994
+      },
+      {
+        "start": 258.998,
+        "end": 259.178,
+        "text": "do",
+        "probability": 0.999
+      },
+      {
+        "start": 259.178,
+        "end": 259.478,
+        "text": "have",
+        "probability": 0.997
+      },
+      {
+        "start": 259.478,
+        "end": 259.778,
+        "text": "airline",
+        "probability": 0.987
+      },
+      {
+        "start": 259.778,
+        "end": 260.238,
+        "text": "connectivity",
+        "probability": 0.998
+      },
+      {
+        "start": 260.238,
+        "end": 260.758,
+        "text": "which",
+        "probability": 0.602
+      },
+      {
+        "start": 260.758,
+        "end": 260.938,
+        "text": "I",
+        "probability": 0.934
+      },
+      {
+        "start": 260.938,
+        "end": 261.138,
+        "text": "will",
+        "probability": 0.999
+      },
+      {
+        "start": 261.138,
+        "end": 261.318,
+        "text": "go",
+        "probability": 1.0
+      },
+      {
+        "start": 261.318,
+        "end": 261.738,
+        "text": "through",
+        "probability": 0.999
+      }
+    ],
+    "language": "mi"
+  },
+  {
+    "segment_id": "seg_026304-026768",
+    "start": 263.042,
+    "end": 267.678,
+    "text": "because we are still maintaining what we call a baseline service for connections across the world.",
+    "words": [
+      {
+        "start": 263.042,
+        "end": 263.242,
+        "text": "because",
+        "probability": 0.92
+      },
+      {
+        "start": 263.242,
+        "end": 263.442,
+        "text": "we",
+        "probability": 0.998
+      },
+      {
+        "start": 263.442,
+        "end": 263.542,
+        "text": "are",
+        "probability": 0.943
+      },
+      {
+        "start": 263.542,
+        "end": 263.762,
+        "text": "still",
+        "probability": 0.99
+      },
+      {
+        "start": 263.762,
+        "end": 264.062,
+        "text": "maintaining",
+        "probability": 0.994
+      },
+      {
+        "start": 264.062,
+        "end": 264.362,
+        "text": "what",
+        "probability": 0.97
+      },
+      {
+        "start": 264.362,
+        "end": 264.422,
+        "text": "we",
+        "probability": 0.999
+      },
+      {
+        "start": 264.422,
+        "end": 264.602,
+        "text": "call",
+        "probability": 0.997
+      },
+      {
+        "start": 264.602,
+        "end": 264.722,
+        "text": "a",
+        "probability": 0.971
+      },
+      {
+        "start": 264.722,
+        "end": 265.082,
+        "text": "baseline",
+        "probability": 0.969
+      },
+      {
+        "start": 265.082,
+        "end": 265.562,
+        "text": "service",
+        "probability": 0.989
+      },
+      {
+        "start": 265.562,
+        "end": 265.782,
+        "text": "for",
+        "probability": 0.991
+      },
+      {
+        "start": 265.782,
+        "end": 266.142,
+        "text": "connections",
+        "probability": 0.965
+      },
+      {
+        "start": 266.142,
+        "end": 266.702,
+        "text": "across",
+        "probability": 0.998
+      },
+      {
+        "start": 266.702,
+        "end": 267.002,
+        "text": "the",
+        "probability": 1.0
+      },
+      {
+        "start": 267.002,
+        "end": 267.282,
+        "text": "world.",
+        "probability": 1.0
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_026787-027357",
+    "start": 267.874,
+    "end": 273.566,
+    "text": "mainly for repatriation flights, but also for cargo and service across the country as well.",
+    "words": [
+      {
+        "start": 267.874,
+        "end": 268.314,
+        "text": "mainly",
+        "probability": 0.835
+      },
+      {
+        "start": 268.314,
+        "end": 268.554,
+        "text": "for",
+        "probability": 0.997
+      },
+      {
+        "start": 268.554,
+        "end": 269.314,
+        "text": "repatriation",
+        "probability": 0.989
+      },
+      {
+        "start": 269.314,
+        "end": 269.594,
+        "text": "flights,",
+        "probability": 0.998
+      },
+      {
+        "start": 269.774,
+        "end": 269.974,
+        "text": "but",
+        "probability": 0.999
+      },
+      {
+        "start": 269.974,
+        "end": 270.214,
+        "text": "also",
+        "probability": 0.999
+      },
+      {
+        "start": 270.214,
+        "end": 270.714,
+        "text": "for",
+        "probability": 0.999
+      },
+      {
+        "start": 270.714,
+        "end": 271.574,
+        "text": "cargo",
+        "probability": 0.987
+      },
+      {
+        "start": 271.574,
+        "end": 271.774,
+        "text": "and",
+        "probability": 0.99
+      },
+      {
+        "start": 271.774,
+        "end": 272.034,
+        "text": "service",
+        "probability": 0.999
+      },
+      {
+        "start": 272.034,
+        "end": 272.374,
+        "text": "across",
+        "probability": 0.999
+      },
+      {
+        "start": 272.374,
+        "end": 272.614,
+        "text": "the",
+        "probability": 1.0
+      },
+      {
+        "start": 272.614,
+        "end": 272.914,
+        "text": "country",
+        "probability": 1.0
+      },
+      {
+        "start": 272.914,
+        "end": 273.074,
+        "text": "as",
+        "probability": 0.988
+      },
+      {
+        "start": 273.074,
+        "end": 273.254,
+        "text": "well.",
+        "probability": 1.0
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_027427-027552",
+    "start": 274.274,
+    "end": 275.518,
+    "text": "Next slide, Sam.",
+    "words": [
+      {
+        "start": 274.274,
+        "end": 274.514,
+        "text": "Next",
+        "probability": 0.437
+      },
+      {
+        "start": 274.514,
+        "end": 274.834,
+        "text": "slide,",
+        "probability": 0.956
+      },
+      {
+        "start": 274.874,
+        "end": 275.094,
+        "text": "Sam.",
+        "probability": 0.922
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_027623-027677",
+    "start": 276.226,
+    "end": 276.766,
+    "text": "in.",
+    "words": [
+      {
+        "start": 276.226,
+        "end": 276.326,
+        "text": "in.",
+        "probability": 0.002
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_027930-028633",
+    "start": 279.298,
+    "end": 286.334,
+    "text": "So weekly card transactions again no surprise obviously overall our visitor expenditure is down significantly",
+    "words": [
+      {
+        "start": 279.298,
+        "end": 279.698,
+        "text": "So",
+        "probability": 0.612
+      },
+      {
+        "start": 279.698,
+        "end": 280.038,
+        "text": "weekly",
+        "probability": 0.817
+      },
+      {
+        "start": 280.038,
+        "end": 280.338,
+        "text": "card",
+        "probability": 0.999
+      },
+      {
+        "start": 280.338,
+        "end": 280.898,
+        "text": "transactions",
+        "probability": 0.998
+      },
+      {
+        "start": 280.898,
+        "end": 281.378,
+        "text": "again",
+        "probability": 0.233
+      },
+      {
+        "start": 281.378,
+        "end": 281.658,
+        "text": "no",
+        "probability": 0.691
+      },
+      {
+        "start": 281.658,
+        "end": 282.158,
+        "text": "surprise",
+        "probability": 1.0
+      },
+      {
+        "start": 282.158,
+        "end": 282.658,
+        "text": "obviously",
+        "probability": 0.967
+      },
+      {
+        "start": 282.658,
+        "end": 283.198,
+        "text": "overall",
+        "probability": 0.993
+      },
+      {
+        "start": 283.198,
+        "end": 283.758,
+        "text": "our",
+        "probability": 0.996
+      },
+      {
+        "start": 283.758,
+        "end": 284.098,
+        "text": "visitor",
+        "probability": 0.999
+      },
+      {
+        "start": 284.098,
+        "end": 284.518,
+        "text": "expenditure",
+        "probability": 1.0
+      },
+      {
+        "start": 284.518,
+        "end": 284.938,
+        "text": "is",
+        "probability": 1.0
+      },
+      {
+        "start": 284.938,
+        "end": 285.178,
+        "text": "down",
+        "probability": 1.0
+      },
+      {
+        "start": 285.178,
+        "end": 285.578,
+        "text": "significantly",
+        "probability": 1.0
+      }
+    ],
+    "language": "mi"
+  },
+  {
+    "segment_id": "seg_028650-029107",
+    "start": 286.498,
+    "end": 291.07,
+    "text": "But when you do look onto the list, top five, obviously food, liquor and pharmacies.",
+    "words": [
+      {
+        "start": 286.498,
+        "end": 286.738,
+        "text": "But",
+        "probability": 0.348
+      },
+      {
+        "start": 286.738,
+        "end": 286.898,
+        "text": "when",
+        "probability": 0.984
+      },
+      {
+        "start": 286.898,
+        "end": 286.978,
+        "text": "you",
+        "probability": 0.999
+      },
+      {
+        "start": 286.978,
+        "end": 287.138,
+        "text": "do",
+        "probability": 0.986
+      },
+      {
+        "start": 287.138,
+        "end": 287.358,
+        "text": "look",
+        "probability": 0.999
+      },
+      {
+        "start": 287.358,
+        "end": 287.538,
+        "text": "onto",
+        "probability": 0.602
+      },
+      {
+        "start": 287.538,
+        "end": 287.778,
+        "text": "the",
+        "probability": 0.982
+      },
+      {
+        "start": 287.778,
+        "end": 287.978,
+        "text": "list,",
+        "probability": 0.809
+      },
+      {
+        "start": 288.018,
+        "end": 288.218,
+        "text": "top",
+        "probability": 0.971
+      },
+      {
+        "start": 288.218,
+        "end": 288.618,
+        "text": "five,",
+        "probability": 0.963
+      },
+      {
+        "start": 288.678,
+        "end": 289.238,
+        "text": "obviously",
+        "probability": 0.984
+      },
+      {
+        "start": 289.238,
+        "end": 289.718,
+        "text": "food,",
+        "probability": 0.825
+      },
+      {
+        "start": 289.818,
+        "end": 290.018,
+        "text": "liquor",
+        "probability": 0.996
+      },
+      {
+        "start": 290.018,
+        "end": 290.178,
+        "text": "and",
+        "probability": 0.699
+      },
+      {
+        "start": 290.178,
+        "end": 290.638,
+        "text": "pharmacies.",
+        "probability": 0.999
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_029130-029555",
+    "start": 291.298,
+    "end": 295.55,
+    "text": "We are still seeing some cumulative and some obviously weekly growth in expenditure.",
+    "words": [
+      {
+        "start": 291.298,
+        "end": 291.398,
+        "text": "We",
+        "probability": 0.659
+      },
+      {
+        "start": 291.398,
+        "end": 291.478,
+        "text": "are",
+        "probability": 0.997
+      },
+      {
+        "start": 291.478,
+        "end": 291.698,
+        "text": "still",
+        "probability": 0.998
+      },
+      {
+        "start": 291.698,
+        "end": 291.998,
+        "text": "seeing",
+        "probability": 0.998
+      },
+      {
+        "start": 291.998,
+        "end": 292.238,
+        "text": "some",
+        "probability": 0.998
+      },
+      {
+        "start": 292.238,
+        "end": 292.638,
+        "text": "cumulative",
+        "probability": 0.75
+      },
+      {
+        "start": 292.638,
+        "end": 292.978,
+        "text": "and",
+        "probability": 0.806
+      },
+      {
+        "start": 292.978,
+        "end": 293.218,
+        "text": "some",
+        "probability": 0.988
+      },
+      {
+        "start": 293.218,
+        "end": 293.598,
+        "text": "obviously",
+        "probability": 0.812
+      },
+      {
+        "start": 293.598,
+        "end": 293.978,
+        "text": "weekly",
+        "probability": 0.984
+      },
+      {
+        "start": 293.978,
+        "end": 294.338,
+        "text": "growth",
+        "probability": 1.0
+      },
+      {
+        "start": 294.338,
+        "end": 294.478,
+        "text": "in",
+        "probability": 0.814
+      },
+      {
+        "start": 294.478,
+        "end": 294.738,
+        "text": "expenditure.",
+        "probability": 0.999
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_029584-030093",
+    "start": 295.842,
+    "end": 300.926,
+    "text": "08.30pm, compared to all our other visitor-type expenditure and transactions as well.",
+    "words": [
+      {
+        "start": 295.842,
+        "end": 296.622,
+        "text": "08",
+        "probability": 0.058
+      },
+      {
+        "start": 296.622,
+        "end": 296.702,
+        "text": ".30pm,",
+        "probability": 0.084
+      },
+      {
+        "start": 296.722,
+        "end": 296.722,
+        "text": "compared",
+        "probability": 0.709
+      },
+      {
+        "start": 296.722,
+        "end": 297.062,
+        "text": "to",
+        "probability": 0.984
+      },
+      {
+        "start": 297.062,
+        "end": 297.342,
+        "text": "all",
+        "probability": 0.929
+      },
+      {
+        "start": 297.342,
+        "end": 297.522,
+        "text": "our",
+        "probability": 0.974
+      },
+      {
+        "start": 297.522,
+        "end": 297.822,
+        "text": "other",
+        "probability": 0.975
+      },
+      {
+        "start": 297.822,
+        "end": 298.562,
+        "text": "visitor",
+        "probability": 0.962
+      },
+      {
+        "start": 298.562,
+        "end": 298.882,
+        "text": "-type",
+        "probability": 0.715
+      },
+      {
+        "start": 298.882,
+        "end": 299.362,
+        "text": "expenditure",
+        "probability": 0.905
+      },
+      {
+        "start": 299.362,
+        "end": 299.682,
+        "text": "and",
+        "probability": 0.961
+      },
+      {
+        "start": 299.682,
+        "end": 300.042,
+        "text": "transactions",
+        "probability": 0.949
+      },
+      {
+        "start": 300.042,
+        "end": 300.442,
+        "text": "as",
+        "probability": 0.97
+      },
+      {
+        "start": 300.442,
+        "end": 300.622,
+        "text": "well.",
+        "probability": 0.997
+      }
+    ],
+    "language": "mi"
+  },
+  {
+    "segment_id": "seg_030128-030189",
+    "start": 301.282,
+    "end": 301.886,
+    "text": "Thanks, Sam.",
+    "words": [
+      {
+        "start": 301.282,
+        "end": 301.442,
+        "text": "Thanks,",
+        "probability": 0.928
+      },
+      {
+        "start": 301.442,
+        "end": 301.562,
+        "text": "Sam.",
+        "probability": 0.757
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_030890-031395",
+    "start": 308.898,
+    "end": 313.95,
+    "text": "So the impact for us as a sector again, look, I mean, all of this has been reported. TheMighty.com",
+    "words": [
+      {
+        "start": 308.898,
+        "end": 308.998,
+        "text": "So",
+        "probability": 0.83
+      },
+      {
+        "start": 308.998,
+        "end": 309.078,
+        "text": "the",
+        "probability": 0.947
+      },
+      {
+        "start": 309.078,
+        "end": 309.318,
+        "text": "impact",
+        "probability": 1.0
+      },
+      {
+        "start": 309.318,
+        "end": 309.638,
+        "text": "for",
+        "probability": 1.0
+      },
+      {
+        "start": 309.638,
+        "end": 309.878,
+        "text": "us",
+        "probability": 1.0
+      },
+      {
+        "start": 309.878,
+        "end": 310.438,
+        "text": "as",
+        "probability": 0.974
+      },
+      {
+        "start": 310.438,
+        "end": 310.578,
+        "text": "a",
+        "probability": 1.0
+      },
+      {
+        "start": 310.578,
+        "end": 310.878,
+        "text": "sector",
+        "probability": 0.999
+      },
+      {
+        "start": 310.878,
+        "end": 311.238,
+        "text": "again,",
+        "probability": 0.047
+      },
+      {
+        "start": 311.418,
+        "end": 311.718,
+        "text": "look,",
+        "probability": 0.905
+      },
+      {
+        "start": 311.778,
+        "end": 311.898,
+        "text": "I",
+        "probability": 0.964
+      },
+      {
+        "start": 311.898,
+        "end": 312.038,
+        "text": "mean,",
+        "probability": 1.0
+      },
+      {
+        "start": 312.038,
+        "end": 312.438,
+        "text": "all",
+        "probability": 0.947
+      },
+      {
+        "start": 312.438,
+        "end": 312.598,
+        "text": "of",
+        "probability": 1.0
+      },
+      {
+        "start": 312.598,
+        "end": 312.738,
+        "text": "this",
+        "probability": 1.0
+      },
+      {
+        "start": 312.738,
+        "end": 312.858,
+        "text": "has",
+        "probability": 0.995
+      },
+      {
+        "start": 312.858,
+        "end": 313.018,
+        "text": "been",
+        "probability": 1.0
+      },
+      {
+        "start": 313.018,
+        "end": 313.338,
+        "text": "reported.",
+        "probability": 0.999
+      },
+      {
+        "start": 313.338,
+        "end": 313.918,
+        "text": "TheMighty",
+        "probability": 0.002
+      },
+      {
+        "start": 313.918,
+        "end": 313.918,
+        "text": ".com",
+        "probability": 0.227
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_031405-031741",
+    "start": 314.05,
+    "end": 317.406,
+    "text": "But just to cover off in summary, we were already impacted. TheMighty.com",
+    "words": [
+      {
+        "start": 314.05,
+        "end": 314.49,
+        "text": "But",
+        "probability": 0.688
+      },
+      {
+        "start": 314.49,
+        "end": 314.67,
+        "text": "just",
+        "probability": 0.994
+      },
+      {
+        "start": 314.67,
+        "end": 314.79,
+        "text": "to",
+        "probability": 0.999
+      },
+      {
+        "start": 314.79,
+        "end": 315.05,
+        "text": "cover",
+        "probability": 1.0
+      },
+      {
+        "start": 315.05,
+        "end": 315.21,
+        "text": "off",
+        "probability": 0.993
+      },
+      {
+        "start": 315.21,
+        "end": 315.33,
+        "text": "in",
+        "probability": 0.973
+      },
+      {
+        "start": 315.33,
+        "end": 315.61,
+        "text": "summary,",
+        "probability": 0.999
+      },
+      {
+        "start": 315.79,
+        "end": 315.89,
+        "text": "we",
+        "probability": 0.999
+      },
+      {
+        "start": 315.89,
+        "end": 315.99,
+        "text": "were",
+        "probability": 1.0
+      },
+      {
+        "start": 315.99,
+        "end": 316.33,
+        "text": "already",
+        "probability": 1.0
+      },
+      {
+        "start": 316.33,
+        "end": 316.71,
+        "text": "impacted.",
+        "probability": 0.999
+      },
+      {
+        "start": 316.71,
+        "end": 316.83,
+        "text": "TheMighty",
+        "probability": 0.002
+      },
+      {
+        "start": 316.83,
+        "end": 317.27,
+        "text": ".com",
+        "probability": 0.199
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_031757-032182",
+    "start": 317.57,
+    "end": 321.822,
+    "text": "through the loss of China group travel, which started in the second to last week of January. TheMighty, zoom through the loss of China group travel, which started in the second to last week of January.",
+    "words": [
+      {
+        "start": 317.57,
+        "end": 317.73,
+        "text": "through",
+        "probability": 0.852
+      },
+      {
+        "start": 317.73,
+        "end": 317.83,
+        "text": "the",
+        "probability": 0.988
+      },
+      {
+        "start": 317.83,
+        "end": 318.01,
+        "text": "loss",
+        "probability": 0.744
+      },
+      {
+        "start": 318.01,
+        "end": 318.13,
+        "text": "of",
+        "probability": 0.987
+      },
+      {
+        "start": 318.13,
+        "end": 318.37,
+        "text": "China",
+        "probability": 0.99
+      },
+      {
+        "start": 318.37,
+        "end": 318.59,
+        "text": "group",
+        "probability": 0.86
+      },
+      {
+        "start": 318.59,
+        "end": 318.97,
+        "text": "travel,",
+        "probability": 0.983
+      },
+      {
+        "start": 319.07,
+        "end": 319.27,
+        "text": "which",
+        "probability": 0.999
+      },
+      {
+        "start": 319.27,
+        "end": 319.59,
+        "text": "started",
+        "probability": 0.999
+      },
+      {
+        "start": 319.59,
+        "end": 319.79,
+        "text": "in",
+        "probability": 0.865
+      },
+      {
+        "start": 319.79,
+        "end": 319.87,
+        "text": "the",
+        "probability": 0.998
+      },
+      {
+        "start": 319.87,
+        "end": 320.19,
+        "text": "second",
+        "probability": 0.992
+      },
+      {
+        "start": 320.19,
+        "end": 320.33,
+        "text": "to",
+        "probability": 0.944
+      },
+      {
+        "start": 320.33,
+        "end": 320.49,
+        "text": "last",
+        "probability": 0.998
+      },
+      {
+        "start": 320.49,
+        "end": 320.79,
+        "text": "week",
+        "probability": 1.0
+      },
+      {
+        "start": 320.79,
+        "end": 320.91,
+        "text": "of",
+        "probability": 0.991
+      },
+      {
+        "start": 320.91,
+        "end": 321.25,
+        "text": "January.",
+        "probability": 0.999
+      },
+      {
+        "start": 321.25,
+        "end": 321.25,
+        "text": "TheMighty,",
+        "probability": 0.001
+      },
+      {
+        "start": 321.25,
+        "end": 321.25,
+        "text": "zoom",
+        "probability": 0.0
+      },
+      {
+        "start": 321.25,
+        "end": 321.25,
+        "text": "through",
+        "probability": 0.001
+      },
+      {
+        "start": 321.25,
+        "end": 321.25,
+        "text": "the",
+        "probability": 0.326
+      },
+      {
+        "start": 321.25,
+        "end": 321.25,
+        "text": "loss",
+        "probability": 0.0
+      },
+      {
+        "start": 321.25,
+        "end": 321.25,
+        "text": "of",
+        "probability": 0.341
+      },
+      {
+        "start": 321.25,
+        "end": 321.27,
+        "text": "China",
+        "probability": 0.0
+      },
+      {
+        "start": 321.27,
+        "end": 321.27,
+        "text": "group",
+        "probability": 0.0
+      },
+      {
+        "start": 321.27,
+        "end": 321.27,
+        "text": "travel,",
+        "probability": 0.0
+      },
+      {
+        "start": 321.27,
+        "end": 321.27,
+        "text": "which",
+        "probability": 0.037
+      },
+      {
+        "start": 321.27,
+        "end": 321.27,
+        "text": "started",
+        "probability": 0.004
+      },
+      {
+        "start": 321.27,
+        "end": 321.27,
+        "text": "in",
+        "probability": 0.128
+      },
+      {
+        "start": 321.27,
+        "end": 321.27,
+        "text": "the",
+        "probability": 0.094
+      },
+      {
+        "start": 321.27,
+        "end": 321.27,
+        "text": "second",
+        "probability": 0.013
+      },
+      {
+        "start": 321.27,
+        "end": 321.27,
+        "text": "to",
+        "probability": 0.001
+      },
+      {
+        "start": 321.27,
+        "end": 321.31,
+        "text": "last",
+        "probability": 0.333
+      },
+      {
+        "start": 321.31,
+        "end": 321.31,
+        "text": "week",
+        "probability": 0.111
+      },
+      {
+        "start": 321.31,
+        "end": 321.31,
+        "text": "of",
+        "probability": 0.135
+      },
+      {
+        "start": 321.31,
+        "end": 321.33,
+        "text": "January.",
+        "probability": 0.048
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_032199-032614",
+    "start": 321.986,
+    "end": 326.142,
+    "text": "So with that, all of our international-facing products, our hotels,",
+    "words": [
+      {
+        "start": 321.986,
+        "end": 322.406,
+        "text": "So",
+        "probability": 0.9
+      },
+      {
+        "start": 322.406,
+        "end": 322.666,
+        "text": "with",
+        "probability": 0.95
+      },
+      {
+        "start": 322.666,
+        "end": 322.866,
+        "text": "that,",
+        "probability": 0.994
+      },
+      {
+        "start": 322.906,
+        "end": 323.046,
+        "text": "all",
+        "probability": 0.793
+      },
+      {
+        "start": 323.046,
+        "end": 323.186,
+        "text": "of",
+        "probability": 0.999
+      },
+      {
+        "start": 323.186,
+        "end": 323.306,
+        "text": "our",
+        "probability": 1.0
+      },
+      {
+        "start": 323.306,
+        "end": 323.746,
+        "text": "international",
+        "probability": 0.997
+      },
+      {
+        "start": 323.746,
+        "end": 324.226,
+        "text": "-facing",
+        "probability": 0.677
+      },
+      {
+        "start": 324.226,
+        "end": 324.726,
+        "text": "products,",
+        "probability": 1.0
+      },
+      {
+        "start": 324.786,
+        "end": 325.046,
+        "text": "our",
+        "probability": 0.999
+      },
+      {
+        "start": 325.046,
+        "end": 325.486,
+        "text": "hotels,",
+        "probability": 1.0
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_032647-033145",
+    "start": 326.466,
+    "end": 331.454,
+    "text": "Our motels, our Airbnbs were immediately impacted by that because many",
+    "words": [
+      {
+        "start": 326.466,
+        "end": 326.806,
+        "text": "Our",
+        "probability": 0.27
+      },
+      {
+        "start": 326.806,
+        "end": 327.426,
+        "text": "motels,",
+        "probability": 0.995
+      },
+      {
+        "start": 327.426,
+        "end": 327.606,
+        "text": "our",
+        "probability": 0.999
+      },
+      {
+        "start": 327.606,
+        "end": 328.446,
+        "text": "Airbnbs",
+        "probability": 0.977
+      },
+      {
+        "start": 328.446,
+        "end": 328.786,
+        "text": "were",
+        "probability": 0.954
+      },
+      {
+        "start": 328.786,
+        "end": 329.366,
+        "text": "immediately",
+        "probability": 0.997
+      },
+      {
+        "start": 329.366,
+        "end": 329.846,
+        "text": "impacted",
+        "probability": 0.999
+      },
+      {
+        "start": 329.846,
+        "end": 330.266,
+        "text": "by",
+        "probability": 1.0
+      },
+      {
+        "start": 330.266,
+        "end": 330.446,
+        "text": "that",
+        "probability": 1.0
+      },
+      {
+        "start": 330.446,
+        "end": 330.726,
+        "text": "because",
+        "probability": 0.858
+      },
+      {
+        "start": 330.726,
+        "end": 330.946,
+        "text": "many",
+        "probability": 0.999
+      }
+    ],
+    "language": "mi"
+  },
+  {
+    "segment_id": "seg_033165-033715",
+    "start": 331.65,
+    "end": 337.15,
+    "text": "of China group travel actually did stay in the Waikato. They were our fourth largest international visitor market. They were our fourth largest international visitor market.",
+    "words": [
+      {
+        "start": 331.65,
+        "end": 331.97,
+        "text": "of",
+        "probability": 0.757
+      },
+      {
+        "start": 331.97,
+        "end": 332.19,
+        "text": "China",
+        "probability": 0.978
+      },
+      {
+        "start": 332.19,
+        "end": 332.41,
+        "text": "group",
+        "probability": 0.471
+      },
+      {
+        "start": 332.41,
+        "end": 332.77,
+        "text": "travel",
+        "probability": 0.817
+      },
+      {
+        "start": 332.77,
+        "end": 332.99,
+        "text": "actually",
+        "probability": 0.821
+      },
+      {
+        "start": 332.99,
+        "end": 333.23,
+        "text": "did",
+        "probability": 0.99
+      },
+      {
+        "start": 333.23,
+        "end": 333.45,
+        "text": "stay",
+        "probability": 0.992
+      },
+      {
+        "start": 333.45,
+        "end": 333.59,
+        "text": "in",
+        "probability": 0.978
+      },
+      {
+        "start": 333.59,
+        "end": 333.63,
+        "text": "the",
+        "probability": 0.992
+      },
+      {
+        "start": 333.63,
+        "end": 334.07,
+        "text": "Waikato.",
+        "probability": 0.995
+      },
+      {
+        "start": 334.15,
+        "end": 334.27,
+        "text": "They",
+        "probability": 0.997
+      },
+      {
+        "start": 334.27,
+        "end": 334.43,
+        "text": "were",
+        "probability": 0.998
+      },
+      {
+        "start": 334.43,
+        "end": 334.59,
+        "text": "our",
+        "probability": 0.997
+      },
+      {
+        "start": 334.59,
+        "end": 334.85,
+        "text": "fourth",
+        "probability": 0.985
+      },
+      {
+        "start": 334.85,
+        "end": 335.23,
+        "text": "largest",
+        "probability": 0.974
+      },
+      {
+        "start": 335.23,
+        "end": 335.65,
+        "text": "international",
+        "probability": 0.991
+      },
+      {
+        "start": 335.65,
+        "end": 336.19,
+        "text": "visitor",
+        "probability": 0.995
+      },
+      {
+        "start": 336.19,
+        "end": 336.59,
+        "text": "market.",
+        "probability": 0.999
+      },
+      {
+        "start": 336.59,
+        "end": 336.75,
+        "text": "They",
+        "probability": 0.0
+      },
+      {
+        "start": 336.75,
+        "end": 336.75,
+        "text": "were",
+        "probability": 0.05
+      },
+      {
+        "start": 336.75,
+        "end": 336.75,
+        "text": "our",
+        "probability": 0.001
+      },
+      {
+        "start": 336.75,
+        "end": 336.75,
+        "text": "fourth",
+        "probability": 0.0
+      },
+      {
+        "start": 336.75,
+        "end": 336.75,
+        "text": "largest",
+        "probability": 0.011
+      },
+      {
+        "start": 336.75,
+        "end": 336.77,
+        "text": "international",
+        "probability": 0.001
+      },
+      {
+        "start": 336.77,
+        "end": 336.77,
+        "text": "visitor",
+        "probability": 0.0
+      },
+      {
+        "start": 336.77,
+        "end": 336.77,
+        "text": "market.",
+        "probability": 0.021
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_033728-034016",
+    "start": 337.282,
+    "end": 340.158,
+    "text": "behind Australia, North America and UK and Europe.",
+    "words": [
+      {
+        "start": 337.282,
+        "end": 337.502,
+        "text": "behind",
+        "probability": 0.911
+      },
+      {
+        "start": 337.502,
+        "end": 337.802,
+        "text": "Australia,",
+        "probability": 0.998
+      },
+      {
+        "start": 338.122,
+        "end": 338.382,
+        "text": "North",
+        "probability": 0.997
+      },
+      {
+        "start": 338.382,
+        "end": 338.782,
+        "text": "America",
+        "probability": 0.997
+      },
+      {
+        "start": 338.782,
+        "end": 339.082,
+        "text": "and",
+        "probability": 0.58
+      },
+      {
+        "start": 339.082,
+        "end": 339.382,
+        "text": "UK",
+        "probability": 0.954
+      },
+      {
+        "start": 339.382,
+        "end": 339.582,
+        "text": "and",
+        "probability": 0.374
+      },
+      {
+        "start": 339.582,
+        "end": 339.882,
+        "text": "Europe.",
+        "probability": 0.999
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_034112-034189",
+    "start": 341.122,
+    "end": 341.886,
+    "text": "TheMighty.com",
+    "words": [
+      {
+        "start": 341.122,
+        "end": 341.862,
+        "text": "TheMighty",
+        "probability": 0.0
+      },
+      {
+        "start": 341.862,
+        "end": 341.862,
+        "text": ".com",
+        "probability": 0.033
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_034202-034624",
+    "start": 342.018,
+    "end": 346.238,
+    "text": "It did shut us down pretty much once international travel restrictions hit us.",
+    "words": [
+      {
+        "start": 342.018,
+        "end": 342.298,
+        "text": "It",
+        "probability": 0.62
+      },
+      {
+        "start": 342.298,
+        "end": 342.518,
+        "text": "did",
+        "probability": 0.996
+      },
+      {
+        "start": 342.518,
+        "end": 342.798,
+        "text": "shut",
+        "probability": 1.0
+      },
+      {
+        "start": 342.798,
+        "end": 342.958,
+        "text": "us",
+        "probability": 1.0
+      },
+      {
+        "start": 342.958,
+        "end": 343.218,
+        "text": "down",
+        "probability": 1.0
+      },
+      {
+        "start": 343.218,
+        "end": 343.738,
+        "text": "pretty",
+        "probability": 0.832
+      },
+      {
+        "start": 343.738,
+        "end": 343.958,
+        "text": "much",
+        "probability": 1.0
+      },
+      {
+        "start": 343.958,
+        "end": 344.158,
+        "text": "once",
+        "probability": 0.99
+      },
+      {
+        "start": 344.158,
+        "end": 344.538,
+        "text": "international",
+        "probability": 0.984
+      },
+      {
+        "start": 344.538,
+        "end": 344.958,
+        "text": "travel",
+        "probability": 0.999
+      },
+      {
+        "start": 344.958,
+        "end": 345.278,
+        "text": "restrictions",
+        "probability": 1.0
+      },
+      {
+        "start": 345.278,
+        "end": 345.738,
+        "text": "hit",
+        "probability": 0.999
+      },
+      {
+        "start": 345.738,
+        "end": 345.938,
+        "text": "us.",
+        "probability": 1.0
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_034650-035312",
+    "start": 346.498,
+    "end": 353.118,
+    "text": "And the visitor economy covers more than just the tourism operators. Again, we've mentioned accommodation. It also impacts retail, hospitality,",
+    "words": [
+      {
+        "start": 346.498,
+        "end": 346.678,
+        "text": "And",
+        "probability": 0.814
+      },
+      {
+        "start": 346.678,
+        "end": 346.798,
+        "text": "the",
+        "probability": 0.998
+      },
+      {
+        "start": 346.798,
+        "end": 347.018,
+        "text": "visitor",
+        "probability": 0.998
+      },
+      {
+        "start": 347.018,
+        "end": 347.318,
+        "text": "economy",
+        "probability": 1.0
+      },
+      {
+        "start": 347.318,
+        "end": 347.678,
+        "text": "covers",
+        "probability": 0.998
+      },
+      {
+        "start": 347.678,
+        "end": 347.938,
+        "text": "more",
+        "probability": 0.999
+      },
+      {
+        "start": 347.938,
+        "end": 348.118,
+        "text": "than",
+        "probability": 0.999
+      },
+      {
+        "start": 348.118,
+        "end": 348.298,
+        "text": "just",
+        "probability": 1.0
+      },
+      {
+        "start": 348.298,
+        "end": 348.458,
+        "text": "the",
+        "probability": 1.0
+      },
+      {
+        "start": 348.458,
+        "end": 348.738,
+        "text": "tourism",
+        "probability": 0.994
+      },
+      {
+        "start": 348.738,
+        "end": 349.118,
+        "text": "operators.",
+        "probability": 0.999
+      },
+      {
+        "start": 349.118,
+        "end": 349.458,
+        "text": "Again,",
+        "probability": 0.996
+      },
+      {
+        "start": 349.538,
+        "end": 349.678,
+        "text": "we've",
+        "probability": 0.99
+      },
+      {
+        "start": 349.678,
+        "end": 349.918,
+        "text": "mentioned",
+        "probability": 1.0
+      },
+      {
+        "start": 349.918,
+        "end": 350.358,
+        "text": "accommodation.",
+        "probability": 1.0
+      },
+      {
+        "start": 350.418,
+        "end": 350.778,
+        "text": "It",
+        "probability": 1.0
+      },
+      {
+        "start": 350.778,
+        "end": 350.878,
+        "text": "also",
+        "probability": 1.0
+      },
+      {
+        "start": 350.878,
+        "end": 351.378,
+        "text": "impacts",
+        "probability": 1.0
+      },
+      {
+        "start": 351.378,
+        "end": 351.838,
+        "text": "retail,",
+        "probability": 0.999
+      },
+      {
+        "start": 351.978,
+        "end": 352.318,
+        "text": "hospitality,",
+        "probability": 1.0
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_035325-035891",
+    "start": 353.25,
+    "end": 358.91,
+    "text": "Transport providers, our operators of course, but also event organisers and major venues. TheMighty, Waikats Transport providers, our operators and major venues.",
+    "words": [
+      {
+        "start": 353.25,
+        "end": 353.57,
+        "text": "Transport",
+        "probability": 0.131
+      },
+      {
+        "start": 353.57,
+        "end": 353.99,
+        "text": "providers,",
+        "probability": 0.814
+      },
+      {
+        "start": 354.39,
+        "end": 354.81,
+        "text": "our",
+        "probability": 0.966
+      },
+      {
+        "start": 354.81,
+        "end": 355.27,
+        "text": "operators",
+        "probability": 0.996
+      },
+      {
+        "start": 355.27,
+        "end": 355.47,
+        "text": "of",
+        "probability": 0.627
+      },
+      {
+        "start": 355.47,
+        "end": 355.75,
+        "text": "course,",
+        "probability": 0.999
+      },
+      {
+        "start": 355.85,
+        "end": 356.05,
+        "text": "but",
+        "probability": 0.994
+      },
+      {
+        "start": 356.05,
+        "end": 356.33,
+        "text": "also",
+        "probability": 0.996
+      },
+      {
+        "start": 356.33,
+        "end": 356.79,
+        "text": "event",
+        "probability": 0.972
+      },
+      {
+        "start": 356.79,
+        "end": 357.67,
+        "text": "organisers",
+        "probability": 0.822
+      },
+      {
+        "start": 357.67,
+        "end": 357.75,
+        "text": "and",
+        "probability": 0.263
+      },
+      {
+        "start": 357.75,
+        "end": 357.99,
+        "text": "major",
+        "probability": 0.999
+      },
+      {
+        "start": 357.99,
+        "end": 358.33,
+        "text": "venues.",
+        "probability": 0.999
+      },
+      {
+        "start": 358.33,
+        "end": 358.49,
+        "text": "TheMighty,",
+        "probability": 0.001
+      },
+      {
+        "start": 358.49,
+        "end": 358.57,
+        "text": "Waikats",
+        "probability": 0.009
+      },
+      {
+        "start": 358.57,
+        "end": 358.63,
+        "text": "Transport",
+        "probability": 0.0
+      },
+      {
+        "start": 358.63,
+        "end": 358.63,
+        "text": "providers,",
+        "probability": 0.0
+      },
+      {
+        "start": 358.63,
+        "end": 358.63,
+        "text": "our",
+        "probability": 0.004
+      },
+      {
+        "start": 358.63,
+        "end": 358.63,
+        "text": "operators",
+        "probability": 0.001
+      },
+      {
+        "start": 358.63,
+        "end": 358.63,
+        "text": "and",
+        "probability": 0.292
+      },
+      {
+        "start": 358.63,
+        "end": 358.63,
+        "text": "major",
+        "probability": 0.0
+      },
+      {
+        "start": 358.63,
+        "end": 358.63,
+        "text": "venues.",
+        "probability": 0.0
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_035904-036275",
+    "start": 359.042,
+    "end": 362.75,
+    "text": "and of course Mystery Creek, Avanti Drome and Lake Harapero.",
+    "words": [
+      {
+        "start": 359.042,
+        "end": 359.142,
+        "text": "and",
+        "probability": 0.719
+      },
+      {
+        "start": 359.142,
+        "end": 359.182,
+        "text": "of",
+        "probability": 0.843
+      },
+      {
+        "start": 359.182,
+        "end": 359.482,
+        "text": "course",
+        "probability": 1.0
+      },
+      {
+        "start": 359.482,
+        "end": 360.122,
+        "text": "Mystery",
+        "probability": 0.409
+      },
+      {
+        "start": 360.122,
+        "end": 360.582,
+        "text": "Creek,",
+        "probability": 0.999
+      },
+      {
+        "start": 360.642,
+        "end": 361.082,
+        "text": "Avanti",
+        "probability": 0.957
+      },
+      {
+        "start": 361.082,
+        "end": 361.402,
+        "text": "Drome",
+        "probability": 0.938
+      },
+      {
+        "start": 361.402,
+        "end": 361.502,
+        "text": "and",
+        "probability": 0.511
+      },
+      {
+        "start": 361.502,
+        "end": 361.702,
+        "text": "Lake",
+        "probability": 0.993
+      },
+      {
+        "start": 361.702,
+        "end": 362.242,
+        "text": "Harapero.",
+        "probability": 0.733
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_036307-036614",
+    "start": 363.074,
+    "end": 366.142,
+    "text": "are key event platforms for Waip\u0101 district. TheMighty.co.uk",
+    "words": [
+      {
+        "start": 363.074,
+        "end": 363.354,
+        "text": "are",
+        "probability": 0.059
+      },
+      {
+        "start": 363.354,
+        "end": 363.614,
+        "text": "key",
+        "probability": 0.97
+      },
+      {
+        "start": 363.614,
+        "end": 363.974,
+        "text": "event",
+        "probability": 0.986
+      },
+      {
+        "start": 363.974,
+        "end": 364.474,
+        "text": "platforms",
+        "probability": 0.996
+      },
+      {
+        "start": 364.474,
+        "end": 364.874,
+        "text": "for",
+        "probability": 0.998
+      },
+      {
+        "start": 364.874,
+        "end": 365.294,
+        "text": "Waip\u0101",
+        "probability": 0.871
+      },
+      {
+        "start": 365.294,
+        "end": 365.534,
+        "text": "district.",
+        "probability": 0.441
+      },
+      {
+        "start": 365.534,
+        "end": 365.814,
+        "text": "TheMighty",
+        "probability": 0.004
+      },
+      {
+        "start": 365.814,
+        "end": 365.814,
+        "text": ".co",
+        "probability": 0.017
+      },
+      {
+        "start": 365.814,
+        "end": 366.114,
+        "text": ".uk",
+        "probability": 0.987
+      }
+    ],
+    "language": "mi"
+  },
+  {
+    "segment_id": "seg_036688-037107",
+    "start": 366.882,
+    "end": 371.07,
+    "text": "We have had significant job losses and business closures across tourism,",
+    "words": [
+      {
+        "start": 366.882,
+        "end": 367.022,
+        "text": "We",
+        "probability": 0.887
+      },
+      {
+        "start": 367.022,
+        "end": 367.242,
+        "text": "have",
+        "probability": 0.996
+      },
+      {
+        "start": 367.242,
+        "end": 367.462,
+        "text": "had",
+        "probability": 0.981
+      },
+      {
+        "start": 367.462,
+        "end": 367.882,
+        "text": "significant",
+        "probability": 0.999
+      },
+      {
+        "start": 367.882,
+        "end": 368.322,
+        "text": "job",
+        "probability": 0.995
+      },
+      {
+        "start": 368.322,
+        "end": 368.682,
+        "text": "losses",
+        "probability": 0.998
+      },
+      {
+        "start": 368.682,
+        "end": 368.982,
+        "text": "and",
+        "probability": 0.948
+      },
+      {
+        "start": 368.982,
+        "end": 369.262,
+        "text": "business",
+        "probability": 0.999
+      },
+      {
+        "start": 369.262,
+        "end": 369.842,
+        "text": "closures",
+        "probability": 0.996
+      },
+      {
+        "start": 369.842,
+        "end": 370.162,
+        "text": "across",
+        "probability": 0.996
+      },
+      {
+        "start": 370.162,
+        "end": 370.622,
+        "text": "tourism,",
+        "probability": 0.996
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_037139-037523",
+    "start": 371.394,
+    "end": 375.23,
+    "text": "I have down underneath that last bullet point, look the immediate",
+    "words": [
+      {
+        "start": 371.394,
+        "end": 371.974,
+        "text": "I",
+        "probability": 0.827
+      },
+      {
+        "start": 371.974,
+        "end": 372.354,
+        "text": "have",
+        "probability": 0.998
+      },
+      {
+        "start": 372.354,
+        "end": 372.594,
+        "text": "down",
+        "probability": 0.942
+      },
+      {
+        "start": 372.594,
+        "end": 373.114,
+        "text": "underneath",
+        "probability": 0.992
+      },
+      {
+        "start": 373.114,
+        "end": 373.434,
+        "text": "that",
+        "probability": 0.961
+      },
+      {
+        "start": 373.434,
+        "end": 373.674,
+        "text": "last",
+        "probability": 1.0
+      },
+      {
+        "start": 373.674,
+        "end": 373.914,
+        "text": "bullet",
+        "probability": 0.992
+      },
+      {
+        "start": 373.914,
+        "end": 374.174,
+        "text": "point,",
+        "probability": 0.494
+      },
+      {
+        "start": 374.254,
+        "end": 374.394,
+        "text": "look",
+        "probability": 0.987
+      },
+      {
+        "start": 374.394,
+        "end": 374.594,
+        "text": "the",
+        "probability": 0.107
+      },
+      {
+        "start": 374.594,
+        "end": 374.774,
+        "text": "immediate",
+        "probability": 0.848
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_037536-037990",
+    "start": 375.362,
+    "end": 379.902,
+    "text": "business impact that we have been coaching our businesses through and helping them get through. TheMighty, Waikats business impact that we have been",
+    "words": [
+      {
+        "start": 375.362,
+        "end": 375.562,
+        "text": "business",
+        "probability": 0.882
+      },
+      {
+        "start": 375.562,
+        "end": 375.922,
+        "text": "impact",
+        "probability": 0.998
+      },
+      {
+        "start": 375.922,
+        "end": 376.322,
+        "text": "that",
+        "probability": 0.992
+      },
+      {
+        "start": 376.322,
+        "end": 376.482,
+        "text": "we",
+        "probability": 1.0
+      },
+      {
+        "start": 376.482,
+        "end": 376.582,
+        "text": "have",
+        "probability": 0.742
+      },
+      {
+        "start": 376.582,
+        "end": 376.942,
+        "text": "been",
+        "probability": 0.999
+      },
+      {
+        "start": 376.942,
+        "end": 377.382,
+        "text": "coaching",
+        "probability": 0.999
+      },
+      {
+        "start": 377.382,
+        "end": 377.602,
+        "text": "our",
+        "probability": 0.998
+      },
+      {
+        "start": 377.602,
+        "end": 377.922,
+        "text": "businesses",
+        "probability": 0.997
+      },
+      {
+        "start": 377.922,
+        "end": 378.302,
+        "text": "through",
+        "probability": 0.997
+      },
+      {
+        "start": 378.302,
+        "end": 378.442,
+        "text": "and",
+        "probability": 0.975
+      },
+      {
+        "start": 378.442,
+        "end": 378.762,
+        "text": "helping",
+        "probability": 1.0
+      },
+      {
+        "start": 378.762,
+        "end": 378.922,
+        "text": "them",
+        "probability": 0.999
+      },
+      {
+        "start": 378.922,
+        "end": 379.062,
+        "text": "get",
+        "probability": 0.999
+      },
+      {
+        "start": 379.062,
+        "end": 379.322,
+        "text": "through.",
+        "probability": 1.0
+      },
+      {
+        "start": 379.322,
+        "end": 379.882,
+        "text": "TheMighty,",
+        "probability": 0.001
+      },
+      {
+        "start": 379.882,
+        "end": 379.882,
+        "text": "Waikats",
+        "probability": 0.042
+      },
+      {
+        "start": 379.882,
+        "end": 379.882,
+        "text": "business",
+        "probability": 0.0
+      },
+      {
+        "start": 379.882,
+        "end": 379.882,
+        "text": "impact",
+        "probability": 0.0
+      },
+      {
+        "start": 379.882,
+        "end": 379.882,
+        "text": "that",
+        "probability": 0.006
+      },
+      {
+        "start": 379.882,
+        "end": 379.882,
+        "text": "we",
+        "probability": 0.119
+      },
+      {
+        "start": 379.882,
+        "end": 379.882,
+        "text": "have",
+        "probability": 0.064
+      },
+      {
+        "start": 379.882,
+        "end": 379.882,
+        "text": "been",
+        "probability": 0.065
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_038016-038585",
+    "start": 380.162,
+    "end": 385.854,
+    "text": "Some have gone into what we call temporary or seasonal closure, so again we have a lot of seasonality in tourism. TheMighty, Waikats",
+    "words": [
+      {
+        "start": 380.162,
+        "end": 380.342,
+        "text": "Some",
+        "probability": 0.237
+      },
+      {
+        "start": 380.342,
+        "end": 380.542,
+        "text": "have",
+        "probability": 0.972
+      },
+      {
+        "start": 380.542,
+        "end": 380.722,
+        "text": "gone",
+        "probability": 0.996
+      },
+      {
+        "start": 380.722,
+        "end": 380.902,
+        "text": "into",
+        "probability": 0.661
+      },
+      {
+        "start": 380.902,
+        "end": 381.002,
+        "text": "what",
+        "probability": 0.918
+      },
+      {
+        "start": 381.002,
+        "end": 381.082,
+        "text": "we",
+        "probability": 0.999
+      },
+      {
+        "start": 381.082,
+        "end": 381.262,
+        "text": "call",
+        "probability": 0.994
+      },
+      {
+        "start": 381.262,
+        "end": 381.602,
+        "text": "temporary",
+        "probability": 0.938
+      },
+      {
+        "start": 381.602,
+        "end": 381.862,
+        "text": "or",
+        "probability": 0.992
+      },
+      {
+        "start": 381.862,
+        "end": 382.222,
+        "text": "seasonal",
+        "probability": 0.999
+      },
+      {
+        "start": 382.222,
+        "end": 382.642,
+        "text": "closure,",
+        "probability": 0.995
+      },
+      {
+        "start": 382.882,
+        "end": 383.122,
+        "text": "so",
+        "probability": 0.982
+      },
+      {
+        "start": 383.122,
+        "end": 383.362,
+        "text": "again",
+        "probability": 0.966
+      },
+      {
+        "start": 383.362,
+        "end": 383.702,
+        "text": "we",
+        "probability": 0.744
+      },
+      {
+        "start": 383.702,
+        "end": 383.922,
+        "text": "have",
+        "probability": 0.996
+      },
+      {
+        "start": 383.922,
+        "end": 384.062,
+        "text": "a",
+        "probability": 0.997
+      },
+      {
+        "start": 384.062,
+        "end": 384.182,
+        "text": "lot",
+        "probability": 1.0
+      },
+      {
+        "start": 384.182,
+        "end": 384.262,
+        "text": "of",
+        "probability": 0.999
+      },
+      {
+        "start": 384.262,
+        "end": 384.942,
+        "text": "seasonality",
+        "probability": 0.999
+      },
+      {
+        "start": 384.942,
+        "end": 385.062,
+        "text": "in",
+        "probability": 0.626
+      },
+      {
+        "start": 385.062,
+        "end": 385.342,
+        "text": "tourism.",
+        "probability": 0.997
+      },
+      {
+        "start": 385.342,
+        "end": 385.802,
+        "text": "TheMighty,",
+        "probability": 0.002
+      },
+      {
+        "start": 385.822,
+        "end": 385.822,
+        "text": "Waikats",
+        "probability": 0.01
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_038602-039075",
+    "start": 386.018,
+    "end": 390.75,
+    "text": "Many who would close for winter have closed, but those that potentially have never closed before, TheMighty, Waikats have closed, but those that potentially have never closed before,",
+    "words": [
+      {
+        "start": 386.018,
+        "end": 386.178,
+        "text": "Many",
+        "probability": 0.732
+      },
+      {
+        "start": 386.178,
+        "end": 386.318,
+        "text": "who",
+        "probability": 0.993
+      },
+      {
+        "start": 386.318,
+        "end": 386.518,
+        "text": "would",
+        "probability": 0.996
+      },
+      {
+        "start": 386.518,
+        "end": 386.758,
+        "text": "close",
+        "probability": 0.997
+      },
+      {
+        "start": 386.758,
+        "end": 387.018,
+        "text": "for",
+        "probability": 0.997
+      },
+      {
+        "start": 387.018,
+        "end": 387.318,
+        "text": "winter",
+        "probability": 0.99
+      },
+      {
+        "start": 387.318,
+        "end": 387.798,
+        "text": "have",
+        "probability": 0.969
+      },
+      {
+        "start": 387.798,
+        "end": 388.178,
+        "text": "closed,",
+        "probability": 0.998
+      },
+      {
+        "start": 388.298,
+        "end": 388.438,
+        "text": "but",
+        "probability": 0.999
+      },
+      {
+        "start": 388.438,
+        "end": 388.698,
+        "text": "those",
+        "probability": 0.999
+      },
+      {
+        "start": 388.698,
+        "end": 388.858,
+        "text": "that",
+        "probability": 0.895
+      },
+      {
+        "start": 388.858,
+        "end": 389.138,
+        "text": "potentially",
+        "probability": 0.979
+      },
+      {
+        "start": 389.138,
+        "end": 389.318,
+        "text": "have",
+        "probability": 0.979
+      },
+      {
+        "start": 389.318,
+        "end": 389.478,
+        "text": "never",
+        "probability": 1.0
+      },
+      {
+        "start": 389.478,
+        "end": 389.738,
+        "text": "closed",
+        "probability": 0.999
+      },
+      {
+        "start": 389.738,
+        "end": 390.138,
+        "text": "before,",
+        "probability": 1.0
+      },
+      {
+        "start": 390.138,
+        "end": 390.278,
+        "text": "TheMighty,",
+        "probability": 0.002
+      },
+      {
+        "start": 390.278,
+        "end": 390.378,
+        "text": "Waikats",
+        "probability": 0.007
+      },
+      {
+        "start": 390.378,
+        "end": 390.378,
+        "text": "have",
+        "probability": 0.0
+      },
+      {
+        "start": 390.378,
+        "end": 390.378,
+        "text": "closed,",
+        "probability": 0.0
+      },
+      {
+        "start": 390.378,
+        "end": 390.378,
+        "text": "but",
+        "probability": 0.095
+      },
+      {
+        "start": 390.378,
+        "end": 390.378,
+        "text": "those",
+        "probability": 0.002
+      },
+      {
+        "start": 390.378,
+        "end": 390.378,
+        "text": "that",
+        "probability": 0.026
+      },
+      {
+        "start": 390.378,
+        "end": 390.378,
+        "text": "potentially",
+        "probability": 0.0
+      },
+      {
+        "start": 390.378,
+        "end": 390.378,
+        "text": "have",
+        "probability": 0.094
+      },
+      {
+        "start": 390.378,
+        "end": 390.378,
+        "text": "never",
+        "probability": 0.001
+      },
+      {
+        "start": 390.378,
+        "end": 390.378,
+        "text": "closed",
+        "probability": 0.284
+      },
+      {
+        "start": 390.378,
+        "end": 390.378,
+        "text": "before,",
+        "probability": 0.114
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_039095-039590",
+    "start": 390.946,
+    "end": 395.902,
+    "text": "We've suggested they go into hibernation and so that's what we're calling temporary seasonal closures. TheMighty, Waikats",
+    "words": [
+      {
+        "start": 390.946,
+        "end": 391.026,
+        "text": "We've",
+        "probability": 0.594
+      },
+      {
+        "start": 391.026,
+        "end": 391.306,
+        "text": "suggested",
+        "probability": 0.994
+      },
+      {
+        "start": 391.306,
+        "end": 391.546,
+        "text": "they",
+        "probability": 0.96
+      },
+      {
+        "start": 391.546,
+        "end": 391.686,
+        "text": "go",
+        "probability": 0.993
+      },
+      {
+        "start": 391.686,
+        "end": 391.866,
+        "text": "into",
+        "probability": 0.996
+      },
+      {
+        "start": 391.866,
+        "end": 392.606,
+        "text": "hibernation",
+        "probability": 0.999
+      },
+      {
+        "start": 392.606,
+        "end": 392.986,
+        "text": "and",
+        "probability": 0.221
+      },
+      {
+        "start": 392.986,
+        "end": 393.506,
+        "text": "so",
+        "probability": 0.989
+      },
+      {
+        "start": 393.506,
+        "end": 393.826,
+        "text": "that's",
+        "probability": 0.986
+      },
+      {
+        "start": 393.826,
+        "end": 393.846,
+        "text": "what",
+        "probability": 0.997
+      },
+      {
+        "start": 393.846,
+        "end": 394.006,
+        "text": "we're",
+        "probability": 0.927
+      },
+      {
+        "start": 394.006,
+        "end": 394.186,
+        "text": "calling",
+        "probability": 0.995
+      },
+      {
+        "start": 394.186,
+        "end": 394.486,
+        "text": "temporary",
+        "probability": 0.956
+      },
+      {
+        "start": 394.486,
+        "end": 394.866,
+        "text": "seasonal",
+        "probability": 0.989
+      },
+      {
+        "start": 394.866,
+        "end": 395.466,
+        "text": "closures.",
+        "probability": 0.998
+      },
+      {
+        "start": 395.466,
+        "end": 395.866,
+        "text": "TheMighty,",
+        "probability": 0.003
+      },
+      {
+        "start": 395.866,
+        "end": 395.866,
+        "text": "Waikats",
+        "probability": 0.007
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_039607-040150",
+    "start": 396.066,
+    "end": 401.502,
+    "text": "We've had a number of businesses, you know Hobbiton was obviously one of the most public ones reported in the media. We've had a number of businesses, you know Hobbiton was obviously one of the most public ones reported in the media.",
+    "words": [
+      {
+        "start": 396.066,
+        "end": 396.166,
+        "text": "We've",
+        "probability": 0.88
+      },
+      {
+        "start": 396.166,
+        "end": 396.286,
+        "text": "had",
+        "probability": 0.967
+      },
+      {
+        "start": 396.286,
+        "end": 396.406,
+        "text": "a",
+        "probability": 0.991
+      },
+      {
+        "start": 396.406,
+        "end": 396.566,
+        "text": "number",
+        "probability": 1.0
+      },
+      {
+        "start": 396.566,
+        "end": 396.786,
+        "text": "of",
+        "probability": 1.0
+      },
+      {
+        "start": 396.786,
+        "end": 397.046,
+        "text": "businesses,",
+        "probability": 0.999
+      },
+      {
+        "start": 397.406,
+        "end": 397.486,
+        "text": "you",
+        "probability": 0.694
+      },
+      {
+        "start": 397.486,
+        "end": 397.586,
+        "text": "know",
+        "probability": 1.0
+      },
+      {
+        "start": 397.586,
+        "end": 398.046,
+        "text": "Hobbiton",
+        "probability": 0.654
+      },
+      {
+        "start": 398.046,
+        "end": 398.186,
+        "text": "was",
+        "probability": 0.979
+      },
+      {
+        "start": 398.186,
+        "end": 398.486,
+        "text": "obviously",
+        "probability": 0.97
+      },
+      {
+        "start": 398.486,
+        "end": 398.766,
+        "text": "one",
+        "probability": 0.994
+      },
+      {
+        "start": 398.766,
+        "end": 398.846,
+        "text": "of",
+        "probability": 0.998
+      },
+      {
+        "start": 398.846,
+        "end": 398.886,
+        "text": "the",
+        "probability": 0.999
+      },
+      {
+        "start": 398.886,
+        "end": 399.066,
+        "text": "most",
+        "probability": 0.998
+      },
+      {
+        "start": 399.066,
+        "end": 399.386,
+        "text": "public",
+        "probability": 0.997
+      },
+      {
+        "start": 399.386,
+        "end": 399.686,
+        "text": "ones",
+        "probability": 0.999
+      },
+      {
+        "start": 399.686,
+        "end": 400.346,
+        "text": "reported",
+        "probability": 0.945
+      },
+      {
+        "start": 400.346,
+        "end": 400.666,
+        "text": "in",
+        "probability": 0.996
+      },
+      {
+        "start": 400.666,
+        "end": 400.706,
+        "text": "the",
+        "probability": 0.999
+      },
+      {
+        "start": 400.706,
+        "end": 400.946,
+        "text": "media.",
+        "probability": 0.999
+      },
+      {
+        "start": 400.946,
+        "end": 400.946,
+        "text": "We've",
+        "probability": 0.011
+      },
+      {
+        "start": 400.946,
+        "end": 400.946,
+        "text": "had",
+        "probability": 0.039
+      },
+      {
+        "start": 400.946,
+        "end": 400.946,
+        "text": "a",
+        "probability": 0.369
+      },
+      {
+        "start": 400.946,
+        "end": 400.946,
+        "text": "number",
+        "probability": 0.024
+      },
+      {
+        "start": 400.946,
+        "end": 400.946,
+        "text": "of",
+        "probability": 0.974
+      },
+      {
+        "start": 400.946,
+        "end": 400.946,
+        "text": "businesses,",
+        "probability": 0.0
+      },
+      {
+        "start": 400.946,
+        "end": 400.946,
+        "text": "you",
+        "probability": 0.06
+      },
+      {
+        "start": 400.946,
+        "end": 400.946,
+        "text": "know",
+        "probability": 0.911
+      },
+      {
+        "start": 400.946,
+        "end": 400.946,
+        "text": "Hobbiton",
+        "probability": 0.24
+      },
+      {
+        "start": 400.946,
+        "end": 400.946,
+        "text": "was",
+        "probability": 0.009
+      },
+      {
+        "start": 400.946,
+        "end": 400.946,
+        "text": "obviously",
+        "probability": 0.0
+      },
+      {
+        "start": 400.946,
+        "end": 400.946,
+        "text": "one",
+        "probability": 0.145
+      },
+      {
+        "start": 400.946,
+        "end": 400.946,
+        "text": "of",
+        "probability": 0.677
+      },
+      {
+        "start": 400.946,
+        "end": 400.946,
+        "text": "the",
+        "probability": 0.271
+      },
+      {
+        "start": 400.946,
+        "end": 400.946,
+        "text": "most",
+        "probability": 0.08
+      },
+      {
+        "start": 400.946,
+        "end": 400.946,
+        "text": "public",
+        "probability": 0.0
+      },
+      {
+        "start": 400.946,
+        "end": 400.946,
+        "text": "ones",
+        "probability": 0.017
+      },
+      {
+        "start": 400.946,
+        "end": 400.946,
+        "text": "reported",
+        "probability": 0.0
+      },
+      {
+        "start": 400.946,
+        "end": 400.946,
+        "text": "in",
+        "probability": 0.112
+      },
+      {
+        "start": 400.946,
+        "end": 400.946,
+        "text": "the",
+        "probability": 0.502
+      },
+      {
+        "start": 400.946,
+        "end": 401.046,
+        "text": "media.",
+        "probability": 0.073
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_040160-040621",
+    "start": 401.602,
+    "end": 406.206,
+    "text": "But again, all our motels, hotels, retail, hospitality, TheMighty, Waikats But again, all our motels, hotels, retail, hospitality,",
+    "words": [
+      {
+        "start": 401.602,
+        "end": 401.702,
+        "text": "But",
+        "probability": 0.657
+      },
+      {
+        "start": 401.702,
+        "end": 401.822,
+        "text": "again,",
+        "probability": 0.952
+      },
+      {
+        "start": 402.082,
+        "end": 402.502,
+        "text": "all",
+        "probability": 0.998
+      },
+      {
+        "start": 402.502,
+        "end": 402.742,
+        "text": "our",
+        "probability": 0.996
+      },
+      {
+        "start": 402.742,
+        "end": 403.322,
+        "text": "motels,",
+        "probability": 0.999
+      },
+      {
+        "start": 403.322,
+        "end": 403.622,
+        "text": "hotels,",
+        "probability": 1.0
+      },
+      {
+        "start": 403.962,
+        "end": 404.662,
+        "text": "retail,",
+        "probability": 1.0
+      },
+      {
+        "start": 404.982,
+        "end": 405.402,
+        "text": "hospitality,",
+        "probability": 1.0
+      },
+      {
+        "start": 405.402,
+        "end": 405.522,
+        "text": "TheMighty,",
+        "probability": 0.001
+      },
+      {
+        "start": 405.522,
+        "end": 405.522,
+        "text": "Waikats",
+        "probability": 0.033
+      },
+      {
+        "start": 405.522,
+        "end": 405.522,
+        "text": "But",
+        "probability": 0.0
+      },
+      {
+        "start": 405.522,
+        "end": 405.522,
+        "text": "again,",
+        "probability": 0.0
+      },
+      {
+        "start": 405.522,
+        "end": 405.522,
+        "text": "all",
+        "probability": 0.003
+      },
+      {
+        "start": 405.522,
+        "end": 405.522,
+        "text": "our",
+        "probability": 0.006
+      },
+      {
+        "start": 405.522,
+        "end": 405.522,
+        "text": "motels,",
+        "probability": 0.018
+      },
+      {
+        "start": 405.522,
+        "end": 405.522,
+        "text": "hotels,",
+        "probability": 0.001
+      },
+      {
+        "start": 405.642,
+        "end": 405.922,
+        "text": "retail,",
+        "probability": 0.001
+      },
+      {
+        "start": 405.922,
+        "end": 405.922,
+        "text": "hospitality,",
+        "probability": 0.086
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_040653-041865",
+    "start": 406.53,
+    "end": 418.654,
+    "text": "have pretty much reduced service and staff, there's only essential services operating as we know, but again with Alert Level 3 we do see some opening up potentially in the hospitality sector for Waiap\u0101ra anyway.",
+    "words": [
+      {
+        "start": 406.53,
+        "end": 406.63,
+        "text": "have",
+        "probability": 0.935
+      },
+      {
+        "start": 406.63,
+        "end": 406.89,
+        "text": "pretty",
+        "probability": 0.998
+      },
+      {
+        "start": 406.89,
+        "end": 407.09,
+        "text": "much",
+        "probability": 1.0
+      },
+      {
+        "start": 407.09,
+        "end": 407.39,
+        "text": "reduced",
+        "probability": 0.991
+      },
+      {
+        "start": 407.39,
+        "end": 407.93,
+        "text": "service",
+        "probability": 0.992
+      },
+      {
+        "start": 407.93,
+        "end": 408.15,
+        "text": "and",
+        "probability": 0.992
+      },
+      {
+        "start": 408.15,
+        "end": 408.45,
+        "text": "staff,",
+        "probability": 0.98
+      },
+      {
+        "start": 408.65,
+        "end": 408.81,
+        "text": "there's",
+        "probability": 0.918
+      },
+      {
+        "start": 408.81,
+        "end": 408.95,
+        "text": "only",
+        "probability": 0.992
+      },
+      {
+        "start": 408.95,
+        "end": 409.25,
+        "text": "essential",
+        "probability": 0.97
+      },
+      {
+        "start": 409.25,
+        "end": 409.59,
+        "text": "services",
+        "probability": 0.994
+      },
+      {
+        "start": 409.59,
+        "end": 410.01,
+        "text": "operating",
+        "probability": 0.997
+      },
+      {
+        "start": 410.01,
+        "end": 410.35,
+        "text": "as",
+        "probability": 0.776
+      },
+      {
+        "start": 410.35,
+        "end": 410.45,
+        "text": "we",
+        "probability": 1.0
+      },
+      {
+        "start": 410.45,
+        "end": 410.63,
+        "text": "know,",
+        "probability": 0.999
+      },
+      {
+        "start": 410.81,
+        "end": 411.53,
+        "text": "but",
+        "probability": 0.997
+      },
+      {
+        "start": 411.53,
+        "end": 411.75,
+        "text": "again",
+        "probability": 0.983
+      },
+      {
+        "start": 411.75,
+        "end": 412.01,
+        "text": "with",
+        "probability": 0.422
+      },
+      {
+        "start": 412.01,
+        "end": 412.17,
+        "text": "Alert",
+        "probability": 0.314
+      },
+      {
+        "start": 412.17,
+        "end": 412.43,
+        "text": "Level",
+        "probability": 0.876
+      },
+      {
+        "start": 412.43,
+        "end": 412.73,
+        "text": "3",
+        "probability": 0.82
+      },
+      {
+        "start": 412.73,
+        "end": 413.05,
+        "text": "we",
+        "probability": 0.463
+      },
+      {
+        "start": 413.05,
+        "end": 413.25,
+        "text": "do",
+        "probability": 0.999
+      },
+      {
+        "start": 413.25,
+        "end": 413.51,
+        "text": "see",
+        "probability": 0.998
+      },
+      {
+        "start": 413.51,
+        "end": 413.85,
+        "text": "some",
+        "probability": 0.999
+      },
+      {
+        "start": 413.85,
+        "end": 414.65,
+        "text": "opening",
+        "probability": 0.996
+      },
+      {
+        "start": 414.65,
+        "end": 415.01,
+        "text": "up",
+        "probability": 0.998
+      },
+      {
+        "start": 415.01,
+        "end": 415.57,
+        "text": "potentially",
+        "probability": 0.72
+      },
+      {
+        "start": 415.57,
+        "end": 415.83,
+        "text": "in",
+        "probability": 0.983
+      },
+      {
+        "start": 415.83,
+        "end": 415.89,
+        "text": "the",
+        "probability": 1.0
+      },
+      {
+        "start": 415.89,
+        "end": 416.21,
+        "text": "hospitality",
+        "probability": 0.985
+      },
+      {
+        "start": 416.21,
+        "end": 416.77,
+        "text": "sector",
+        "probability": 0.998
+      },
+      {
+        "start": 416.77,
+        "end": 417.35,
+        "text": "for",
+        "probability": 0.813
+      },
+      {
+        "start": 417.35,
+        "end": 417.87,
+        "text": "Waiap\u0101ra",
+        "probability": 0.459
+      },
+      {
+        "start": 417.87,
+        "end": 418.05,
+        "text": "anyway.",
+        "probability": 0.96
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_041888-042483",
+    "start": 418.882,
+    "end": 424.83,
+    "text": "And then the last, obviously, implication for us is we have had a number of businesses who are permanently closing,",
+    "words": [
+      {
+        "start": 418.882,
+        "end": 418.982,
+        "text": "And",
+        "probability": 0.956
+      },
+      {
+        "start": 418.982,
+        "end": 419.102,
+        "text": "then",
+        "probability": 0.994
+      },
+      {
+        "start": 419.102,
+        "end": 419.262,
+        "text": "the",
+        "probability": 0.977
+      },
+      {
+        "start": 419.262,
+        "end": 419.802,
+        "text": "last,",
+        "probability": 1.0
+      },
+      {
+        "start": 419.862,
+        "end": 420.342,
+        "text": "obviously,",
+        "probability": 1.0
+      },
+      {
+        "start": 420.442,
+        "end": 421.182,
+        "text": "implication",
+        "probability": 0.998
+      },
+      {
+        "start": 421.182,
+        "end": 421.642,
+        "text": "for",
+        "probability": 1.0
+      },
+      {
+        "start": 421.642,
+        "end": 421.782,
+        "text": "us",
+        "probability": 1.0
+      },
+      {
+        "start": 421.782,
+        "end": 421.922,
+        "text": "is",
+        "probability": 0.989
+      },
+      {
+        "start": 421.922,
+        "end": 422.082,
+        "text": "we",
+        "probability": 0.984
+      },
+      {
+        "start": 422.082,
+        "end": 422.242,
+        "text": "have",
+        "probability": 0.999
+      },
+      {
+        "start": 422.242,
+        "end": 422.382,
+        "text": "had",
+        "probability": 0.994
+      },
+      {
+        "start": 422.382,
+        "end": 422.522,
+        "text": "a",
+        "probability": 1.0
+      },
+      {
+        "start": 422.522,
+        "end": 422.702,
+        "text": "number",
+        "probability": 1.0
+      },
+      {
+        "start": 422.702,
+        "end": 422.822,
+        "text": "of",
+        "probability": 1.0
+      },
+      {
+        "start": 422.822,
+        "end": 423.102,
+        "text": "businesses",
+        "probability": 1.0
+      },
+      {
+        "start": 423.102,
+        "end": 423.422,
+        "text": "who",
+        "probability": 0.998
+      },
+      {
+        "start": 423.422,
+        "end": 423.502,
+        "text": "are",
+        "probability": 1.0
+      },
+      {
+        "start": 423.502,
+        "end": 423.762,
+        "text": "permanently",
+        "probability": 0.987
+      },
+      {
+        "start": 423.762,
+        "end": 424.182,
+        "text": "closing,",
+        "probability": 1.0
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_042509-043078",
+    "start": 425.09,
+    "end": 430.782,
+    "text": "Not only are these a loss definitely to the tourism industry to try and bring people back when we don't have products, TheMighty, Waikats Not only are these a loss definitely to the tourism industry",
+    "words": [
+      {
+        "start": 425.09,
+        "end": 425.49,
+        "text": "Not",
+        "probability": 0.731
+      },
+      {
+        "start": 425.49,
+        "end": 425.67,
+        "text": "only",
+        "probability": 0.997
+      },
+      {
+        "start": 425.67,
+        "end": 425.83,
+        "text": "are",
+        "probability": 0.865
+      },
+      {
+        "start": 425.83,
+        "end": 426.23,
+        "text": "these",
+        "probability": 0.987
+      },
+      {
+        "start": 426.23,
+        "end": 426.35,
+        "text": "a",
+        "probability": 0.562
+      },
+      {
+        "start": 426.35,
+        "end": 426.55,
+        "text": "loss",
+        "probability": 0.988
+      },
+      {
+        "start": 426.55,
+        "end": 426.87,
+        "text": "definitely",
+        "probability": 0.673
+      },
+      {
+        "start": 426.87,
+        "end": 427.11,
+        "text": "to",
+        "probability": 0.992
+      },
+      {
+        "start": 427.11,
+        "end": 427.23,
+        "text": "the",
+        "probability": 1.0
+      },
+      {
+        "start": 427.23,
+        "end": 427.49,
+        "text": "tourism",
+        "probability": 0.995
+      },
+      {
+        "start": 427.49,
+        "end": 427.81,
+        "text": "industry",
+        "probability": 1.0
+      },
+      {
+        "start": 427.81,
+        "end": 428.05,
+        "text": "to",
+        "probability": 0.879
+      },
+      {
+        "start": 428.05,
+        "end": 428.27,
+        "text": "try",
+        "probability": 1.0
+      },
+      {
+        "start": 428.27,
+        "end": 428.39,
+        "text": "and",
+        "probability": 0.996
+      },
+      {
+        "start": 428.39,
+        "end": 428.57,
+        "text": "bring",
+        "probability": 1.0
+      },
+      {
+        "start": 428.57,
+        "end": 428.85,
+        "text": "people",
+        "probability": 0.999
+      },
+      {
+        "start": 428.85,
+        "end": 429.17,
+        "text": "back",
+        "probability": 1.0
+      },
+      {
+        "start": 429.17,
+        "end": 429.47,
+        "text": "when",
+        "probability": 0.994
+      },
+      {
+        "start": 429.47,
+        "end": 429.61,
+        "text": "we",
+        "probability": 1.0
+      },
+      {
+        "start": 429.61,
+        "end": 429.89,
+        "text": "don't",
+        "probability": 0.999
+      },
+      {
+        "start": 429.89,
+        "end": 429.89,
+        "text": "have",
+        "probability": 0.998
+      },
+      {
+        "start": 429.89,
+        "end": 430.29,
+        "text": "products,",
+        "probability": 0.999
+      },
+      {
+        "start": 430.29,
+        "end": 430.29,
+        "text": "TheMighty,",
+        "probability": 0.001
+      },
+      {
+        "start": 430.29,
+        "end": 430.51,
+        "text": "Waikats",
+        "probability": 0.011
+      },
+      {
+        "start": 430.51,
+        "end": 430.67,
+        "text": "Not",
+        "probability": 0.0
+      },
+      {
+        "start": 430.67,
+        "end": 430.75,
+        "text": "only",
+        "probability": 0.001
+      },
+      {
+        "start": 430.75,
+        "end": 430.75,
+        "text": "are",
+        "probability": 0.038
+      },
+      {
+        "start": 430.75,
+        "end": 430.75,
+        "text": "these",
+        "probability": 0.025
+      },
+      {
+        "start": 430.75,
+        "end": 430.75,
+        "text": "a",
+        "probability": 0.002
+      },
+      {
+        "start": 430.75,
+        "end": 430.75,
+        "text": "loss",
+        "probability": 0.0
+      },
+      {
+        "start": 430.75,
+        "end": 430.75,
+        "text": "definitely",
+        "probability": 0.0
+      },
+      {
+        "start": 430.75,
+        "end": 430.75,
+        "text": "to",
+        "probability": 0.009
+      },
+      {
+        "start": 430.75,
+        "end": 430.75,
+        "text": "the",
+        "probability": 0.248
+      },
+      {
+        "start": 430.75,
+        "end": 430.75,
+        "text": "tourism",
+        "probability": 0.0
+      },
+      {
+        "start": 430.75,
+        "end": 430.75,
+        "text": "industry",
+        "probability": 0.569
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_043152-043555",
+    "start": 431.522,
+    "end": 435.55,
+    "text": "But also particularly for those vulnerable communities where some of these operators",
+    "words": [
+      {
+        "start": 431.522,
+        "end": 431.822,
+        "text": "But",
+        "probability": 0.264
+      },
+      {
+        "start": 431.822,
+        "end": 432.042,
+        "text": "also",
+        "probability": 0.994
+      },
+      {
+        "start": 432.042,
+        "end": 432.462,
+        "text": "particularly",
+        "probability": 0.857
+      },
+      {
+        "start": 432.462,
+        "end": 432.862,
+        "text": "for",
+        "probability": 0.995
+      },
+      {
+        "start": 432.862,
+        "end": 433.062,
+        "text": "those",
+        "probability": 0.996
+      },
+      {
+        "start": 433.062,
+        "end": 433.382,
+        "text": "vulnerable",
+        "probability": 1.0
+      },
+      {
+        "start": 433.382,
+        "end": 433.882,
+        "text": "communities",
+        "probability": 0.999
+      },
+      {
+        "start": 433.882,
+        "end": 434.182,
+        "text": "where",
+        "probability": 0.501
+      },
+      {
+        "start": 434.182,
+        "end": 434.382,
+        "text": "some",
+        "probability": 0.993
+      },
+      {
+        "start": 434.382,
+        "end": 434.522,
+        "text": "of",
+        "probability": 0.999
+      },
+      {
+        "start": 434.522,
+        "end": 434.622,
+        "text": "these",
+        "probability": 0.999
+      },
+      {
+        "start": 434.622,
+        "end": 434.922,
+        "text": "operators",
+        "probability": 0.998
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_043578-043731",
+    "start": 435.778,
+    "end": 437.31,
+    "text": "have been going for many years.",
+    "words": [
+      {
+        "start": 435.778,
+        "end": 435.898,
+        "text": "have",
+        "probability": 0.93
+      },
+      {
+        "start": 435.898,
+        "end": 436.038,
+        "text": "been",
+        "probability": 0.999
+      },
+      {
+        "start": 436.038,
+        "end": 436.258,
+        "text": "going",
+        "probability": 0.999
+      },
+      {
+        "start": 436.258,
+        "end": 436.458,
+        "text": "for",
+        "probability": 0.996
+      },
+      {
+        "start": 436.458,
+        "end": 436.618,
+        "text": "many",
+        "probability": 0.999
+      },
+      {
+        "start": 436.618,
+        "end": 436.938,
+        "text": "years.",
+        "probability": 1.0
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_043795-043894",
+    "start": 437.954,
+    "end": 438.942,
+    "text": "I think it's the same",
+    "words": [
+      {
+        "start": 437.954,
+        "end": 438.034,
+        "text": "I",
+        "probability": 0.295
+      },
+      {
+        "start": 438.034,
+        "end": 438.294,
+        "text": "think",
+        "probability": 0.978
+      },
+      {
+        "start": 438.294,
+        "end": 438.454,
+        "text": "it's",
+        "probability": 0.489
+      },
+      {
+        "start": 438.454,
+        "end": 438.474,
+        "text": "the",
+        "probability": 0.718
+      },
+      {
+        "start": 438.474,
+        "end": 438.654,
+        "text": "same",
+        "probability": 0.996
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_044176-044326",
+    "start": 441.762,
+    "end": 443.262,
+    "text": "Sorry, can I ask a question about that?",
+    "words": [
+      {
+        "start": 441.762,
+        "end": 441.882,
+        "text": "Sorry,",
+        "probability": 0.239
+      },
+      {
+        "start": 441.882,
+        "end": 441.982,
+        "text": "can",
+        "probability": 0.988
+      },
+      {
+        "start": 441.982,
+        "end": 442.082,
+        "text": "I",
+        "probability": 0.991
+      },
+      {
+        "start": 442.082,
+        "end": 442.282,
+        "text": "ask",
+        "probability": 0.998
+      },
+      {
+        "start": 442.282,
+        "end": 442.382,
+        "text": "a",
+        "probability": 0.991
+      },
+      {
+        "start": 442.382,
+        "end": 442.622,
+        "text": "question",
+        "probability": 0.999
+      },
+      {
+        "start": 442.622,
+        "end": 442.882,
+        "text": "about",
+        "probability": 0.998
+      },
+      {
+        "start": 442.882,
+        "end": 443.022,
+        "text": "that?",
+        "probability": 0.994
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_044400-044457",
+    "start": 444.002,
+    "end": 444.574,
+    "text": "Sure.",
+    "words": [
+      {
+        "start": 444.002,
+        "end": 444.262,
+        "text": "Sure.",
+        "probability": 0.888
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_044471-045289",
+    "start": 444.706,
+    "end": 452.894,
+    "text": "Have you got examples of what businesses are struggling and like what what who isn't closing like who is closing and and how it is impacting around the wider district?",
+    "words": [
+      {
+        "start": 444.706,
+        "end": 444.846,
+        "text": "Have",
+        "probability": 0.394
+      },
+      {
+        "start": 444.846,
+        "end": 444.926,
+        "text": "you",
+        "probability": 0.999
+      },
+      {
+        "start": 444.926,
+        "end": 445.026,
+        "text": "got",
+        "probability": 0.988
+      },
+      {
+        "start": 445.026,
+        "end": 445.386,
+        "text": "examples",
+        "probability": 0.999
+      },
+      {
+        "start": 445.386,
+        "end": 445.626,
+        "text": "of",
+        "probability": 0.998
+      },
+      {
+        "start": 445.626,
+        "end": 445.746,
+        "text": "what",
+        "probability": 0.997
+      },
+      {
+        "start": 445.746,
+        "end": 446.086,
+        "text": "businesses",
+        "probability": 0.996
+      },
+      {
+        "start": 446.086,
+        "end": 446.306,
+        "text": "are",
+        "probability": 0.984
+      },
+      {
+        "start": 446.306,
+        "end": 446.646,
+        "text": "struggling",
+        "probability": 1.0
+      },
+      {
+        "start": 446.646,
+        "end": 447.006,
+        "text": "and",
+        "probability": 0.749
+      },
+      {
+        "start": 447.006,
+        "end": 447.166,
+        "text": "like",
+        "probability": 0.365
+      },
+      {
+        "start": 447.166,
+        "end": 447.466,
+        "text": "what",
+        "probability": 0.75
+      },
+      {
+        "start": 447.466,
+        "end": 447.766,
+        "text": "what",
+        "probability": 0.096
+      },
+      {
+        "start": 447.766,
+        "end": 447.906,
+        "text": "who",
+        "probability": 0.369
+      },
+      {
+        "start": 447.906,
+        "end": 448.546,
+        "text": "isn't",
+        "probability": 0.993
+      },
+      {
+        "start": 448.546,
+        "end": 448.846,
+        "text": "closing",
+        "probability": 0.994
+      },
+      {
+        "start": 448.846,
+        "end": 449.466,
+        "text": "like",
+        "probability": 0.182
+      },
+      {
+        "start": 449.466,
+        "end": 449.686,
+        "text": "who",
+        "probability": 0.979
+      },
+      {
+        "start": 449.686,
+        "end": 449.866,
+        "text": "is",
+        "probability": 0.994
+      },
+      {
+        "start": 449.866,
+        "end": 450.246,
+        "text": "closing",
+        "probability": 0.998
+      },
+      {
+        "start": 450.246,
+        "end": 450.526,
+        "text": "and",
+        "probability": 0.976
+      },
+      {
+        "start": 450.526,
+        "end": 450.986,
+        "text": "and",
+        "probability": 0.232
+      },
+      {
+        "start": 450.986,
+        "end": 451.146,
+        "text": "how",
+        "probability": 0.993
+      },
+      {
+        "start": 451.146,
+        "end": 451.326,
+        "text": "it",
+        "probability": 0.828
+      },
+      {
+        "start": 451.326,
+        "end": 451.386,
+        "text": "is",
+        "probability": 0.981
+      },
+      {
+        "start": 451.386,
+        "end": 451.666,
+        "text": "impacting",
+        "probability": 0.996
+      },
+      {
+        "start": 451.666,
+        "end": 451.986,
+        "text": "around",
+        "probability": 0.966
+      },
+      {
+        "start": 451.986,
+        "end": 452.106,
+        "text": "the",
+        "probability": 0.92
+      },
+      {
+        "start": 452.106,
+        "end": 452.326,
+        "text": "wider",
+        "probability": 0.101
+      },
+      {
+        "start": 452.326,
+        "end": 452.626,
+        "text": "district?",
+        "probability": 0.145
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_045392-046121",
+    "start": 453.922,
+    "end": 461.214,
+    "text": "Yeah, so particularly for Waipa, it has mainly been your hospitality, potentially some of your retail and",
+    "words": [
+      {
+        "start": 453.922,
+        "end": 454.122,
+        "text": "Yeah,",
+        "probability": 0.833
+      },
+      {
+        "start": 454.122,
+        "end": 454.362,
+        "text": "so",
+        "probability": 1.0
+      },
+      {
+        "start": 454.362,
+        "end": 454.882,
+        "text": "particularly",
+        "probability": 0.992
+      },
+      {
+        "start": 454.882,
+        "end": 455.602,
+        "text": "for",
+        "probability": 1.0
+      },
+      {
+        "start": 455.602,
+        "end": 456.102,
+        "text": "Waipa,",
+        "probability": 0.436
+      },
+      {
+        "start": 456.242,
+        "end": 456.442,
+        "text": "it",
+        "probability": 1.0
+      },
+      {
+        "start": 456.442,
+        "end": 456.642,
+        "text": "has",
+        "probability": 0.988
+      },
+      {
+        "start": 456.642,
+        "end": 457.002,
+        "text": "mainly",
+        "probability": 1.0
+      },
+      {
+        "start": 457.002,
+        "end": 457.382,
+        "text": "been",
+        "probability": 1.0
+      },
+      {
+        "start": 457.382,
+        "end": 458.162,
+        "text": "your",
+        "probability": 0.999
+      },
+      {
+        "start": 458.162,
+        "end": 458.682,
+        "text": "hospitality,",
+        "probability": 1.0
+      },
+      {
+        "start": 458.982,
+        "end": 459.442,
+        "text": "potentially",
+        "probability": 1.0
+      },
+      {
+        "start": 459.442,
+        "end": 459.782,
+        "text": "some",
+        "probability": 1.0
+      },
+      {
+        "start": 459.782,
+        "end": 459.922,
+        "text": "of",
+        "probability": 1.0
+      },
+      {
+        "start": 459.922,
+        "end": 459.962,
+        "text": "your",
+        "probability": 1.0
+      },
+      {
+        "start": 459.962,
+        "end": 460.342,
+        "text": "retail",
+        "probability": 1.0
+      },
+      {
+        "start": 460.342,
+        "end": 460.722,
+        "text": "and",
+        "probability": 0.633
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_046138-046829",
+    "start": 461.378,
+    "end": 468.286,
+    "text": "Also accommodation. So we've had many, nearly all of your accommodation has pretty much gone into hibernation or closure. So we've had many, nearly all of your accommodation has pretty much gone into hibernation or closure.",
+    "words": [
+      {
+        "start": 461.378,
+        "end": 461.798,
+        "text": "Also",
+        "probability": 0.503
+      },
+      {
+        "start": 461.798,
+        "end": 462.558,
+        "text": "accommodation.",
+        "probability": 0.685
+      },
+      {
+        "start": 462.958,
+        "end": 463.258,
+        "text": "So",
+        "probability": 0.97
+      },
+      {
+        "start": 463.258,
+        "end": 463.478,
+        "text": "we've",
+        "probability": 0.862
+      },
+      {
+        "start": 463.478,
+        "end": 463.658,
+        "text": "had",
+        "probability": 0.986
+      },
+      {
+        "start": 463.658,
+        "end": 463.878,
+        "text": "many,",
+        "probability": 0.912
+      },
+      {
+        "start": 463.978,
+        "end": 464.618,
+        "text": "nearly",
+        "probability": 0.988
+      },
+      {
+        "start": 464.618,
+        "end": 464.898,
+        "text": "all",
+        "probability": 0.999
+      },
+      {
+        "start": 464.898,
+        "end": 465.018,
+        "text": "of",
+        "probability": 0.998
+      },
+      {
+        "start": 465.018,
+        "end": 465.138,
+        "text": "your",
+        "probability": 0.999
+      },
+      {
+        "start": 465.138,
+        "end": 465.498,
+        "text": "accommodation",
+        "probability": 0.999
+      },
+      {
+        "start": 465.498,
+        "end": 465.898,
+        "text": "has",
+        "probability": 0.993
+      },
+      {
+        "start": 465.898,
+        "end": 466.058,
+        "text": "pretty",
+        "probability": 0.998
+      },
+      {
+        "start": 466.058,
+        "end": 466.238,
+        "text": "much",
+        "probability": 1.0
+      },
+      {
+        "start": 466.238,
+        "end": 466.418,
+        "text": "gone",
+        "probability": 0.999
+      },
+      {
+        "start": 466.418,
+        "end": 466.618,
+        "text": "into",
+        "probability": 0.981
+      },
+      {
+        "start": 466.618,
+        "end": 467.218,
+        "text": "hibernation",
+        "probability": 1.0
+      },
+      {
+        "start": 467.218,
+        "end": 467.378,
+        "text": "or",
+        "probability": 0.995
+      },
+      {
+        "start": 467.378,
+        "end": 467.618,
+        "text": "closure.",
+        "probability": 1.0
+      },
+      {
+        "start": 467.618,
+        "end": 467.618,
+        "text": "So",
+        "probability": 0.007
+      },
+      {
+        "start": 467.618,
+        "end": 467.758,
+        "text": "we've",
+        "probability": 0.071
+      },
+      {
+        "start": 467.758,
+        "end": 467.758,
+        "text": "had",
+        "probability": 0.026
+      },
+      {
+        "start": 467.758,
+        "end": 467.758,
+        "text": "many,",
+        "probability": 0.003
+      },
+      {
+        "start": 467.758,
+        "end": 467.758,
+        "text": "nearly",
+        "probability": 0.0
+      },
+      {
+        "start": 467.758,
+        "end": 467.758,
+        "text": "all",
+        "probability": 0.033
+      },
+      {
+        "start": 467.758,
+        "end": 467.758,
+        "text": "of",
+        "probability": 0.527
+      },
+      {
+        "start": 467.758,
+        "end": 467.778,
+        "text": "your",
+        "probability": 0.008
+      },
+      {
+        "start": 467.778,
+        "end": 467.798,
+        "text": "accommodation",
+        "probability": 0.0
+      },
+      {
+        "start": 467.798,
+        "end": 467.798,
+        "text": "has",
+        "probability": 0.014
+      },
+      {
+        "start": 467.798,
+        "end": 467.798,
+        "text": "pretty",
+        "probability": 0.0
+      },
+      {
+        "start": 467.798,
+        "end": 467.798,
+        "text": "much",
+        "probability": 0.725
+      },
+      {
+        "start": 467.798,
+        "end": 467.798,
+        "text": "gone",
+        "probability": 0.075
+      },
+      {
+        "start": 467.798,
+        "end": 467.798,
+        "text": "into",
+        "probability": 0.082
+      },
+      {
+        "start": 467.798,
+        "end": 467.798,
+        "text": "hibernation",
+        "probability": 0.545
+      },
+      {
+        "start": 467.798,
+        "end": 467.798,
+        "text": "or",
+        "probability": 0.049
+      },
+      {
+        "start": 467.798,
+        "end": 467.818,
+        "text": "closure.",
+        "probability": 0.019
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_046855-046957",
+    "start": 468.546,
+    "end": 469.566,
+    "text": "They're calling it, The Mighty They're calling it,",
+    "words": [
+      {
+        "start": 468.546,
+        "end": 468.946,
+        "text": "They're",
+        "probability": 0.871
+      },
+      {
+        "start": 468.946,
+        "end": 469.146,
+        "text": "calling",
+        "probability": 1.0
+      },
+      {
+        "start": 469.146,
+        "end": 469.406,
+        "text": "it,",
+        "probability": 1.0
+      },
+      {
+        "start": 469.406,
+        "end": 469.406,
+        "text": "The",
+        "probability": 0.004
+      },
+      {
+        "start": 469.406,
+        "end": 469.406,
+        "text": "Mighty",
+        "probability": 0.0
+      },
+      {
+        "start": 469.406,
+        "end": 469.466,
+        "text": "They're",
+        "probability": 0.004
+      },
+      {
+        "start": 469.466,
+        "end": 469.546,
+        "text": "calling",
+        "probability": 0.0
+      },
+      {
+        "start": 469.546,
+        "end": 469.546,
+        "text": "it,",
+        "probability": 0.166
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_046967-047363",
+    "start": 469.666,
+    "end": 473.63,
+    "text": "Temporary closure, but some of them have been able to access the wage subsidy, which is great.",
+    "words": [
+      {
+        "start": 469.666,
+        "end": 469.986,
+        "text": "Temporary",
+        "probability": 0.696
+      },
+      {
+        "start": 469.986,
+        "end": 470.246,
+        "text": "closure,",
+        "probability": 0.992
+      },
+      {
+        "start": 470.326,
+        "end": 470.446,
+        "text": "but",
+        "probability": 0.994
+      },
+      {
+        "start": 470.446,
+        "end": 470.746,
+        "text": "some",
+        "probability": 0.661
+      },
+      {
+        "start": 470.746,
+        "end": 470.946,
+        "text": "of",
+        "probability": 0.98
+      },
+      {
+        "start": 470.946,
+        "end": 471.006,
+        "text": "them",
+        "probability": 0.993
+      },
+      {
+        "start": 471.006,
+        "end": 471.066,
+        "text": "have",
+        "probability": 0.991
+      },
+      {
+        "start": 471.066,
+        "end": 471.166,
+        "text": "been",
+        "probability": 0.998
+      },
+      {
+        "start": 471.166,
+        "end": 471.286,
+        "text": "able",
+        "probability": 0.999
+      },
+      {
+        "start": 471.286,
+        "end": 471.406,
+        "text": "to",
+        "probability": 0.997
+      },
+      {
+        "start": 471.406,
+        "end": 471.606,
+        "text": "access",
+        "probability": 0.956
+      },
+      {
+        "start": 471.606,
+        "end": 471.846,
+        "text": "the",
+        "probability": 0.996
+      },
+      {
+        "start": 471.846,
+        "end": 472.006,
+        "text": "wage",
+        "probability": 1.0
+      },
+      {
+        "start": 472.006,
+        "end": 472.346,
+        "text": "subsidy,",
+        "probability": 1.0
+      },
+      {
+        "start": 472.506,
+        "end": 472.686,
+        "text": "which",
+        "probability": 1.0
+      },
+      {
+        "start": 472.686,
+        "end": 472.806,
+        "text": "is",
+        "probability": 1.0
+      },
+      {
+        "start": 472.806,
+        "end": 473.026,
+        "text": "great.",
+        "probability": 1.0
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_047383-047712",
+    "start": 473.826,
+    "end": 477.118,
+    "text": "but again what we're going to see is the impacts are longer than the 12-week week.",
+    "words": [
+      {
+        "start": 473.826,
+        "end": 474.106,
+        "text": "but",
+        "probability": 0.471
+      },
+      {
+        "start": 474.106,
+        "end": 474.286,
+        "text": "again",
+        "probability": 0.971
+      },
+      {
+        "start": 474.286,
+        "end": 474.526,
+        "text": "what",
+        "probability": 0.758
+      },
+      {
+        "start": 474.526,
+        "end": 474.666,
+        "text": "we're",
+        "probability": 0.991
+      },
+      {
+        "start": 474.666,
+        "end": 474.706,
+        "text": "going",
+        "probability": 0.973
+      },
+      {
+        "start": 474.706,
+        "end": 474.826,
+        "text": "to",
+        "probability": 0.999
+      },
+      {
+        "start": 474.826,
+        "end": 475.006,
+        "text": "see",
+        "probability": 1.0
+      },
+      {
+        "start": 475.006,
+        "end": 475.126,
+        "text": "is",
+        "probability": 0.988
+      },
+      {
+        "start": 475.126,
+        "end": 475.226,
+        "text": "the",
+        "probability": 0.985
+      },
+      {
+        "start": 475.226,
+        "end": 475.446,
+        "text": "impacts",
+        "probability": 0.997
+      },
+      {
+        "start": 475.446,
+        "end": 475.706,
+        "text": "are",
+        "probability": 0.995
+      },
+      {
+        "start": 475.706,
+        "end": 475.966,
+        "text": "longer",
+        "probability": 1.0
+      },
+      {
+        "start": 475.966,
+        "end": 476.146,
+        "text": "than",
+        "probability": 0.997
+      },
+      {
+        "start": 476.146,
+        "end": 476.286,
+        "text": "the",
+        "probability": 0.992
+      },
+      {
+        "start": 476.286,
+        "end": 476.546,
+        "text": "12",
+        "probability": 0.998
+      },
+      {
+        "start": 476.546,
+        "end": 476.806,
+        "text": "-week",
+        "probability": 0.714
+      },
+      {
+        "start": 476.806,
+        "end": 476.946,
+        "text": "week.",
+        "probability": 0.304
+      }
+    ],
+    "language": "en"
+  },
+  {
+    "segment_id": "seg_047722-048000",
+    "start": 477.218,
+    "end": 480.003,
+    "text": "Wage Subsidy right now, so it's post 12 weeks,",
+    "words": [
+      {
+        "start": 477.218,
+        "end": 477.638,
+        "text": "Wage",
+        "probability": 0.507
+      },
+      {
+        "start": 477.638,
+        "end": 478.058,
+        "text": "Subsidy",
+        "probability": 0.605
+      },
+      {
+        "start": 478.058,
+        "end": 478.238,
+        "text": "right",
+        "probability": 0.854
+      },
+      {
+        "start": 478.238,
+        "end": 478.478,
+        "text": "now,",
+        "probability": 0.999
+      },
+      {
+        "start": 478.578,
+        "end": 478.738,
+        "text": "so",
+        "probability": 0.982
+      },
+      {
+        "start": 478.738,
+        "end": 479.098,
+        "text": "it's",
+        "probability": 0.953
+      },
+      {
+        "start": 479.098,
+        "end": 479.318,
+        "text": "post",
+        "probability": 0.972
+      },
+      {
+        "start": 479.318,
+        "end": 479.618,
+        "text": "12",
+        "probability": 0.749
+      },
+      {
+        "start": 479.618,
+        "end": 479.838,
+        "text": "weeks,",
+        "probability": 0.853
+      }
+    ],
+    "language": "en"
+  }
+]

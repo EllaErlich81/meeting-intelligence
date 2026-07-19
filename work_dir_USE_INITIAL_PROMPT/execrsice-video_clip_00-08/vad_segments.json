@@ -1,0 +1,624 @@
+{
+  "segments": [
+    {
+      "segment_id": "seg_000003-000089",
+      "start_s": 0.034,
+      "duration": 0.86
+    },
+    {
+      "segment_id": "seg_000135-000227",
+      "start_s": 1.346,
+      "duration": 0.924
+    },
+    {
+      "segment_id": "seg_000285-000358",
+      "start_s": 2.85,
+      "duration": 0.732
+    },
+    {
+      "segment_id": "seg_000461-001216",
+      "start_s": 4.61,
+      "duration": 7.548
+    },
+    {
+      "segment_id": "seg_001242-001353",
+      "start_s": 12.418,
+      "duration": 1.116
+    },
+    {
+      "segment_id": "seg_001370-001478",
+      "start_s": 13.698,
+      "duration": 1.084
+    },
+    {
+      "segment_id": "seg_001514-001635",
+      "start_s": 15.138,
+      "duration": 1.212
+    },
+    {
+      "segment_id": "seg_001651-002326",
+      "start_s": 16.514,
+      "duration": 6.748
+    },
+    {
+      "segment_id": "seg_002371-002483",
+      "start_s": 23.714,
+      "duration": 1.116
+    },
+    {
+      "segment_id": "seg_002541-002765",
+      "start_s": 25.41,
+      "duration": 2.236
+    },
+    {
+      "segment_id": "seg_002781-002864",
+      "start_s": 27.81,
+      "duration": 0.828
+    },
+    {
+      "segment_id": "seg_002899-002957",
+      "start_s": 28.994,
+      "duration": 0.572
+    },
+    {
+      "segment_id": "seg_002979-003126",
+      "start_s": 29.794,
+      "duration": 1.468
+    },
+    {
+      "segment_id": "seg_003200-003363",
+      "start_s": 32.002,
+      "duration": 1.628
+    },
+    {
+      "segment_id": "seg_003389-003494",
+      "start_s": 33.89,
+      "duration": 1.052
+    },
+    {
+      "segment_id": "seg_003539-003728",
+      "start_s": 35.394,
+      "duration": 1.884
+    },
+    {
+      "segment_id": "seg_003763-003872",
+      "start_s": 37.634,
+      "duration": 1.084
+    },
+    {
+      "segment_id": "seg_003911-003961",
+      "start_s": 39.106,
+      "duration": 0.508
+    },
+    {
+      "segment_id": "seg_004019-004166",
+      "start_s": 40.194,
+      "duration": 1.468
+    },
+    {
+      "segment_id": "seg_004311-004509",
+      "start_s": 43.106,
+      "duration": 1.98
+    },
+    {
+      "segment_id": "seg_004531-004653",
+      "start_s": 45.314,
+      "duration": 1.212
+    },
+    {
+      "segment_id": "seg_004909-005177",
+      "start_s": 49.09,
+      "duration": 2.684
+    },
+    {
+      "segment_id": "seg_005293-005417",
+      "start_s": 52.93,
+      "duration": 1.244
+    },
+    {
+      "segment_id": "seg_005738-006259",
+      "start_s": 57.378,
+      "duration": 5.212
+    },
+    {
+      "segment_id": "seg_006435-007619",
+      "start_s": 64.354,
+      "duration": 11.836
+    },
+    {
+      "segment_id": "seg_007709-007872",
+      "start_s": 77.09,
+      "duration": 1.628
+    },
+    {
+      "segment_id": "seg_007907-007993",
+      "start_s": 79.074,
+      "duration": 0.86
+    },
+    {
+      "segment_id": "seg_008007-008195",
+      "start_s": 80.066,
+      "duration": 1.884
+    },
+    {
+      "segment_id": "seg_008247-008304",
+      "start_s": 82.466,
+      "duration": 0.572
+    },
+    {
+      "segment_id": "seg_008359-008758",
+      "start_s": 83.586,
+      "duration": 3.996
+    },
+    {
+      "segment_id": "seg_008794-008864",
+      "start_s": 87.938,
+      "duration": 0.7
+    },
+    {
+      "segment_id": "seg_008887-009001",
+      "start_s": 88.866,
+      "duration": 1.148
+    },
+    {
+      "segment_id": "seg_009047-009437",
+      "start_s": 90.466,
+      "duration": 3.9
+    },
+    {
+      "segment_id": "seg_009495-009696",
+      "start_s": 94.946,
+      "duration": 2.012
+    },
+    {
+      "segment_id": "seg_009719-009859",
+      "start_s": 97.186,
+      "duration": 1.404
+    },
+    {
+      "segment_id": "seg_009968-010109",
+      "start_s": 99.682,
+      "duration": 1.404
+    },
+    {
+      "segment_id": "seg_010173-010355",
+      "start_s": 101.73,
+      "duration": 1.82
+    },
+    {
+      "segment_id": "seg_010435-010563",
+      "start_s": 104.354,
+      "duration": 1.276
+    },
+    {
+      "segment_id": "seg_010631-010793",
+      "start_s": 106.306,
+      "duration": 1.628
+    },
+    {
+      "segment_id": "seg_010855-011059",
+      "start_s": 108.546,
+      "duration": 2.044
+    },
+    {
+      "segment_id": "seg_011085-011529",
+      "start_s": 110.85,
+      "duration": 4.444
+    },
+    {
+      "segment_id": "seg_011619-011936",
+      "start_s": 116.194,
+      "duration": 3.164
+    },
+    {
+      "segment_id": "seg_012026-012083",
+      "start_s": 120.258,
+      "duration": 0.572
+    },
+    {
+      "segment_id": "seg_012103-012160",
+      "start_s": 121.026,
+      "duration": 0.572
+    },
+    {
+      "segment_id": "seg_012202-012259",
+      "start_s": 122.018,
+      "duration": 0.572
+    },
+    {
+      "segment_id": "seg_012282-012528",
+      "start_s": 122.818,
+      "duration": 2.46
+    },
+    {
+      "segment_id": "seg_012781-013011",
+      "start_s": 127.81,
+      "duration": 2.3
+    },
+    {
+      "segment_id": "seg_013056-013123",
+      "start_s": 130.562,
+      "duration": 0.668
+    },
+    {
+      "segment_id": "seg_013143-013897",
+      "start_s": 131.426,
+      "duration": 7.548
+    },
+    {
+      "segment_id": "seg_013965-014035",
+      "start_s": 139.65,
+      "duration": 0.7
+    },
+    {
+      "segment_id": "seg_014048-014109",
+      "start_s": 140.482,
+      "duration": 0.604
+    },
+    {
+      "segment_id": "seg_014144-014224",
+      "start_s": 141.442,
+      "duration": 0.796
+    },
+    {
+      "segment_id": "seg_014253-014413",
+      "start_s": 142.53,
+      "duration": 1.596
+    },
+    {
+      "segment_id": "seg_014435-014512",
+      "start_s": 144.354,
+      "duration": 0.764
+    },
+    {
+      "segment_id": "seg_014557-014681",
+      "start_s": 145.57,
+      "duration": 1.244
+    },
+    {
+      "segment_id": "seg_014733-014800",
+      "start_s": 147.33,
+      "duration": 0.668
+    },
+    {
+      "segment_id": "seg_014861-014982",
+      "start_s": 148.61,
+      "duration": 1.212
+    },
+    {
+      "segment_id": "seg_015008-015251",
+      "start_s": 150.082,
+      "duration": 2.428
+    },
+    {
+      "segment_id": "seg_015367-015677",
+      "start_s": 153.666,
+      "duration": 3.1
+    },
+    {
+      "segment_id": "seg_015863-015936",
+      "start_s": 158.626,
+      "duration": 0.732
+    },
+    {
+      "segment_id": "seg_016000-016147",
+      "start_s": 160.002,
+      "duration": 1.468
+    },
+    {
+      "segment_id": "seg_016355-016880",
+      "start_s": 163.554,
+      "duration": 5.244
+    },
+    {
+      "segment_id": "seg_016903-017104",
+      "start_s": 169.026,
+      "duration": 2.012
+    },
+    {
+      "segment_id": "seg_017767-017827",
+      "start_s": 177.666,
+      "duration": 0.604
+    },
+    {
+      "segment_id": "seg_018058-018665",
+      "start_s": 180.578,
+      "duration": 6.076
+    },
+    {
+      "segment_id": "seg_018701-019158",
+      "start_s": 187.01,
+      "duration": 4.572
+    },
+    {
+      "segment_id": "seg_019232-020041",
+      "start_s": 192.322,
+      "duration": 8.092
+    },
+    {
+      "segment_id": "seg_020080-020707",
+      "start_s": 200.802,
+      "duration": 6.268
+    },
+    {
+      "segment_id": "seg_020739-021062",
+      "start_s": 207.394,
+      "duration": 3.228
+    },
+    {
+      "segment_id": "seg_021088-021577",
+      "start_s": 210.882,
+      "duration": 4.892
+    },
+    {
+      "segment_id": "seg_021600-021744",
+      "start_s": 216.002,
+      "duration": 1.436
+    },
+    {
+      "segment_id": "seg_021767-022560",
+      "start_s": 217.666,
+      "duration": 7.932
+    },
+    {
+      "segment_id": "seg_022826-022912",
+      "start_s": 228.258,
+      "duration": 0.86
+    },
+    {
+      "segment_id": "seg_022938-023241",
+      "start_s": 229.378,
+      "duration": 3.036
+    },
+    {
+      "segment_id": "seg_023507-023571",
+      "start_s": 235.074,
+      "duration": 0.636
+    },
+    {
+      "segment_id": "seg_023607-024739",
+      "start_s": 236.066,
+      "duration": 11.324
+    },
+    {
+      "segment_id": "seg_024775-025321",
+      "start_s": 247.746,
+      "duration": 5.468
+    },
+    {
+      "segment_id": "seg_025344-025833",
+      "start_s": 253.442,
+      "duration": 4.892
+    },
+    {
+      "segment_id": "seg_025850-026253",
+      "start_s": 258.498,
+      "duration": 4.028
+    },
+    {
+      "segment_id": "seg_026304-026768",
+      "start_s": 263.042,
+      "duration": 4.636
+    },
+    {
+      "segment_id": "seg_026787-027357",
+      "start_s": 267.874,
+      "duration": 5.692
+    },
+    {
+      "segment_id": "seg_027427-027552",
+      "start_s": 274.274,
+      "duration": 1.244
+    },
+    {
+      "segment_id": "seg_027623-027677",
+      "start_s": 276.226,
+      "duration": 0.54
+    },
+    {
+      "segment_id": "seg_027930-028633",
+      "start_s": 279.298,
+      "duration": 7.036
+    },
+    {
+      "segment_id": "seg_028650-029107",
+      "start_s": 286.498,
+      "duration": 4.572
+    },
+    {
+      "segment_id": "seg_029130-029555",
+      "start_s": 291.298,
+      "duration": 4.252
+    },
+    {
+      "segment_id": "seg_029584-030093",
+      "start_s": 295.842,
+      "duration": 5.084
+    },
+    {
+      "segment_id": "seg_030128-030189",
+      "start_s": 301.282,
+      "duration": 0.604
+    },
+    {
+      "segment_id": "seg_030890-031395",
+      "start_s": 308.898,
+      "duration": 5.052
+    },
+    {
+      "segment_id": "seg_031405-031741",
+      "start_s": 314.05,
+      "duration": 3.356
+    },
+    {
+      "segment_id": "seg_031757-032182",
+      "start_s": 317.57,
+      "duration": 4.252
+    },
+    {
+      "segment_id": "seg_032199-032614",
+      "start_s": 321.986,
+      "duration": 4.156
+    },
+    {
+      "segment_id": "seg_032647-033145",
+      "start_s": 326.466,
+      "duration": 4.988
+    },
+    {
+      "segment_id": "seg_033165-033715",
+      "start_s": 331.65,
+      "duration": 5.5
+    },
+    {
+      "segment_id": "seg_033728-034016",
+      "start_s": 337.282,
+      "duration": 2.876
+    },
+    {
+      "segment_id": "seg_034112-034189",
+      "start_s": 341.122,
+      "duration": 0.764
+    },
+    {
+      "segment_id": "seg_034202-034624",
+      "start_s": 342.018,
+      "duration": 4.22
+    },
+    {
+      "segment_id": "seg_034650-035312",
+      "start_s": 346.498,
+      "duration": 6.62
+    },
+    {
+      "segment_id": "seg_035325-035891",
+      "start_s": 353.25,
+      "duration": 5.66
+    },
+    {
+      "segment_id": "seg_035904-036275",
+      "start_s": 359.042,
+      "duration": 3.708
+    },
+    {
+      "segment_id": "seg_036307-036614",
+      "start_s": 363.074,
+      "duration": 3.068
+    },
+    {
+      "segment_id": "seg_036688-037107",
+      "start_s": 366.882,
+      "duration": 4.188
+    },
+    {
+      "segment_id": "seg_037139-037523",
+      "start_s": 371.394,
+      "duration": 3.836
+    },
+    {
+      "segment_id": "seg_037536-037990",
+      "start_s": 375.362,
+      "duration": 4.54
+    },
+    {
+      "segment_id": "seg_038016-038585",
+      "start_s": 380.162,
+      "duration": 5.692
+    },
+    {
+      "segment_id": "seg_038602-039075",
+      "start_s": 386.018,
+      "duration": 4.732
+    },
+    {
+      "segment_id": "seg_039095-039590",
+      "start_s": 390.946,
+      "duration": 4.956
+    },
+    {
+      "segment_id": "seg_039607-040150",
+      "start_s": 396.066,
+      "duration": 5.436
+    },
+    {
+      "segment_id": "seg_040160-040621",
+      "start_s": 401.602,
+      "duration": 4.604
+    },
+    {
+      "segment_id": "seg_040653-041865",
+      "start_s": 406.53,
+      "duration": 12.124
+    },
+    {
+      "segment_id": "seg_041888-042483",
+      "start_s": 418.882,
+      "duration": 5.948
+    },
+    {
+      "segment_id": "seg_042509-043078",
+      "start_s": 425.09,
+      "duration": 5.692
+    },
+    {
+      "segment_id": "seg_043152-043555",
+      "start_s": 431.522,
+      "duration": 4.028
+    },
+    {
+      "segment_id": "seg_043578-043731",
+      "start_s": 435.778,
+      "duration": 1.532
+    },
+    {
+      "segment_id": "seg_043795-043894",
+      "start_s": 437.954,
+      "duration": 0.988
+    },
+    {
+      "segment_id": "seg_044176-044326",
+      "start_s": 441.762,
+      "duration": 1.5
+    },
+    {
+      "segment_id": "seg_044400-044457",
+      "start_s": 444.002,
+      "duration": 0.572
+    },
+    {
+      "segment_id": "seg_044471-045289",
+      "start_s": 444.706,
+      "duration": 8.188
+    },
+    {
+      "segment_id": "seg_045392-046121",
+      "start_s": 453.922,
+      "duration": 7.292
+    },
+    {
+      "segment_id": "seg_046138-046829",
+      "start_s": 461.378,
+      "duration": 6.908
+    },
+    {
+      "segment_id": "seg_046855-046957",
+      "start_s": 468.546,
+      "duration": 1.02
+    },
+    {
+      "segment_id": "seg_046967-047363",
+      "start_s": 469.666,
+      "duration": 3.964
+    },
+    {
+      "segment_id": "seg_047383-047712",
+      "start_s": 473.826,
+      "duration": 3.292
+    },
+    {
+      "segment_id": "seg_047722-048000",
+      "start_s": 477.218,
+      "duration": 2.785
+    }
+  ]
+}

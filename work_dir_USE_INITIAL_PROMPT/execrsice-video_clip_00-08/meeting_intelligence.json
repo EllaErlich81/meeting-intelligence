@@ -1,0 +1,60 @@
+{
+  "summary": "The Waipā District Council meeting began with procedural logistics, including apologies, interest disclosures, and the correction of attendance omissions in the February 18 meeting minutes. Following these approvals, Jason Dawson presented a comprehensive report detailing the severe impact of COVID-19 on regional tourism, specifically addressing declining international arrivals, decreased visitor expenditure, business hibernations, and long-term concerns following the end of the 12-week wage subsidy.",
+  "topics": [
+    {
+      "topic": "Apologies, Interests, and Meeting Logistics",
+      "summary": "The meeting opened with apologies, noting Hazel's absence and Jim's early departure at 1:30 PM to attend a future-proof meeting. No disclosures of member interest or late items were recorded, and the order of the meeting was confirmed without changes.",
+      "evidence": {
+        "timestamps": [
+          0.031,
+          81.858
+        ],
+        "speakers": [
+          "Cr Susan O'Regan",
+          "Unknown"
+        ],
+        "visual_reference": "zoom"
+      }
+    },
+    {
+      "topic": "Confirmation of Minutes (18 February)",
+      "summary": "The council reviewed the minutes of the previous meeting from 18 February. Councillors Grahame and Bruce Thomas requested corrections because their attendance was not recorded. With these amendments noted, the minutes were approved as a true and correct record.",
+      "evidence": {
+        "timestamps": [
+          82.465,
+          141.443
+        ],
+        "speakers": [
+          "Cr Susan O'Regan",
+          "Unknown"
+        ],
+        "visual_reference": "Cr Bruce Thomas, Cr Grahame"
+      }
+    },
+    {
+      "topic": "COVID-19 Regional Tourism Impact Update",
+      "summary": "Jason Dawson presented a tourism update for the Waipā District. While the six months ending 31 December 2019 showed double-digit growth, the COVID-19 pandemic severely disrupted the sector. The impact began with the loss of Chinese group travel in late January and escalated with international restrictions. Dawson detailed business closures, staff reductions, hibernations, and highlighted the specific vulnerability of hospitality, retail, and accommodation providers post the 12-week wage subsidy period.",
+      "evidence": {
+        "timestamps": [
+          141.443,
+          480.057
+        ],
+        "speakers": [
+          "Cr Susan O'Regan",
+          "jason dawson",
+          "Unknown"
+        ],
+        "visual_reference": "COVID-19 - regional tourism imp\nTourism was already impacted - loss of China group travel (Jan 2020)"
+      }
+    }
+  ],
+  "action_items": [
+    {
+      "task": "Update the 18 February meeting minutes to include the attendance of Councillors Grahame and Bruce Thomas.",
+      "assignee": "Sam",
+      "evidence_quote": "So I'm sure we can have that remedied, Sam. Yes, we'll make the changes."
+    }
+  ],
+  "llm_provider": "gemini",
+  "llm_model": "gemini-3.5-flash"
+}
