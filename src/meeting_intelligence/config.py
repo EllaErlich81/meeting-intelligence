@@ -31,6 +31,11 @@ class Settings(BaseSettings):
     whisper_device: str = "cpu"
     use_openai_whisper_api: bool = False
     huggingface_token: str | None = None
+    # Injects the active slide's OCR text as Whisper's initial_prompt (see
+    # asr.py's module docstring). Disable if a persistent on-screen
+    # watermark/logo is biasing Whisper into hallucinating repeated
+    # fragments of it -- see README's Known Limitations.
+    asr_use_initial_prompt: bool = True
     # Caps how long (in seconds) a single Transcript merged-same-speaker
     # segment can span before a new segment is started, even mid-speaker
     # -- see transcript.build_transcript's docstring.

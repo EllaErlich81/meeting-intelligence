@@ -257,6 +257,7 @@ def cmd_asr(args: argparse.Namespace) -> None:
         device=args.device or settings.whisper_device,
         use_openai_api=args.use_openai_api or settings.use_openai_whisper_api,
         openai_api_key=settings.openai_api_key,
+        use_initial_prompt=not args.no_initial_prompt and settings.asr_use_initial_prompt,
     )
     write_model_list(asr_path, asr_segments)
     print(f"Wrote {asr_path} ({len(asr_segments)} chunk(s))")
@@ -321,6 +322,7 @@ def cmd_speech(args: argparse.Namespace) -> None:
             device=settings.whisper_device,
             use_openai_api=settings.use_openai_whisper_api,
             openai_api_key=settings.openai_api_key,
+            use_initial_prompt=not args.no_initial_prompt and settings.asr_use_initial_prompt,
         )
         write_model_list(asr_path, asr_segments)
 
@@ -555,6 +557,12 @@ def build_parser() -> argparse.ArgumentParser:
     p_asr.add_argument("--model-size", default=None)
     p_asr.add_argument("--device", default=None)
     p_asr.add_argument("--use-openai-api", action="store_true")
+    p_asr.add_argument(
+        "--no-initial-prompt",
+        action="store_true",
+        help="Skip injecting the active slide's OCR text as Whisper's initial_prompt; mitigates prompt-driven "
+        "hallucination when a persistent on-screen watermark/logo is being echoed into the transcript",
+    )
     add_skip_if_exists(p_asr)
     p_asr.set_defaults(func=cmd_asr)
 
@@ -577,6 +585,12 @@ def build_parser() -> argparse.ArgumentParser:
     add_output_dir(p_speech)
     p_speech.add_argument("--vision_json", default=None, help=f"Defaults to <output_dir>/{pl.ARTIFACT_VISION} (for ASR prompt hints)")
     p_speech.add_argument("--duration-sec", type=float, default=None)
+    p_speech.add_argument(
+        "--no-initial-prompt",
+        action="store_true",
+        help="Skip injecting the active slide's OCR text as Whisper's initial_prompt; mitigates prompt-driven "
+        "hallucination when a persistent on-screen watermark/logo is being echoed into the transcript",
+    )
     p_speech.add_argument(
         "--max-segment-duration-sec",
         type=float,

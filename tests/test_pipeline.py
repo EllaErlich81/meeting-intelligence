@@ -72,7 +72,7 @@ def test_run_full_pipeline_wires_cross_module_dependencies(tmp_path, monkeypatch
         lambda wav_path, hf_token, duration_sec: [SpeakerTurn(start=0.0, end=1.0, speaker_id="Speaker_00")],
     )
 
-    def fake_run_asr(wav_path, vad_segments, vision_frames, model_size, device, use_openai_api, openai_api_key):
+    def fake_run_asr(wav_path, vad_segments, vision_frames, model_size, device, use_openai_api, openai_api_key, use_initial_prompt):
         captured["vision_frames"] = vision_frames
         return [AsrSegmentResult(segment_id="seg_0000", start=0.0, end=1.0, text="hello")]
 

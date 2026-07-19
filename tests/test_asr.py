@@ -169,6 +169,60 @@ def test_run_asr_offsets_by_nonzero_segment_start(sample_wav):
     assert results[0].words[0].start == 0.5
 
 
+def test_run_asr_use_initial_prompt_false_skips_hint(sample_wav):
+    fake_model = _FakeModel()
+    vad_segments = [VadSegment(segment_id="seg_0000", start_s=0.0, duration=1.0)]
+    vision_frames = [_frame(0.0, ["Acme Corp"])]
+
+    results = run_asr(
+        sample_wav,
+        vad_segments,
+        vision_frames=vision_frames,
+        model_loader=lambda size, device: fake_model,
+        use_initial_prompt=False,
+    )
+
+    assert fake_model.calls[0]["initial_prompt"] is None
+    assert results[0].text == "hello world"
+
+
+def test_run_asr_use_initial_prompt_false_openai_api_path(sample_wav, monkeypatch):
+    vad_segments = [VadSegment(segment_id="seg_0000", start_s=0.0, duration=0.3)]
+    vision_frames = [_frame(0.0, ["Acme Corp"])]
+    captured_prompts = []
+
+    class _FakeTranscript:
+        text = "hello"
+        language = "en"
+
+    class _FakeTranscriptions:
+        def create(self, **kwargs):
+            captured_prompts.append(kwargs.get("prompt"))
+            return _FakeTranscript()
+
+    class _FakeAudio:
+        transcriptions = _FakeTranscriptions()
+
+    class _FakeClient:
+        def __init__(self, api_key=None):
+            self.audio = _FakeAudio()
+
+    import openai
+
+    monkeypatch.setattr(openai, "OpenAI", _FakeClient)
+
+    run_asr(
+        sample_wav,
+        vad_segments,
+        vision_frames=vision_frames,
+        use_openai_api=True,
+        openai_api_key="sk-fake",
+        use_initial_prompt=False,
+    )
+
+    assert captured_prompts == [None]
+
+
 def test_run_asr_returns_empty_for_no_vad_segments(sample_wav):
     results = run_asr(sample_wav, [], model_loader=lambda size, device: _FakeModel())
     assert results == []

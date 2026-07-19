@@ -137,7 +137,7 @@ flowchart TD
 | **Scene detection** | Samples video frames at 1fps and flags a new "scene" (slide) when either the whole-frame pixel difference or a regional (3x3 grid) max-cell difference crosses a threshold -- catching both full slide changes and localized changes (e.g. a callout appearing). | `scene_detection.py` |
 | **OCR + name scan** | Runs PaddleOCR on each detected scene frame (onnxruntime backend -- see [Speaker name detection](#speaker-name-detection)); if PaddleOCR's confidence is too low, falls back to GPT-4o vision for the OCR text itself. Produces two things downstream needs: per-frame OCR text (each frame keeps its own timestamp + lines, for ASR to look up) and a detected `display_name` (for speaker naming). Frames with no legible text are skipped gracefully. `display_name` detection itself tries two Zoom-specific pixel-region detectors (`zoom_layout.py`) first, then a free whole-frame name-shape scan, then GPT-4o vision as a last resort -- see [Speaker name detection](#speaker-name-detection). | `ocr.py` |
 | **Visual Speaker Identification** | Turns Zoom-UI-sourced frames (`display_name_source` of `"active_speaker_border"` or `"presentation_badge"` -- never the generic name-shape scan or GPT-4o) into `VisualSpeakerEvent`s: which detector fired *is* the layout (border only ever appears in gallery view, badge only in shared-screen/presentation mode); consecutive frames with the same signal + name merge into one event; each event's confidence fuses OCR confidence, a fixed per-signal structural-match confidence, and a multi-frame consistency bonus. | `visual_speaker.py` |
-| **ASR** | faster-whisper (or the OpenAI Whisper API) transcribes each VAD chunk, word-level timestamps + detected language included. For each chunk, looks up the *one* slide that was on screen when that chunk ended (`alignment.find_active_frame`) and uses only that slide's OCR text as Whisper's `initial_prompt` -- not every slide seen anywhere in the recording. | `asr.py` |
+| **ASR** | faster-whisper (or the OpenAI Whisper API) transcribes each VAD chunk, word-level timestamps + detected language included. For each chunk, looks up the *one* slide that was on screen when that chunk ended (`alignment.find_active_frame`) and uses only that slide's OCR text as Whisper's `initial_prompt` -- not every slide seen anywhere in the recording. Can be disabled with `ASR_USE_INITIAL_PROMPT=false` / `--no-initial-prompt` (see [Known Limitations](#known-limitations)). | `asr.py` |
 | **Merge** | Every ASR word is assigned to whichever diarized speaker turn it overlaps the most (word-level timestamp overlap), producing one `RawUtterance` per speaker turn -- an intermediate handoff, not itself persisted. | `merge.py` |
 | **Transcript** | Merges consecutive `RawUtterance` turns from the *same* speaker (diarization sometimes splits one continuous turn into several back-to-back turns) into a single `TranscriptSegment`, the record actually written to `transcript.json` and consumed by Fusion. Caps how long that merge can grow (`TRANSCRIPT_MAX_SEGMENT_DURATION_SEC`, default 120s = 2 minutes): a speaker holding the floor across many consecutive turns still gets split into multiple segments at existing turn boundaries, rather than merging into one unbounded block. | `transcript.py` |
 | **Speaker naming** | First clusters event `display_name`s that are OCR-noise variants of the same reading (string similarity) into one canonical name, then aligns each `VisualSpeakerEvent` with every diarization speaker turn it overlaps in time, weighting the match by the event's own confidence scaled by how much of the *event's* timespan that turn covers. Summing that weighted evidence per (name, speaker) pair and taking whichever speaker holds the largest share of a name's total weight gives a 0-1 alignment confidence; a name must clear a threshold to resolve (see [Speaker name detection](#speaker-name-detection)). Speakers with no confidently-resolved name are labeled `"Unknown"`. | `speaker_naming.py` |
@@ -153,7 +153,11 @@ platforms use vision to improve speech understanding:
 1. **OCR text -> ASR prompt hint**: for each ASR chunk, the slide text
    active at that specific moment (matched by timestamp, not the whole
    file's slides) is passed into Whisper's `initial_prompt` to reduce Word
-   Error Rate on names/jargon that only appear on screen.
+   Error Rate on names/jargon that only appear on screen. This feedback
+   loop can be turned off (`ASR_USE_INITIAL_PROMPT=false` /
+   `--no-initial-prompt`) if it's doing more harm than good on a given
+   recording -- see the hallucination note in
+   [Known limitations](#known-limitations).
 2. **Zoom UI signals -> Visual Speaker Identification -> Speaker naming**:
    display names read directly off Zoom's own active-speaker border /
    presentation badge (never inferred from slide content) become
@@ -719,25 +723,30 @@ of hallucinating:
 - **ASR can hallucinate a repeated phrase or sentence within a chunk** --
   a known faster-whisper/Whisper decoder failure mode, not something this
   pipeline currently detects or corrects. Observed on real footage: e.g.
-  `asr_segments.json`'s `seg_033165-033715` reads "...They were our fourth
-  largest international visitor market. They were our fourth largest
-  international visitor market." -- the second occurrence is a decoder
-  artifact, not real speech. It's identifiable after the fact: the
-  duplicated words carry near-zero `probability` and their timestamps
-  collapse to the same instant (e.g. several consecutive words all
-  stamped `336.75`-`336.75`), meaning the model wasn't advancing through
-  new audio for them, just re-emitting tokens. On the same recording this
-  pattern (a run of 2+ consecutive near-zero-confidence words with at
-  least one collapsed timestamp) shows up in roughly a quarter of all
-  chunks, strongly correlated with `initial_prompt` being fed the same
-  recurring on-screen watermark text ("The Mighty Waikato") across dozens
-  of consecutive slides -- `hint_for_chunk` currently has no way to tell
-  a persistent watermark/logo apart from genuinely distinct per-slide
-  content, so it keeps re-priming Whisper with the same phrase long after
-  it's stopped being a useful chunk-specific hint. Not yet fixed --
-  flagged here for follow-up. Two independent angles worth exploring:
-  (1) post-process `words` to detect and drop this exact fingerprint
-  (near-zero-probability runs with a collapsed timestamp) before
-  `merge.py` ever sees them; (2) stop feeding `initial_prompt` a hint
-  that's stayed identical across many consecutive chunks, since at that
-  point it's more likely boilerplate/watermark than distinctive content.
+  `asr_segments.json`'s `seg_014230-014780` reads "...they were our
+  largest regional distribution partner. They were our largest regional
+  distribution partner." -- the second occurrence is a decoder artifact,
+  not real speech. It's identifiable after the fact: the duplicated words
+  carry near-zero `probability` and their timestamps collapse to the same
+  instant (e.g. several consecutive words all stamped `142.9`-`142.9`),
+  meaning the model wasn't advancing through new audio for them, just
+  re-emitting tokens. On the same recording this pattern (a run of 2+
+  consecutive near-zero-confidence words with at least one collapsed
+  timestamp) shows up in roughly a quarter of all chunks, strongly
+  correlated with `initial_prompt` being fed the same recurring on-screen
+  watermark text ("Acme Corp") across dozens of consecutive slides --
+  `hint_for_chunk` currently has no way to tell a persistent watermark/logo
+  apart from genuinely distinct per-slide content, so it keeps re-priming
+  Whisper with the same phrase long after it's stopped being a useful
+  chunk-specific hint. The underlying detection/filtering logic is not yet
+  fixed -- flagged here for follow-up. Two independent angles worth
+  exploring: (1) post-process `words` to detect and drop this exact
+  fingerprint (near-zero-probability runs with a collapsed timestamp)
+  before `merge.py` ever sees them; (2) stop feeding `initial_prompt` a
+  hint that's stayed identical across many consecutive chunks, since at
+  that point it's more likely boilerplate/watermark than distinctive
+  content. In the meantime, `ASR_USE_INITIAL_PROMPT=false` (or
+  `--no-initial-prompt` on the `asr`/`speech` CLI stages) is a blunter but
+  available mitigation: it disables the OCR-hint injection entirely, which
+  removes the correlated trigger at the cost of losing the hint's benefit
+  for genuinely distinctive per-slide jargon/names.

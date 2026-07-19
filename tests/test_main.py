@@ -194,7 +194,7 @@ def test_cmd_speech_runs_full_part_a_and_writes_transcript(tmp_path, monkeypatch
     monkeypatch.setattr(
         main_module,
         "run_asr",
-        lambda wav_path, vad_segments, vision_frames, model_size, device, use_openai_api, openai_api_key: [
+        lambda wav_path, vad_segments, vision_frames, model_size, device, use_openai_api, openai_api_key, use_initial_prompt: [
             AsrSegmentResult(segment_id="seg_0000", start=0.0, end=1.0, text="hi")
         ],
     )
@@ -264,7 +264,7 @@ def test_cmd_asr_picks_up_vision_frames_from_output_dir(tmp_path, monkeypatch):
 
     captured = {}
 
-    def fake_run_asr(wav_path, vad_segments, vision_frames, model_size, device, use_openai_api, openai_api_key):
+    def fake_run_asr(wav_path, vad_segments, vision_frames, model_size, device, use_openai_api, openai_api_key, use_initial_prompt):
         captured["vision_frames"] = vision_frames
         return [AsrSegmentResult(segment_id="seg_0000", start=0.0, end=1.0, text="hi")]
 
@@ -282,7 +282,7 @@ def test_cmd_asr_runs_without_vision_artifact(tmp_path, monkeypatch):
     write_model(tmp_path / "vad_segments.json", VadSegmentsFile(segments=[VadSegment(segment_id="seg_0000", start_s=0.0, duration=1.0)]))
     captured = {}
 
-    def fake_run_asr(wav_path, vad_segments, vision_frames, model_size, device, use_openai_api, openai_api_key):
+    def fake_run_asr(wav_path, vad_segments, vision_frames, model_size, device, use_openai_api, openai_api_key, use_initial_prompt):
         captured["vision_frames"] = vision_frames
         return []
 
@@ -291,6 +291,45 @@ def test_cmd_asr_runs_without_vision_artifact(tmp_path, monkeypatch):
     args.func(args)
 
     assert captured["vision_frames"] is None
+
+
+def test_cmd_asr_no_initial_prompt_flag_disables_hint(tmp_path, monkeypatch):
+    write_model(tmp_path / "vad_segments.json", VadSegmentsFile(segments=[VadSegment(segment_id="seg_0000", start_s=0.0, duration=1.0)]))
+    captured = {}
+
+    def fake_run_asr(wav_path, vad_segments, vision_frames, model_size, device, use_openai_api, openai_api_key, use_initial_prompt):
+        captured["use_initial_prompt"] = use_initial_prompt
+        return []
+
+    monkeypatch.setattr(main_module, "run_asr", fake_run_asr)
+    args = main_module.build_parser().parse_args(["asr", "--wav_path", "a.wav", "--output_dir", str(tmp_path), "--no-initial-prompt"])
+    args.func(args)
+
+    assert captured["use_initial_prompt"] is False
+
+
+def test_cmd_speech_no_initial_prompt_flag_disables_hint(tmp_path, monkeypatch):
+    monkeypatch.setattr(main_module, "run_vad", lambda wav_path: [VadSegment(segment_id="seg_0000", start_s=0.0, duration=1.0)])
+    monkeypatch.setattr(
+        main_module, "run_diarization", lambda wav_path, hf_token, duration_sec: [SpeakerTurn(start=0.0, end=1.0, speaker_id="Speaker_00")]
+    )
+    captured = {}
+
+    def fake_run_asr(wav_path, vad_segments, vision_frames, model_size, device, use_openai_api, openai_api_key, use_initial_prompt):
+        captured["use_initial_prompt"] = use_initial_prompt
+        return [AsrSegmentResult(segment_id="seg_0000", start=0.0, end=1.0, text="hi")]
+
+    monkeypatch.setattr(main_module, "run_asr", fake_run_asr)
+    monkeypatch.setattr(
+        main_module,
+        "merge_words_into_turns",
+        lambda asr, turns: [RawUtterance(start=0.0, end=1.0, speaker_id="Speaker_00", transcript="hi")],
+    )
+
+    args = main_module.build_parser().parse_args(["speech", "--wav_path", "a.wav", "--output_dir", str(tmp_path), "--no-initial-prompt"])
+    args.func(args)
+
+    assert captured["use_initial_prompt"] is False
 
 
 def test_cmd_merge_reads_defaults_and_writes_transcript(tmp_path, monkeypatch):

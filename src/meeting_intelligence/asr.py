@@ -85,6 +85,7 @@ def run_asr(
     device: str = "cpu",
     use_openai_api: bool = False,
     openai_api_key: str | None = None,
+    use_initial_prompt: bool = True,
     model_loader: Callable[[str, str], Any] = load_faster_whisper_model,
 ) -> list[AsrSegmentResult]:
     """Transcribe each VAD-detected chunk of `wav_path`.
@@ -92,6 +93,12 @@ def run_asr(
     Word/segment timestamps returned by Whisper are chunk-relative and are
     offset here by `vad_segment.start` so all downstream stages work in
     absolute recording time.
+
+    `use_initial_prompt=False` skips the OCR-hint injection entirely (see
+    module docstring) rather than just passing an empty prompt -- useful
+    when a persistent on-screen watermark/logo (rather than genuinely
+    distinctive per-slide content) is biasing Whisper into hallucinating
+    fragments of it into the transcript; see README's Known Limitations.
     """
     if not vad_segments:
         logger.warning("No VAD segments provided to ASR; returning no transcriptions")
@@ -100,7 +107,9 @@ def run_asr(
     sorted_frames, sorted_timestamps = sort_frames_by_timestamp(vision_frames or [])
 
     if use_openai_api:
-        return _run_openai_whisper_api(wav_path, vad_segments, sorted_frames, sorted_timestamps, api_key=openai_api_key)
+        return _run_openai_whisper_api(
+            wav_path, vad_segments, sorted_frames, sorted_timestamps, api_key=openai_api_key, use_initial_prompt=use_initial_prompt
+        )
 
     audio, sample_rate = _load_audio_array(wav_path)
     model = model_loader(model_size, device)
@@ -113,7 +122,7 @@ def run_asr(
         if chunk.size == 0:
             continue
 
-        hint = hint_for_chunk(seg.end_s, sorted_frames, sorted_timestamps)
+        hint = hint_for_chunk(seg.end_s, sorted_frames, sorted_timestamps) if use_initial_prompt else None
         prompt = build_prompt(hint)
         logger.info("ASR segment %s [%.3fs-%.3fs]: initial_prompt=%r", seg.segment_id, seg.start_s, seg.end_s, prompt)
         text, words, language = transcribe_chunk_with_faster_whisper(model, chunk, hints=hint)
@@ -132,6 +141,7 @@ def _run_openai_whisper_api(
     sorted_frames: list[VisualFrameContext],
     sorted_timestamps: list[float],
     api_key: str | None,
+    use_initial_prompt: bool = True,
     client_factory: Callable[[str | None], Any] | None = None,
 ) -> list[AsrSegmentResult]:
     if client_factory is None:
@@ -159,7 +169,8 @@ def _run_openai_whisper_api(
         buffer.seek(0)
         buffer.name = "chunk.wav"
 
-        prompt = build_prompt(hint_for_chunk(seg.end_s, sorted_frames, sorted_timestamps))
+        hint = hint_for_chunk(seg.end_s, sorted_frames, sorted_timestamps) if use_initial_prompt else None
+        prompt = build_prompt(hint)
         logger.info("ASR segment %s [%.3fs-%.3fs]: initial_prompt=%r", seg.segment_id, seg.start_s, seg.end_s, prompt)
         transcript = client.audio.transcriptions.create(
             model="whisper-1",

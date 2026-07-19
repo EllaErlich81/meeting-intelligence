@@ -174,6 +174,7 @@ def run_full_pipeline(
                 device=settings.whisper_device,
                 use_openai_api=settings.use_openai_whisper_api,
                 openai_api_key=settings.openai_api_key,
+                use_initial_prompt=settings.asr_use_initial_prompt,
             )
             _write_list(asr_path, asr_segments)
 
